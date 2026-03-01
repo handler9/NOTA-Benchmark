@@ -1,0 +1,745 @@
+﻿question_id,question_type,match_score,matched_medqa_index,stem_v1,option_A_v1,option_B_v1,option_C_v1,option_D_v1,correct_choice_v1,stem_v2,option_A_v2,option_B_v2,option_C_v2,option_D_v2,correct_choice_v2,nota_correct_v1,nota_correct_v2
+115,TRUE-NOTA,1,0,"A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. The tendon is repaired without complication. The attending tells the resident that the patient will do fine, and there is no need to report this minor complication that will not harm the patient, as he does not want to make the patient worry unnecessarily. He tells the resident to leave this complication out of the operative report. Which of the following is the correct next action for the resident to take?",Disclose the error to the patient and put it in the operative report,Tell the attending that he cannot fail to disclose this mistake,Report the physician to the ethics committee,Refuse to dictate the operative report,B,"A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. The tendon is repaired without complication. The attending tells the resident that the patient will do fine, and there is no need to report this minor complication that will not harm the patient, as he does not want to make the patient worry unnecessarily. He tells the resident to leave this complication out of the operative report. Which of the following is the correct next action for the resident to take?",Disclose the error to the patient but leave it out of the operative report,Disclose the error to the patient and put it in the operative report,Report the physician to the ethics committee,Refuse to dictate the operative report,NOTA,FALSE,TRUE
+467,TRUE-NOTA,0.998942918,2,"Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus and osteoarthritis of the hips. Prior to admission, his medications were insulin and naproxen. He was also started on aspirin, clopidogrel, and metoprolol after the coronary intervention. His temperature is 38¬∞C (100.4¬∞F), pulse is 93/min, and blood pressure is 125/85 mm Hg. Examination shows mottled, reticulated purplish discoloration of the feet. Laboratory studies show:
+Hemoglobin count 14 g/dL
+Leukocyte count 16,400/mm3
+Segmented neutrophils 56%
+Eosinophils 11%
+Lymphocytes 31%
+Monocytes 2%
+Platelet count 260,000/mm3
+Erythrocyte sedimentation rate 68 mm/h
+Serum
+Urea nitrogen 25 mg/dL
+Creatinine 4.2 mg/dL
+Renal biopsy shows intravascular spindle-shaped vacuoles. Which of the following is the most likely cause of this patient's symptoms?""",Renal papillary necrosis,Cholesterol embolization,Eosinophilic granulomatosis with polyangiitis,Polyarteritis nodosa,B,"Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus and osteoarthritis of the hips. Prior to admission, his medications were insulin and naproxen. He was also started on aspirin, clopidogrel, and metoprolol after the coronary intervention. His temperature is 38C (100.4F), pulse is 93/min, and blood pressure is 125/85 mm Hg. Examination shows mottled, reticulated purplish discoloration of the feet. Laboratory studies show:
+Hemoglobin count 14 g/dL
+Leukocyte count 16,400/mm3
+Segmented neutrophils 56%
+Eosinophils 11%
+Lymphocytes 31%
+Monocytes 2%
+Platelet count 260,000/mm3
+Erythrocyte sedimentation rate 68 mm/h
+Serum
+Urea nitrogen 25 mg/dL
+Creatinine 4.2 mg/dL
+Renal biopsy shows intravascular spindle-shaped vacuoles. Which of the following is the most likely cause of this patient's symptoms?""",Renal papillary necrosis,Allergic interstitial nephritis,Eosinophilic granulomatosis with polyangiitis,Polyarteritis nodosa,NOTA,FALSE,TRUE
+401,TRUE-NOTA,0.997405966,3,"A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1¬∞C (102.3¬∞F), pulse is 126/min, respirations are 28/min, and blood pressure is 80/50 mm Hg. There is blood oozing around the site of a peripheral intravenous line. Pelvic examination shows mucopurulent discharge from the cervical os and left adnexal tenderness. Laboratory studies show:
+Platelet count 14,200/mm3
+Fibrinogen 83 mg/mL (N = 200‚Äì430 mg/dL)
+D-dimer 965 ng/mL (N < 500 ng/mL)
+When phenol is applied to a sample of the patient's blood at 90¬∞C, a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain is identified. A blood culture is most likely to show which of the following?""","Coagulase-positive, gram-positive cocci forming mauve-colored colonies on methicillin-containing agar","Encapsulated, gram-negative coccobacilli forming grey-colored colonies on charcoal blood agar","Spore-forming, gram-positive bacilli forming yellow colonies on casein agar","Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar",D,"A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1C (102.3F), pulse is 126/min, respirations are 28/min, and blood pressure is 80/50 mm Hg. There is blood oozing around the site of a peripheral intravenous line. Pelvic examination shows mucopurulent discharge from the cervical os and left adnexal tenderness. Laboratory studies show:
+Platelet count 14,200/mm3
+Fibrinogen 83 mg/mL (N = 200430 mg/dL)
+D-dimer 965 ng/mL (N < 500 ng/mL)
+When phenol is applied to a sample of the patient's blood at 90C, a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain is identified. A blood culture is most likely to show which of the following?""","Coagulase-positive, gram-positive cocci forming mauve-colored colonies on methicillin-containing agar","Encapsulated, gram-negative coccobacilli forming grey-colored colonies on charcoal blood agar","Spore-forming, gram-positive bacilli forming yellow colonies on casein agar","Gamma-hemolytic, gram-positive cocci forming green colonies on vancomycin agar",NOTA,FALSE,TRUE
+7,TRUE-NOTA,1,5,A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. He has a 5-year history of untreated hypertension. He has smoked 1 pack of cigarettes daily for the past 5 years and started abusing cocaine 2 weeks before his emergency room visit. The patient is diaphoretic and in marked distress. What should be the first step in management?,Diltiazem,Labetalol,Propranolol,Reassurance and continuous monitoring,D,A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. He has a 5-year history of untreated hypertension. He has smoked 1 pack of cigarettes daily for the past 5 years and started abusing cocaine 2 weeks before his emergency room visit. The patient is diaphoretic and in marked distress. What should be the first step in management?,Diltiazem,Labetalol,Nitroglycerin,Propranolol,NOTA,FALSE,TRUE
+167,TRUE-NOTA,1,6,A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows abdominal tenderness and right flank tenderness. An ultrasound shows dilation of the right ureter and renal pelvis. Which of the following is the most likely underlying cause of this patient's condition?,Renal artery stenosis,Benign prostatic hyperplasia,Common iliac artery aneurysm,Urethral stricture,C,A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows abdominal tenderness and right flank tenderness. An ultrasound shows dilation of the right ureter and renal pelvis. Which of the following is the most likely underlying cause of this patient's condition?,Renal artery stenosis,Benign prostatic hyperplasia,Diabetic nephropathy,Urethral stricture,NOTA,FALSE,TRUE
+276,TRUE-NOTA,1,7,"A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an albuterol inhaler. He appears pale and diaphoretic. His pulse is 114/min and blood pressure is 130/88 mm Hg. An ECG shows ST-segment depressions in leads II, III, and aVF. Laboratory studies show an increased serum troponin T concentration. The patient is treated for acute coronary syndrome and undergoes percutaneous transluminal coronary angioplasty. At the time of discharge, echocardiography shows a left ventricular ejection fraction of 58%. In addition to aspirin, which of the following drugs should be added to this patient's medication regimen?",Nifedipine,Enoxaparin,Clopidogrel,Spironolactone,C,"A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an albuterol inhaler. He appears pale and diaphoretic. His pulse is 114/min and blood pressure is 130/88 mm Hg. An ECG shows ST-segment depressions in leads II, III, and aVF. Laboratory studies show an increased serum troponin T concentration. The patient is treated for acute coronary syndrome and undergoes percutaneous transluminal coronary angioplasty. At the time of discharge, echocardiography shows a left ventricular ejection fraction of 58%. In addition to aspirin, which of the following drugs should be added to this patient's medication regimen?",Nifedipine,Enoxaparin,Spironolactone,"Propranolol
+""",NOTA,FALSE,TRUE
+347,TRUE-NOTA,1,8,"A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an intrauterine device (IUD). Her vital signs are: blood pressure 118/78 mm Hg, pulse 73/min and respiratory rate 16/min. She is afebrile. Physical examination is within normal limits. Which of the following past medical history statements would make copper IUD placement contraindicated in this patient?",A history of stroke or venous thromboembolism,Active or recurrent pelvic inflammatory disease (PID),Past medical history of breast cancer,Known liver neoplasm,B,"A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an intrauterine device (IUD). Her vital signs are: blood pressure 118/78 mm Hg, pulse 73/min and respiratory rate 16/min. She is afebrile. Physical examination is within normal limits. Which of the following past medical history statements would make copper IUD placement contraindicated in this patient?",A history of stroke or venous thromboembolism,Current tobacco use,Past medical history of breast cancer,Known liver neoplasm,NOTA,FALSE,TRUE
+291,TRUE-NOTA,0.997837838,10,"A 24-year-old G2P1 woman at 39 weeks‚Äô gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. She says she has not experienced vaginal discharge, bleeding, or fluid leakage, and is currently taking no medications. On physical examination, her blood pressure is 110/70 mm Hg, heart rate is 86/min, and temperature is 37.6¬∞C (99.7¬∞F). She has had little prenatal care and uses condoms inconsistently. Her sexually transmitted infections status is unknown. As part of the patient‚Äôs workup, she undergoes a series of rapid screening tests that result in the administration of zidovudine during delivery. The infant is also given zidovudine to reduce the risk of transmission. A confirmatory test is then performed in the mother to confirm the diagnosis of HIV. Which of the following is most true about the confirmatory test?","It is a Southwestern blot, identifying the presence of DNA-binding proteins","It is a Northern blot, identifying the presence of RNA","It is a Northern blot, identifying the presence of DNA",It is an HIV-1/HIV2 antibody differentiation immunoassay,D,"A 24-year-old G2P1 woman at 39 weeks gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. She says she has not experienced vaginal discharge, bleeding, or fluid leakage, and is currently taking no medications. On physical examination, her blood pressure is 110/70 mm Hg, heart rate is 86/min, and temperature is 37.6C (99.7F). She has had little prenatal care and uses condoms inconsistently. Her sexually transmitted infections status is unknown. As part of the patients workup, she undergoes a series of rapid screening tests that result in the administration of zidovudine during delivery. The infant is also given zidovudine to reduce the risk of transmission. A confirmatory test is then performed in the mother to confirm the diagnosis of HIV. Which of the following is most true about the confirmatory test?",It determines the genotype of the virus,"It is a Southwestern blot, identifying the presence of DNA-binding proteins","It is a Northern blot, identifying the presence of RNA","It is a Northern blot, identifying the presence of DNA",NOTA,FALSE,TRUE
+16,TRUE-NOTA,0.999472296,11,"A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertion. Over the past 3 months, he has had a 5.6-kg (12-lb) weight loss. He had a myocardial infarction 3 years ago. He has hypertension, diabetes mellitus, and chronic bronchitis. His medications include insulin, aspirin, lisinopril, and an albuterol inhaler. He has smoked half a pack of cigarettes for the past 45 years. Vital signs are within normal limits. The spleen is palpated 6 cm below the left costal margin. Laboratory studies show:
+Hemoglobin 6.4 g/dL
+Mean corpuscular volume 85 Œºm3
+Leukocyte count 5,200/mm3
+Platelet count 96,000/mm3
+A blood smear is shown. Bone marrow aspiration shows extensive fibrosis and a few scattered plasma cells. A JAK 2 assay is positive. Which of the following is the most appropriate next step in management?""",Cladribine,Prednisone,Imatinib,Ruxolitinib,D,"A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertion. Over the past 3 months, he has had a 5.6-kg (12-lb) weight loss. He had a myocardial infarction 3 years ago. He has hypertension, diabetes mellitus, and chronic bronchitis. His medications include insulin, aspirin, lisinopril, and an albuterol inhaler. He has smoked half a pack of cigarettes for the past 45 years. Vital signs are within normal limits. The spleen is palpated 6 cm below the left costal margin. Laboratory studies show:
+Hemoglobin 6.4 g/dL
+Mean corpuscular volume 85 m3
+Leukocyte count 5,200/mm3
+Platelet count 96,000/mm3
+A blood smear is shown. Bone marrow aspiration shows extensive fibrosis and a few scattered plasma cells. A JAK 2 assay is positive. Which of the following is the most appropriate next step in management?""",Cladribine,Prednisone,Imatinib,Stem cell transplantation,NOTA,FALSE,TRUE
+189,TRUE-NOTA,1,12,A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period. He has no history of serious medical illness and takes no medications. Audiometry shows bilateral sensorineural hearing loss. Genetic evaluation shows a mutation of a tumor suppressor gene on chromosome 22 that encodes merlin. This patient is at increased risk for which of the following conditions?,Renal cell carcinoma,Meningioma,Astrocytoma,Vascular malformations,B,A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period. He has no history of serious medical illness and takes no medications. Audiometry shows bilateral sensorineural hearing loss. Genetic evaluation shows a mutation of a tumor suppressor gene on chromosome 22 that encodes merlin. This patient is at increased risk for which of the following conditions?,Renal cell carcinoma,Astrocytoma,Vascular malformations,Telangiectasias,NOTA,FALSE,TRUE
+53,TRUE-NOTA,0.998054475,13,"A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be ‚Äúas fit as a fiddle.‚Äù The physical examination findings are unremarkable, except for a mid-systolic murmur heard in the 2nd left intercostal space that radiates to the carotids on auscultation. The physician instructs the patient to stand from a supine position with the stethoscope still placed on his chest. Which of the following changes would occur with this maneuver?",An increase in right atrial pressure,An increase in pulmonary capillary wedge pressure,A reduction in the slope of the pacemaker potential,A reduction in diastolic filling time,D,"A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be as fit as a fiddle. The physical examination findings are unremarkable, except for a mid-systolic murmur heard in the 2nd left intercostal space that radiates to the carotids on auscultation. The physician instructs the patient to stand from a supine position with the stethoscope still placed on his chest. Which of the following changes would occur with this maneuver?",An increase in right atrial pressure,An increase in left ventricular end-diastolic pressure,An increase in pulmonary capillary wedge pressure,A reduction in the slope of the pacemaker potential,NOTA,FALSE,TRUE
+388,TRUE-NOTA,1,14,"A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2 viruses from the same virus family. Within the host cell, concomitant production of various genome segments from both viruses occurs. Ultimately, the different genome segments from the viruses are packaged into a unique and novel virus particle. The newly formed virus particle is both stable and viable and is a new strain from the virus family that caused the outbreak of infection. Which of the following viruses is capable of undergoing the above-mentioned process?",Epstein-Barr virus,Human immunodeficiency virus,Rotavirus,Vaccinia virus,C,"A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2 viruses from the same virus family. Within the host cell, concomitant production of various genome segments from both viruses occurs. Ultimately, the different genome segments from the viruses are packaged into a unique and novel virus particle. The newly formed virus particle is both stable and viable and is a new strain from the virus family that caused the outbreak of infection. Which of the following viruses is capable of undergoing the above-mentioned process?",Cytomegalovirus,Epstein-Barr virus,Human immunodeficiency virus,Vaccinia virus,NOTA,FALSE,TRUE
+47,TRUE-NOTA,0.998591549,15,"A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiting several times. Her pain has no relation with food. Her past medical history is significant for recurrent abdominal pain due to cholelithiasis. Her father died at the age of 60 with some form of abdominal cancer. Her temperature is 37¬∞C (98.6¬∞F), respirations are 15/min, pulse is 67/min, and blood pressure is 122/98 mm Hg. Physical exam is unremarkable. However, a CT scan of the abdomen shows a calcified mass near her gallbladder. Which of the following diagnoses should be excluded first in this patient?",Acute cholecystitis,Gallbladder cancer,Choledocholithiasis,Pancreatitis,B,"A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiting several times. Her pain has no relation with food. Her past medical history is significant for recurrent abdominal pain due to cholelithiasis. Her father died at the age of 60 with some form of abdominal cancer. Her temperature is 37C (98.6F), respirations are 15/min, pulse is 67/min, and blood pressure is 122/98 mm Hg. Physical exam is unremarkable. However, a CT scan of the abdomen shows a calcified mass near her gallbladder. Which of the following diagnoses should be excluded first in this patient?",Acute cholecystitis,Choledocholithiasis,Pancreatitis,Duodenal peptic ulcer,NOTA,FALSE,TRUE
+494,TRUE-NOTA,1,17,"A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact etiology of the boy's symptoms and the episode is classified as a brief resolved unexplained event (BRUE). The risk profile for BRUE in infants remains largely unknown. The pediatrician who saw the boy in the emergency department is trying to identify risk factors for BRUE. She is aware of several confounders, including age, socioeconomic background, and family history of medical illness. She recruits 75 infants under 1 year of age with BRUE and 75 infants without BRUE of the same age, socioeconomic background, and family history of medical illness. She then compares the two groups with regard to history of feeding problems and history of recent upper respiratory infection. Which of the following methods was conducted to control confounding bias in the study?",Blinding,Restriction,Randomization,Matching,D,"A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact etiology of the boy's symptoms and the episode is classified as a brief resolved unexplained event (BRUE). The risk profile for BRUE in infants remains largely unknown. The pediatrician who saw the boy in the emergency department is trying to identify risk factors for BRUE. She is aware of several confounders, including age, socioeconomic background, and family history of medical illness. She recruits 75 infants under 1 year of age with BRUE and 75 infants without BRUE of the same age, socioeconomic background, and family history of medical illness. She then compares the two groups with regard to history of feeding problems and history of recent upper respiratory infection. Which of the following methods was conducted to control confounding bias in the study?",Stratified analysis,Blinding,Restriction,Randomization,NOTA,FALSE,TRUE
+123,TRUE-NOTA,0.998178506,20,"A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a weekly basis. She has a remote history of breast cancer in her 60s that was treated with radiation and chemotherapy. She also reports a history of extensive travel to Africa and a 30-pack-year history of smoking. On physical exam, several axillary lymph nodes are palpable with a large non-tender palpable mass in her right axilla measuring 10 x 8 cm. Fine-needle aspiration demonstrates what the pathologist describes as ""a centroblastic and immunoblastic cell presence, suspicious for non-Hodgkin‚Äôs lymphoma (NHL)‚Äìdiffuse large B cell variant"". Which of the following risk factors is responsible for this patient‚Äôs condition?",Travel to Africa,Axillary lymph node involvement,Previous radiation therapy,Previous breast cancer,C,"A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a weekly basis. She has a remote history of breast cancer in her 60s that was treated with radiation and chemotherapy. She also reports a history of extensive travel to Africa and a 30-pack-year history of smoking. On physical exam, several axillary lymph nodes are palpable with a large non-tender palpable mass in her right axilla measuring 10 x 8 cm. Fine-needle aspiration demonstrates what the pathologist describes as ""a centroblastic and immunoblastic cell presence, suspicious for non-Hodgkins lymphoma (NHL)diffuse large B cell variant"". Which of the following risk factors is responsible for this patients condition?",Travel to Africa,Axillary lymph node involvement,Female gender,Previous breast cancer,NOTA,FALSE,TRUE
+224,TRUE-NOTA,0.998843931,22,"A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches, joint pain, fever, and chills. Ten days ago, she was hiking with her family in Mississippi. The patient has asthma that is treated with an albuterol inhaler. Her mother has a lung disease treated with methotrexate. The patient has smoked one pack of cigarettes daily for the past 10 years. Her temperature is 38¬∞C (100.4¬∞F). Physical examination shows slight wheezes throughout both lung fields. Laboratory studies and urinalysis are positive for polysaccharide antigen. Bronchoalveolar lavage using silver/PAS-staining shows macrophages filled with a dimorphic fungus with septate hyphae. Which of the following is the most likely cause of this patient's symptoms?",Legionella pneumophila infection,Pneumocystis pneumonia,Histoplasma capsulatum infection,Blastomyces dermatitidis infection,C,"A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches, joint pain, fever, and chills. Ten days ago, she was hiking with her family in Mississippi. The patient has asthma that is treated with an albuterol inhaler. Her mother has a lung disease treated with methotrexate. The patient has smoked one pack of cigarettes daily for the past 10 years. Her temperature is 38C (100.4F). Physical examination shows slight wheezes throughout both lung fields. Laboratory studies and urinalysis are positive for polysaccharide antigen. Bronchoalveolar lavage using silver/PAS-staining shows macrophages filled with a dimorphic fungus with septate hyphae. Which of the following is the most likely cause of this patient's symptoms?",Legionella pneumophila infection,Aspergillus fumigatus infection,Pneumocystis pneumonia,Blastomyces dermatitidis infection,NOTA,FALSE,TRUE
+49,TRUE-NOTA,0.998222222,24,"A 6-year-old boy is brought to the emergency department by his mother for worsening wheezing and shortness of breath over the past day. He has not had a fever, cough, vomiting, or diarrhea. He has asthma and eczema. He uses a glucocorticoid inhaler and an albuterol inhaler but has missed his medications for the past week while on vacation. He appears uncomfortable. His temperature is 36¬∞C (96.8¬∞F), pulse is 120/min, respirations are 40/min, and blood pressure is 100/80. Expiratory and inspiratory wheezing is heard throughout both lung fields. There are moderate intercostal and subcostal retractions and a decreased inspiratory to expiratory ratio. Nebulized albuterol and ipratropium treatments and intravenous methylprednisolone are given in the emergency department for a presumed asthma exacerbation. One hour later, the child is limp and lethargic. Magnesium sulfate is administered. His temperature is 36¬∞C (96.8¬∞F), pulse is 150/min, respirations are 22/min, and blood pressure is 100/70. No wheezing is heard on repeat pulmonary examination. Which of the following is the most appropriate next step in management?",Intubate with mechanical ventilation,Perform needle thoracostomy at the 2nd intercostal space,Perform bronchoscopy,Provide additional dose of methylprednisolone,A,"A 6-year-old boy is brought to the emergency department by his mother for worsening wheezing and shortness of breath over the past day. He has not had a fever, cough, vomiting, or diarrhea. He has asthma and eczema. He uses a glucocorticoid inhaler and an albuterol inhaler but has missed his medications for the past week while on vacation. He appears uncomfortable. His temperature is 36C (96.8F), pulse is 120/min, respirations are 40/min, and blood pressure is 100/80. Expiratory and inspiratory wheezing is heard throughout both lung fields. There are moderate intercostal and subcostal retractions and a decreased inspiratory to expiratory ratio. Nebulized albuterol and ipratropium treatments and intravenous methylprednisolone are given in the emergency department for a presumed asthma exacerbation. One hour later, the child is limp and lethargic. Magnesium sulfate is administered. His temperature is 36C (96.8F), pulse is 150/min, respirations are 22/min, and blood pressure is 100/70. No wheezing is heard on repeat pulmonary examination. Which of the following is the most appropriate next step in management?",Perform needle thoracostomy at the 2nd intercostal space,Perform bronchoscopy,Provide helium and oxygen mixture,Provide additional dose of methylprednisolone,NOTA,FALSE,TRUE
+413,TRUE-NOTA,1,25,"A 5-year-old female suffers from recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. The patient's neutrophils are examined in the laboratory and they fail to react during the nitroblue tetrazolium test. Which of the following is most likely dysfunctional in this patient?",Immunoglobulin class switching,Superoxide dismutase,Myeloperoxidase,Respiratory burst,D,"A 5-year-old female suffers from recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. The patient's neutrophils are examined in the laboratory and they fail to react during the nitroblue tetrazolium test. Which of the following is most likely dysfunctional in this patient?",Lymphocytes,Immunoglobulin class switching,Superoxide dismutase,Myeloperoxidase,NOTA,FALSE,TRUE
+72,TRUE-NOTA,0.997001499,26,"A 3-year-old boy presents to the emergency department with a cough-like-a-seal bark' and a high-pitched inspiratory noise that is audible without a stethoscope. His mother reports that his cough has worsened over the last few hours. The patient's blood pressure is 118/78 mm Hg, pulse is 90/min, respiratory rate is 35/min, and temperature is 38.3¬∞C (101.1¬∞F). On physical examination, the boy is sitting and leaning forward in apparent respiratory distress with suprasternal and intercostal retractions. Auscultation reveals inspiratory stridor without wheezing. He has a frequent barking cough and a hoarse voice when he speaks. What is a chest X-ray likely to show?",Increased interstitial markings,Lobar consolidation in the lingual,Thumbprint sign on the lateral image,Steeple sign,D,"A 3-year-old boy presents to the emergency department with a cough-like-a-seal bark and a high-pitched inspiratory noise that is audible without a stethoscope. His mother reports that his cough has worsened over the last few hours. The patient's blood pressure is 118/78 mm Hg, pulse is 90/min, respiratory rate is 35/min, and temperature is 38.3C (101.1F). On physical examination, the boy is sitting and leaning forward in apparent respiratory distress with suprasternal and intercostal retractions. Auscultation reveals inspiratory stridor without wheezing. He has a frequent barking cough and a hoarse voice when he speaks. What is a chest X-ray likely to show?",Diffuse streaky infiltrates,Increased interstitial markings,Lobar consolidation in the lingual,Thumbprint sign on the lateral image,NOTA,FALSE,TRUE
+384,TRUE-NOTA,1,27,"A 26-year-old woman presents to a gynecologist after a missed period. After performing a complete physical examination and a screening test for pregnancy, her gynecologist informs her that she is pregnant. She is very surprised as she has been taking oral contraceptives regularly. When the gynecologist asks her about the consumption of any other medications, she mentions that she was placed on treatment for pulmonary tuberculosis (TB) 2 months ago. Her current anti-TB regimen includes rifampin, isoniazid, pyrazinamide, and ethambutol. Which of the following mechanisms best explains the failure of oral contraceptives in this patient?",Induction of CYP3A4 by rifampin leading to decreased serum levels of ethinylestradiol and progesterone,Induction of CYP2A6 by rifampin leading to increased inactivation of ethinylestradiol,Interference with the intestinal absorption of the oral contraceptive by pyrazinamide,Increased renal elimination of the progesterone component of the oral contraceptive by ethambutol,A,"A 26-year-old woman presents to a gynecologist after a missed period. After performing a complete physical examination and a screening test for pregnancy, her gynecologist informs her that she is pregnant. She is very surprised as she has been taking oral contraceptives regularly. When the gynecologist asks her about the consumption of any other medications, she mentions that she was placed on treatment for pulmonary tuberculosis (TB) 2 months ago. Her current anti-TB regimen includes rifampin, isoniazid, pyrazinamide, and ethambutol. Which of the following mechanisms best explains the failure of oral contraceptives in this patient?",Induction of CYP2A6 by rifampin leading to increased inactivation of ethinylestradiol,Induction of CYP2E1 by isoniazid leading to decreased serum levels of progesterone,Interference with the intestinal absorption of the oral contraceptive by pyrazinamide,Increased renal elimination of the progesterone component of the oral contraceptive by ethambutol,NOTA,FALSE,TRUE
+292,TRUE-NOTA,0.999031008,28,"A 4-year-old previously healthy boy presents with 4 days of intermittent vomiting and 5-6 daily loose stools. His mother noted bloody stools and decreased oral intake of food and water over the last 24 hours. He is normally in daycare; however, he has been home for the past 3 days. On physical exam his temperature is 102.2¬∞F (39¬∞C), blood pressure is 140/90 mmHg, pulse is 120/min, respirations are 22/min and O2 saturation is 99% on room air. He has dry mucous membranes. On abdominal exam you note diffuse tenderness to palpation without rebound or guarding. There are no masses, hepatosplenomegaly, and bowel sounds are hyperactive. Ultrasound of the right lower quadrant is negative for appendicitis. Stool is guaiac positive. He receives 15mg/kg acetaminophen and fluids are started. The next day, he complains of lower extremity weakness and tingling. On repeat exam, lower extremity strength is 3/5 with diminished patellar deep tendon reflexes. Which of the following lab findings would most likely be seen in this patient?",Gram stain positive CSF,Peripheral eosinophilia,Xanthochromia on cerebrospinal fluid analysis,Increased cerebrospinal fluid protein with normal cell count,D,"A 4-year-old previously healthy boy presents with 4 days of intermittent vomiting and 5-6 daily loose stools. His mother noted bloody stools and decreased oral intake of food and water over the last 24 hours. He is normally in daycare; however, he has been home for the past 3 days. On physical exam his temperature is 102.2F (39C), blood pressure is 140/90 mmHg, pulse is 120/min, respirations are 22/min and O2 saturation is 99% on room air. He has dry mucous membranes. On abdominal exam you note diffuse tenderness to palpation without rebound or guarding. There are no masses, hepatosplenomegaly, and bowel sounds are hyperactive. Ultrasound of the right lower quadrant is negative for appendicitis. Stool is guaiac positive. He receives 15mg/kg acetaminophen and fluids are started. The next day, he complains of lower extremity weakness and tingling. On repeat exam, lower extremity strength is 3/5 with diminished patellar deep tendon reflexes. Which of the following lab findings would most likely be seen in this patient?",Gram stain positive CSF,Peripheral eosinophilia,Xanthochromia on cerebrospinal fluid analysis,Oligoclonal bands on cerebrospinal fluid analysis,NOTA,FALSE,TRUE
+209,TRUE-NOTA,1,29,A 3-week-old male newborn is brought to the physician because of an inward turning of his left forefoot. He was born at 38 weeks' gestation by cesarean section because of breech presentation. The pregnancy was complicated by oligohydramnios. Examination shows concavity of the medial border of the left foot with a skin crease just below the ball of the great toe. The lateral border of the left foot is convex. The heel is in neutral position. Tickling the lateral border of the foot leads to correction of the deformity. The remainder of the examination shows no abnormalities. X-ray of the left foot shows an increased angle between the 1st and 2nd metatarsal bones. Which of the following is the most appropriate next step in the management of this patient?,Foot abduction brace,Arthrodesis of the forefoot,Reassurance,Tarsometatarsal capsulotomy,C,A 3-week-old male newborn is brought to the physician because of an inward turning of his left forefoot. He was born at 38 weeks' gestation by cesarean section because of breech presentation. The pregnancy was complicated by oligohydramnios. Examination shows concavity of the medial border of the left foot with a skin crease just below the ball of the great toe. The lateral border of the left foot is convex. The heel is in neutral position. Tickling the lateral border of the foot leads to correction of the deformity. The remainder of the examination shows no abnormalities. X-ray of the left foot shows an increased angle between the 1st and 2nd metatarsal bones. Which of the following is the most appropriate next step in the management of this patient?,Foot abduction brace,Osteotomy of the metatarsals,Arthrodesis of the forefoot,Tarsometatarsal capsulotomy,NOTA,FALSE,TRUE
+192,TRUE-NOTA,0.998654105,30,"A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2. Her temperature is 38.5¬∞C (101.3¬∞F). Physical examination shows a distended abdomen and right upper quadrant tenderness with normal bowel sounds. Laboratory studies show:
+Leukocyte count 14,000/mm3
+Serum
+Total bilirubin 1.1 mg/dL
+AST 32 U/L
+ALT 40 U/L
+Alkaline phosphatase 68 U/L
+Abdominal ultrasonography is performed, but the results are inconclusive. Cholescintigraphy shows the intrahepatic bile ducts, hepatic ducts, common bile duct, and proximal small bowel. Which of the following is the most likely cause of this patient's symptoms?""",Autodigestion of pancreatic parenchyma,Fistula between the gallbladder and small intestine,Infection with a hepatotropic virus,Obstruction of the cystic duct,D,"A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2. Her temperature is 38.5C (101.3F). Physical examination shows a distended abdomen and right upper quadrant tenderness with normal bowel sounds. Laboratory studies show:
+Leukocyte count 14,000/mm3
+Serum
+Total bilirubin 1.1 mg/dL
+AST 32 U/L
+ALT 40 U/L
+Alkaline phosphatase 68 U/L
+Abdominal ultrasonography is performed, but the results are inconclusive. Cholescintigraphy shows the intrahepatic bile ducts, hepatic ducts, common bile duct, and proximal small bowel. Which of the following is the most likely cause of this patient's symptoms?""",Autodigestion of pancreatic parenchyma,Hypomotility of the gallbadder,Fistula between the gallbladder and small intestine,Infection with a hepatotropic virus,NOTA,FALSE,TRUE
+219,TRUE-NOTA,1,35,"A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficulty walking and feels frustrated. He also has back pain which makes it extremely difficult to move around and be active during the day. He says his pain significantly improves with rest. He also suffers from dandruff for which he uses special shampoos. Physical examination is notable for pitting of his nails. Which of the following is the most likely diagnosis?",Psoriatic arthritis,Arthritis mutilans,Rheumatoid arthritis,Mixed connective tissue disease,A,"A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficulty walking and feels frustrated. He also has back pain which makes it extremely difficult to move around and be active during the day. He says his pain significantly improves with rest. He also suffers from dandruff for which he uses special shampoos. Physical examination is notable for pitting of his nails. Which of the following is the most likely diagnosis?",Arthritis mutilans,Rheumatoid arthritis,Familial mediterranean fever,Mixed connective tissue disease,NOTA,FALSE,TRUE
+34,TRUE-NOTA,1,36,A 65-year-old woman schedules an appointment with her physician for evaluation of weight loss and weakness. The weakness is more noticeable when climbing stairs and combing hair. The weakness improves after brief exercise. She also has bladder incontinence for the past 4 weeks and was given an anticholinesterase agent with no improvement. What is the most likely cause of the symptoms?,Duchenne muscular dystrophy,Hypothyroidism,Myasthenia gravis,Paraneoplastic syndrome from small cell carcinoma of the lung,D,A 65-year-old woman schedules an appointment with her physician for evaluation of weight loss and weakness. The weakness is more noticeable when climbing stairs and combing hair. The weakness improves after brief exercise. She also has bladder incontinence for the past 4 weeks and was given an anticholinesterase agent with no improvement. What is the most likely cause of the symptoms?,Botulism,Duchenne muscular dystrophy,Hypothyroidism,Myasthenia gravis,NOTA,FALSE,TRUE
+185,TRUE-NOTA,1,38,"A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel drug was previously tested in a small population and is now undergoing a larger phase 3 trial in preparation for FDA approval. A dose-response trial had the following results:
+
+10 mg dose - 6/59 patients demonstrated improvement
+20 mg dose - 19/49 patients demonstrated improvement
+30 mg dose - 26/53 patients demonstrated improvement
+40 mg dose - 46/51 patients demonstrated improvement
+
+The same trial also had the following safety profile:
+
+20 mg dose - 5/49 patients had a treatment related adverse event
+40 mg dose - 11/51 patients had a treatment related adverse event
+60 mg dose - 15/42 patients had a treatment related adverse event
+80 mg dose - 23/47 patients had a treatment related adverse event
+100 mg dose - 47/52 patients had a treatment related adverse event
+
+Based on this study, which of the following represents the most likely therapeutic index for this novel chemotherapeutic agent?",0.375,0.5,2.5,2.67,D,"A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel drug was previously tested in a small population and is now undergoing a larger phase 3 trial in preparation for FDA approval. A dose-response trial had the following results:
+
+10 mg dose - 6/59 patients demonstrated improvement
+20 mg dose - 19/49 patients demonstrated improvement
+30 mg dose - 26/53 patients demonstrated improvement
+40 mg dose - 46/51 patients demonstrated improvement
+
+The same trial also had the following safety profile:
+
+20 mg dose - 5/49 patients had a treatment related adverse event
+40 mg dose - 11/51 patients had a treatment related adverse event
+60 mg dose - 15/42 patients had a treatment related adverse event
+80 mg dose - 23/47 patients had a treatment related adverse event
+100 mg dose - 47/52 patients had a treatment related adverse event
+
+Based on this study, which of the following represents the most likely therapeutic index for this novel chemotherapeutic agent?",0.375,0.5,2,2.5,NOTA,FALSE,TRUE
+93,TRUE-NOTA,0.997206704,42,"A one-day-old male is evaluated in the hospital nursery for bilious vomiting. The patient has urinated multiple times since birth but has not yet passed meconium. He was born at 38 weeks gestation to a 36-year-old gravida 3 via vaginal delivery. The pregnancy was complicated by gestational diabetes. The patient‚Äôs mother received routine prenatal care and declined first trimester screening. She subsequently underwent a quadruple screen at 15 weeks gestation that demonstrated decreased maternal serum alpha-fetoprotein (AFP), increased beta-hCG, decreased unconjugated estriol, and increased inhibin A. Her last ultrasound prior to onset of labor demonstrated an amniotic fluid index (AFI) of 28 cm. The patient‚Äôs two older siblings are both healthy. The patient‚Äôs temperature is 97.8¬∞F (36.6¬∞C), blood pressure is 58/37 mmHg, pulse is 166/min, and respirations are 38/min. On physical exam, the patient is in moderate distress. His abdomen is firm and distended with hypoactive bowel sounds.
+
+Which of the following is the most likely etiology of this fetus‚Äôs presentation?",Duodenal atresia,Meconium ileus,Necrotizing enterocolitis,Pyloric stenosis,A,"A one-day-old male is evaluated in the hospital nursery for bilious vomiting. The patient has urinated multiple times since birth but has not yet passed meconium. He was born at 38 weeks gestation to a 36-year-old gravida 3 via vaginal delivery. The pregnancy was complicated by gestational diabetes. The patients mother received routine prenatal care and declined first trimester screening. She subsequently underwent a quadruple screen at 15 weeks gestation that demonstrated decreased maternal serum alpha-fetoprotein (AFP), increased beta-hCG, decreased unconjugated estriol, and increased inhibin A. Her last ultrasound prior to onset of labor demonstrated an amniotic fluid index (AFI) of 28 cm. The patients two older siblings are both healthy. The patients temperature is 97.8F (36.6C), blood pressure is 58/37 mmHg, pulse is 166/min, and respirations are 38/min. On physical exam, the patient is in moderate distress. His abdomen is firm and distended with hypoactive bowel sounds.
+
+Which of the following is the most likely etiology of this fetuss presentation?",Intestinal malrotation,Meconium ileus,Necrotizing enterocolitis,Pyloric stenosis,NOTA,FALSE,TRUE
+370,TRUE-NOTA,1,46,"A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial infarction (MI). The study enrolled a total of 3,000 subjects, 1,500 in each study arm. Follow-up was conducted at 45 days post-MI. The following are the results of the trial:
+Endpoints Medication 1 Medication 2 P-Value
+Primary: death from cardiac causes 134 210 0.03
+Secondary: hyperkalemia 57 70 0.4
+What is the number needed to treat (NNT) for the primary endpoint of death from cardiac causes? (Round to the nearest whole number.)",5,16,20,50,C,"A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial infarction (MI). The study enrolled a total of 3,000 subjects, 1,500 in each study arm. Follow-up was conducted at 45 days post-MI. The following are the results of the trial:
+Endpoints Medication 1 Medication 2 P-Value
+Primary: death from cardiac causes 134 210 0.03
+Secondary: hyperkalemia 57 70 0.4
+What is the number needed to treat (NNT) for the primary endpoint of death from cardiac causes? (Round to the nearest whole number.)",5,16,30,50,NOTA,FALSE,TRUE
+45,TRUE-NOTA,1,48,"A 29-year-old primigravid woman at 35 weeks' gestation is admitted to the hospital in labor. She has no history of serious medical illness. She has had an uncomplicated pregnancy. Her last ultrasound at 22 weeks' gestation was normal. On admission, fetal heartbeats cannot be detected by fetal doppler monitor. Ultrasound shows decreased amniotic fluid levels and no evidence of fetal movement, respiration, or heart activity. The patient gives birth to a 2296 g (5 lb 1 oz) male infant. Physical examination shows no signs of life. There are no visible malformations. The placenta is unremarkable. Which of the following is the most appropriate next step in management?",Perform karyotyping of amniotic fluid,Recommend autopsy of the infant,"Obtain photographs, x-ray imaging, and MRI",Obtain consent for parental genetic testing,B,"A 29-year-old primigravid woman at 35 weeks' gestation is admitted to the hospital in labor. She has no history of serious medical illness. She has had an uncomplicated pregnancy. Her last ultrasound at 22 weeks' gestation was normal. On admission, fetal heartbeats cannot be detected by fetal doppler monitor. Ultrasound shows decreased amniotic fluid levels and no evidence of fetal movement, respiration, or heart activity. The patient gives birth to a 2296 g (5 lb 1 oz) male infant. Physical examination shows no signs of life. There are no visible malformations. The placenta is unremarkable. Which of the following is the most appropriate next step in management?",Perform karyotyping of amniotic fluid,"Obtain photographs, x-ray imaging, and MRI",Perform maternal antibody and thrombophilia testing,Obtain consent for parental genetic testing,NOTA,FALSE,TRUE
+77,TRUE-NOTA,1,49,"A 67-year-old man is hospitalized after several days of fever and increasing shortness of breath. Respiratory viral panel returns positive for influenza A and the patient is started on a standard five day course of oseltamivir. Despite therapy, his shortness of breath continues to worsen and his oxygen saturation decreases to the point where ICU transfer and intubation are required. Chest radiograph shows bilateral infiltrates. Clinical criteria are consistent with development of Acute Respiratory Distress Syndrome (ARDS). After several weeks of supportive therapy, the patient improves with lung function returning to near normal. Which of the following processes is involved in the regeneration of alveolar lining after damage to alveoli occurs?",Sweeping of debris out of the alveoli by ciliated cells,Excess mucus production by goblet cells,Proliferation of surfactant-secreting cells,Proliferation of club cells,C,"A 67-year-old man is hospitalized after several days of fever and increasing shortness of breath. Respiratory viral panel returns positive for influenza A and the patient is started on a standard five day course of oseltamivir. Despite therapy, his shortness of breath continues to worsen and his oxygen saturation decreases to the point where ICU transfer and intubation are required. Chest radiograph shows bilateral infiltrates. Clinical criteria are consistent with development of Acute Respiratory Distress Syndrome (ARDS). After several weeks of supportive therapy, the patient improves with lung function returning to near normal. Which of the following processes is involved in the regeneration of alveolar lining after damage to alveoli occurs?",Squamous cell proliferation,Sweeping of debris out of the alveoli by ciliated cells,Excess mucus production by goblet cells,Proliferation of club cells,NOTA,FALSE,TRUE
+407,TRUE-NOTA,0.998550725,51,"A 56-year-old man with a history of hypertension presents to his physician with progressive fatigue and new onset muscle cramps. He has had no recent changes to his medication regimen, which includes hydrochlorothiazide, lisinopril, and amlodipine. His temperature is 98.0¬∞F (36.7¬∞C), blood pressure is 174/111 mmHg, pulse is 70/min, respirations are 12/min, and oxygen saturation is 98% on room air. The patient's cardiopulmonary and abdominal exams are unremarkable. Laboratory values are ordered as seen below.
+
+Serum:
+Na+: 138 mEq/L
+Cl-: 100 mEq/L
+K+: 3.3 mEq/L
+HCO3-: 33 mEq/L
+BUN: 20 mg/dL
+Glucose: 129 mg/dL
+
+What is the most likely underlying etiology of this patient's hypertension?",Aldosterone excess,Catecholamine-secreting mass,Cortisol excess,Impaired kidney perfusion,A,"A 56-year-old man with a history of hypertension presents to his physician with progressive fatigue and new onset muscle cramps. He has had no recent changes to his medication regimen, which includes hydrochlorothiazide, lisinopril, and amlodipine. His temperature is 98.0F (36.7C), blood pressure is 174/111 mmHg, pulse is 70/min, respirations are 12/min, and oxygen saturation is 98% on room air. The patient's cardiopulmonary and abdominal exams are unremarkable. Laboratory values are ordered as seen below.
+
+Serum:
+Na+: 138 mEq/L
+Cl-: 100 mEq/L
+K+: 3.3 mEq/L
+HCO3-: 33 mEq/L
+BUN: 20 mg/dL
+Glucose: 129 mg/dL
+
+What is the most likely underlying etiology of this patient's hypertension?",Catecholamine-secreting mass,Cortisol excess,Impaired kidney perfusion,Increased peripheral vascular resistance,NOTA,FALSE,TRUE
+223,TRUE-NOTA,1,53,"A 72-year-old woman is brought to the physician by her daughter because of a 6-month history of worsening short-term memory deficits and social withdrawal. Treatment with galantamine is initiated. Two weeks later, the patient develops vomiting, mild crampy abdominal pain, and watery, nonbloody diarrhea. Which of the following is the most appropriate pharmacotherapy?",Bethanechol,Metoclopramide,Atropine,Oxybutynin,C,"A 72-year-old woman is brought to the physician by her daughter because of a 6-month history of worsening short-term memory deficits and social withdrawal. Treatment with galantamine is initiated. Two weeks later, the patient develops vomiting, mild crampy abdominal pain, and watery, nonbloody diarrhea. Which of the following is the most appropriate pharmacotherapy?",Bethanechol,Metoclopramide,Loperamide,Oxybutynin,NOTA,FALSE,TRUE
+105,TRUE-NOTA,1,54,"A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was observed making an unusual smacking motion with his lips, pursing his mouth, and blinking excessively. These symptoms started slowly about 2 weeks ago and have become more pronounced, but they do not seem to bother the patient. He resides in an inpatient psychiatric facility where he has been successfully treated with haloperidol for the past several months. His physical exam and vitals are within normal limits. Which of the following accurately describes his symptoms?",Tardive dyskinesia,Acute dystonia,Pseudoparkinsonism,Palsy,A,"A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was observed making an unusual smacking motion with his lips, pursing his mouth, and blinking excessively. These symptoms started slowly about 2 weeks ago and have become more pronounced, but they do not seem to bother the patient. He resides in an inpatient psychiatric facility where he has been successfully treated with haloperidol for the past several months. His physical exam and vitals are within normal limits. Which of the following accurately describes his symptoms?",Akathisia,Acute dystonia,Pseudoparkinsonism,Palsy,NOTA,FALSE,TRUE
+59,TRUE-NOTA,0.998435055,55,"A 17-year-old football player with no significant past medical history, social history, or family history presents to his pediatrician with itching in his groin. He says this started during summer workouts leading up to this season. He denies having any rash anywhere else on his body. The blood pressure is 123/78 mm Hg, pulse is 67/min, respiratory rate is 15/min, and temperature is 38.1¬∞C (98.7¬∞F). Physical examination reveals an erythematous, well-demarcated patch with peripheral scale on the left thigh, pubic region, and perineum. There is no apparent scrotal involvement with the rash. How can you confirm the suspected diagnosis?",KOH examination of lesion scrapings,Nikolsky's sign on physical exam,Gram stain of skin scrapings,AFB stain of skin scrapings,A,"A 17-year-old football player with no significant past medical history, social history, or family history presents to his pediatrician with itching in his groin. He says this started during summer workouts leading up to this season. He denies having any rash anywhere else on his body. The blood pressure is 123/78 mm Hg, pulse is 67/min, respiratory rate is 15/min, and temperature is 38.1C (98.7F). Physical examination reveals an erythematous, well-demarcated patch with peripheral scale on the left thigh, pubic region, and perineum. There is no apparent scrotal involvement with the rash. How can you confirm the suspected diagnosis?",Localized ultrasound,Nikolsky's sign on physical exam,Gram stain of skin scrapings,AFB stain of skin scrapings,NOTA,FALSE,TRUE
+349,TRUE-NOTA,0.998676665,58,"A 2-year-old boy is brought to the physician for evaluation of pallor and increasing lethargy for 2 days. One week ago, he experienced abdominal pain, vomiting, and bloody diarrhea that have since subsided. The patient's father states that they returned early from a 6-week roadtrip in Mexico because of these symptoms. His parents have been giving him oral rehydration solution. His immunizations are up-to-date. He appears pale. His temperature is 38.4¬∞C (101.1¬∞F), pulse is 130/min, respirations are 35/min, and blood pressure is 95/50 mm Hg. Examination shows scleral icterus. The abdomen is soft and nontender; there is no rebound or guarding. Bowel sounds are hyperactive. The remainder of the examination shows no abnormalities. Laboratory studies show:
+Hemoglobin 8.5 g/dL
+Mean corpuscular volume 94 Œºm3
+Leukocyte count 18,000/mm3
+Platelet count 45,000/mm3
+Prothrombin time 12 sec
+Partial thromboplastin time 34 sec
+Serum
+Urea nitrogen 28 mg/dL
+Creatinine 1.6 mg/dL
+Bilirubin
+Total 2.5 mg/dL
+Direct 0.1 mg/dL
+Lactate dehydrogenase 1658 U/L
+A blood smear shows schistocytes. Which of the following is the most likely diagnosis?""",Henoch-Sch√∂nlein Purpura,Thrombotic thrombocytopenic purpura,Hemolytic uremic syndrome,Immune thrombocytopenic purpura,C,"A 2-year-old boy is brought to the physician for evaluation of pallor and increasing lethargy for 2 days. One week ago, he experienced abdominal pain, vomiting, and bloody diarrhea that have since subsided. The patient's father states that they returned early from a 6-week roadtrip in Mexico because of these symptoms. His parents have been giving him oral rehydration solution. His immunizations are up-to-date. He appears pale. His temperature is 38.4C (101.1F), pulse is 130/min, respirations are 35/min, and blood pressure is 95/50 mm Hg. Examination shows scleral icterus. The abdomen is soft and nontender; there is no rebound or guarding. Bowel sounds are hyperactive. The remainder of the examination shows no abnormalities. Laboratory studies show:
+Hemoglobin 8.5 g/dL
+Mean corpuscular volume 94 m3
+Leukocyte count 18,000/mm3
+Platelet count 45,000/mm3
+Prothrombin time 12 sec
+Partial thromboplastin time 34 sec
+Serum
+Urea nitrogen 28 mg/dL
+Creatinine 1.6 mg/dL
+Bilirubin
+Total 2.5 mg/dL
+Direct 0.1 mg/dL
+Lactate dehydrogenase 1658 U/L
+A blood smear shows schistocytes. Which of the following is the most likely diagnosis?""",Henoch-Schnlein Purpura,Thrombotic thrombocytopenic purpura,Immune thrombocytopenic purpura,"Disseminated intravascular coagulation
+""",NOTA,FALSE,TRUE
+362,TRUE-NOTA,0.998245614,60,"A 14-year-old girl is brought to the physician by her father because of fever, chills, abdominal pain, and profuse non-bloody diarrhea. Her symptoms began one week ago, when she had several days of low-grade fever and constipation. She returned from Indonesia 2 weeks ago, where she spent the summer with her grandparents. Her temperature is 39.3¬∞C (102.8¬∞F). Examination shows diffuse abdominal tenderness and mild hepatosplenomegaly. There is a faint salmon-colored maculopapular rash on her trunk and abdomen. Which of the following is the most likely causal organism?",Giardia lamblia,Schistosoma mansoni,Salmonella typhi,Clostridium perfringens,C,"A 14-year-old girl is brought to the physician by her father because of fever, chills, abdominal pain, and profuse non-bloody diarrhea. Her symptoms began one week ago, when she had several days of low-grade fever and constipation. She returned from Indonesia 2 weeks ago, where she spent the summer with her grandparents. Her temperature is 39.3C (102.8F). Examination shows diffuse abdominal tenderness and mild hepatosplenomegaly. There is a faint salmon-colored maculopapular rash on her trunk and abdomen. Which of the following is the most likely causal organism?",Giardia lamblia,Schistosoma mansoni,Campylobacter jejuni,Clostridium perfringens,NOTA,FALSE,TRUE
+264,TRUE-NOTA,1,61,"A 22-year-old female college student is treated with metronidazole after presenting to student health services with itching, discharge, and pain in her vagina. At a party shortly afterward she experiences facial flushing, nausea, tachycardia, dyspnea, headache, and abdominal cramps after consuming alcohol. Serum levels of which of the following are likely elevated in this patient following alcohol consumption:",Acetaldehyde,Uric acid,Cytochrome P-450 enzymes,Amylase,A,"A 22-year-old female college student is treated with metronidazole after presenting to student health services with itching, discharge, and pain in her vagina. At a party shortly afterward she experiences facial flushing, nausea, tachycardia, dyspnea, headache, and abdominal cramps after consuming alcohol. Serum levels of which of the following are likely elevated in this patient following alcohol consumption:",Uric acid,Cytochrome P-450 enzymes,Triglycerides,Amylase,NOTA,FALSE,TRUE
+315,TRUE-NOTA,0.997821351,62,"A 23-year-old primigravida presents for a regular prenatal care visit at 16 weeks gestation. She complains of increased fatigability, but is otherwise well. She takes folic acid, iron, and vitamin D supplementation. Her vital signs are as follows: blood pressure, 110/70 mm Hg; heart rate, 86/min; respiratory rate, 13/min; and temperature, 36.6‚ÑÉ (97.9‚Ñâ). The physical examination is unremarkable. The complete blood count results are as below:
+Erythrocyte count 3.9 million/mm3
+Hb 11.1 g/dL
+HCT 32%
+Reticulocyte count 0.2%
+MCV 90 fL
+Platelet count 210,000/mm3
+Leukocyte count 8,100/mm3
+Which of the following tests is required to investigate the cause of the patient‚Äôs laboratory findings?",Serum iron level,Serum B12 level,Transferrin,No tests required,D,"A 23-year-old primigravida presents for a regular prenatal care visit at 16 weeks gestation. She complains of increased fatigability, but is otherwise well. She takes folic acid, iron, and vitamin D supplementation. Her vital signs are as follows: blood pressure, 110/70 mm Hg; heart rate, 86/min; respiratory rate, 13/min; and temperature, 36.6 (97.9). The physical examination is unremarkable. The complete blood count results are as below:
+Erythrocyte count 3.9 million/mm3
+Hb 11.1 g/dL
+HCT 32%
+Reticulocyte count 0.2%
+MCV 90 fL
+Platelet count 210,000/mm3
+Leukocyte count 8,100/mm3
+Which of the following tests is required to investigate the cause of the patients laboratory findings?",Serum iron level,Serum B12 level,Transferrin,Total bilirubin,NOTA,FALSE,TRUE
+331,TRUE-NOTA,0.99911426,63,"An 80-year-old man is transferred from a step-down unit to a med-surg floor in the hospital. He had undergone a successful hernia surgery 14 hours ago. Before the surgery, he was pre-treated with atropine, scopolamine, and morphine and recovered well in the PACU after the surgery. There were no complications in the step-down unit and the patient continued to recover. On the med-surg floor, his temperature is 36.8¬∞C (98.2¬∞F), the heart rate is 98/min, the respiratory rate is 15/min, the blood pressure is 100/75 mm Hg, the oxygen saturation is 90%. On physical exam, he is a well-developed, obese man. His heart has a regular rate and rhythm and his lungs are clear to auscultation bilaterally. His incision site is clean, dry, and intact with an appropriate level of swelling and erythema. During the physical, the patient mentions some discomfort in his abdomen and pelvis and during a records review it is noted that he has not passed urine in the PACU, step-down unit, or since arriving on the med-surg floor. A bladder scan is inconclusive due to body habitus. What is the next best step in the treatment of this patient?",Insert a ‚Äòstraight cath‚Äô into the patient‚Äôs bladder,Aggressive IV fluids,Digital rectal exam,Renal ultrasound,A,"An 80-year-old man is transferred from a step-down unit to a med-surg floor in the hospital. He had undergone a successful hernia surgery 14 hours ago. Before the surgery, he was pre-treated with atropine, scopolamine, and morphine and recovered well in the PACU after the surgery. There were no complications in the step-down unit and the patient continued to recover. On the med-surg floor, his temperature is 36.8C (98.2F), the heart rate is 98/min, the respiratory rate is 15/min, the blood pressure is 100/75 mm Hg, the oxygen saturation is 90%. On physical exam, he is a well-developed, obese man. His heart has a regular rate and rhythm and his lungs are clear to auscultation bilaterally. His incision site is clean, dry, and intact with an appropriate level of swelling and erythema. During the physical, the patient mentions some discomfort in his abdomen and pelvis and during a records review it is noted that he has not passed urine in the PACU, step-down unit, or since arriving on the med-surg floor. A bladder scan is inconclusive due to body habitus. What is the next best step in the treatment of this patient?",Ultrasound the surgical site,Aggressive IV fluids,Digital rectal exam,Renal ultrasound,NOTA,FALSE,TRUE
+441,TRUE-NOTA,0.99879081,64,"A healthy 19-year-old man presents to his primary care provider complaining of painless ‚Äúblisters‚Äù in his mouth. He reports that he noticed a white film on his tongue and the sides of his mouth 2 days ago while brushing his teeth. The film was easily brushed off. He also complains of a bitter metallic taste in his mouth but otherwise denies pain, burning, dysphagia, or hoarseness. He is otherwise healthy and takes no medications. He is a competitive swimmer and has had 8 sexual partners in the past year. He intermittently uses barrier protection. On exam, he is well-appearing and in no acute distress. His oral examination demonstrates patches of white pseudomembranes that can be wiped away to reveal erythematous mucosa. A medication with which of the following mechanisms of action is most appropriate in this patient?",Disruption of cell membrane permeability,Disruption of microtubule formation,Inhibition of 14-alpha-demethylase,Inhibition of beta-glucan synthase,A,"A healthy 19-year-old man presents to his primary care provider complaining of painless blisters in his mouth. He reports that he noticed a white film on his tongue and the sides of his mouth 2 days ago while brushing his teeth. The film was easily brushed off. He also complains of a bitter metallic taste in his mouth but otherwise denies pain, burning, dysphagia, or hoarseness. He is otherwise healthy and takes no medications. He is a competitive swimmer and has had 8 sexual partners in the past year. He intermittently uses barrier protection. On exam, he is well-appearing and in no acute distress. His oral examination demonstrates patches of white pseudomembranes that can be wiped away to reveal erythematous mucosa. A medication with which of the following mechanisms of action is most appropriate in this patient?",Disruption of microtubule formation,Inhibition of 14-alpha-demethylase,Inhibition of beta-glucan synthase,Inhibition of squalene epoxidase,NOTA,FALSE,TRUE
+345,TRUE-NOTA,1,65,"A 56-year-old man presents to the clinic complaining of subacute back pain for the past month. The pain is described as a dull, constant ache that is worse at night. He could not recall any precipitating event except for an amateur weight-lifting competition that he participated in 2 months ago. Past medical history is significant for non-small cell lung cancer that was diagnosed and successfully treated. A PET scan 1 year ago demonstrated no recurrence. Physical exam was unremarkable except for some point tenderness along the lumbosacral area. What is the most likely imaging finding in this patient?",Bulging disc impinging on lumbar spinal nerve,Lytic lesions of the lumbar spine,Narrowing of the lumbar disc space,Sacroilitis and fusion of the lumbar spine,B,"A 56-year-old man presents to the clinic complaining of subacute back pain for the past month. The pain is described as a dull, constant ache that is worse at night. He could not recall any precipitating event except for an amateur weight-lifting competition that he participated in 2 months ago. Past medical history is significant for non-small cell lung cancer that was diagnosed and successfully treated. A PET scan 1 year ago demonstrated no recurrence. Physical exam was unremarkable except for some point tenderness along the lumbosacral area. What is the most likely imaging finding in this patient?",Blastic lesions of the lumbar spine,Bulging disc impinging on lumbar spinal nerve,Narrowing of the lumbar disc space,Sacroilitis and fusion of the lumbar spine,NOTA,FALSE,TRUE
+87,TRUE-NOTA,0.99858156,66,A 4-year-old boy is brought to the emergency department because of severe abdominal pain and bilious vomiting for 6 hours. He has not had bowel movements in the past 24 hours. He appears ill. His temperature is 37.8¬∞C (100¬∞F) and pulse is 122/min. Examination shows a distended abdomen. There is tenderness to palpation in the lower abdomen; guarding and rebound tenderness are present. Bowel sounds are decreased. An x-ray of the abdomen shows dilated loops of bowel. He has been accompanied by his 14-year-old brother. The surgeon recommends an emergency laparotomy. The parents are away visiting friends and cannot be reached. Which of the following is the most appropriate next best step in management?,Get consent from the patient's brother,Get consent from the patient,Perform emergency laparotomy,Delay surgery until parental consent,C,A 4-year-old boy is brought to the emergency department because of severe abdominal pain and bilious vomiting for 6 hours. He has not had bowel movements in the past 24 hours. He appears ill. His temperature is 37.8C (100F) and pulse is 122/min. Examination shows a distended abdomen. There is tenderness to palpation in the lower abdomen; guarding and rebound tenderness are present. Bowel sounds are decreased. An x-ray of the abdomen shows dilated loops of bowel. He has been accompanied by his 14-year-old brother. The surgeon recommends an emergency laparotomy. The parents are away visiting friends and cannot be reached. Which of the following is the most appropriate next best step in management?,Get consent from the patient's brother,Get consent from the patient,Obtain a court order for surgery,Delay surgery until parental consent,NOTA,FALSE,TRUE
+400,TRUE-NOTA,0.998783455,67,"A 3-week-old male newborn is brought to the hospital because of poor weight gain since birth. He was born at 38 weeks' gestation via normal vaginal delivery. He weighed 3005 g (6 lb, 10 oz) at birth and currently weighs 2835 g (6 lb, 4 oz). He has been latching on and breastfeeding well since birth. His mother has a history of Graves' disease and underwent near-total thyroidectomy in the second trimester of her pregnancy after her symptoms could not be controlled with antithyroid drugs. She is currently receiving L-thyroxine therapy. The patient's temperature is 38.9¬∞C (102¬∞F), pulse is 176/min, and respirations are 42/min. He appears irritable. Examination shows a diaphoretic infant with a paucity of subcutaneous fat. There is swelling of the neck at the midline. Which of the following is the most likely cause?",Transplacental passage of thyroid peroxidase antibodies,Transplacental passage of TSH receptor antibodies,Transplacental viral infection,Opiate use in the mother,B,"A 3-week-old male newborn is brought to the hospital because of poor weight gain since birth. He was born at 38 weeks' gestation via normal vaginal delivery. He weighed 3005 g (6 lb, 10 oz) at birth and currently weighs 2835 g (6 lb, 4 oz). He has been latching on and breastfeeding well since birth. His mother has a history of Graves' disease and underwent near-total thyroidectomy in the second trimester of her pregnancy after her symptoms could not be controlled with antithyroid drugs. She is currently receiving L-thyroxine therapy. The patient's temperature is 38.9C (102F), pulse is 176/min, and respirations are 42/min. He appears irritable. Examination shows a diaphoretic infant with a paucity of subcutaneous fat. There is swelling of the neck at the midline. Which of the following is the most likely cause?",Transplacental passage of thyroglobulin antibodies,Transplacental passage of thyroid peroxidase antibodies,Transplacental viral infection,Opiate use in the mother,NOTA,FALSE,TRUE
+471,TRUE-NOTA,1,68,"A 57-year-old female with a past medical history of alcoholism presents to the emergency room vomiting bright red blood. She is accompanied by her partner, who reports that she had been complaining of black and tarry stools for the past several days. Vital signs are temperature 37 degrees celsius, heart rate 141 beats per minute, blood pressure 90/60, respiratory rate 20, and oxygen saturation 99% on room air. On physical examination, she has splenomegaly and a positive fluid wave. The remainder of her examination is within normal limits. The patient is stabilized with intravenous fluids, and her blood pressure improves. Subsequent emergent upper endoscopy reveals bleeding from the submucosal veins in the lower 1/3 of the esophagus, but no gastric bleed. In the endoscopy suite she also receives IV octreotide. After intervention and resolution of her acute bleed, which of the following pharmacologic agents is indicated?",Phentolamine,Prazosin,Nifedipine,Nadalol,D,"A 57-year-old female with a past medical history of alcoholism presents to the emergency room vomiting bright red blood. She is accompanied by her partner, who reports that she had been complaining of black and tarry stools for the past several days. Vital signs are temperature 37 degrees celsius, heart rate 141 beats per minute, blood pressure 90/60, respiratory rate 20, and oxygen saturation 99% on room air. On physical examination, she has splenomegaly and a positive fluid wave. The remainder of her examination is within normal limits. The patient is stabilized with intravenous fluids, and her blood pressure improves. Subsequent emergent upper endoscopy reveals bleeding from the submucosal veins in the lower 1/3 of the esophagus, but no gastric bleed. In the endoscopy suite she also receives IV octreotide. After intervention and resolution of her acute bleed, which of the following pharmacologic agents is indicated?",Phentolamine,Prazosin,Nifedipine,Doxazosin,NOTA,FALSE,TRUE
+428,TRUE-NOTA,0.997685185,70,"A 66-year-old man is brought to the emergency room by his wife due to abdominal distension and persistent somnolence for the past 2 weeks. The patient‚Äôs wife says that he has been sleeping much more than usual for the past 5 days. His bowel and bladder habit have not changed. His past medical history is significant for alcoholic liver cirrhosis. His vital signs include: pulse 76/min, respiratory rate 15/min, temperature 38.0¬∞C (100.4¬∞F) and blood pressure 122/75 mm Hg. On physical examination, the patient is altered and not responsive to commands. Oriented x 0. The abdomen is significantly distended. Shifting dullness is present and a positive fluid wave can be elicited. Hyperreflexia and asterixis are noted. Laboratory findings are significant for the following:
+Laboratory test
+Sodium 140 mEq/L
+Potassium 3.5 mEq/L
+Chloride 97 mEq/L
+Glucose 90 mg/dL
+Ammonia 100 ¬µg/dL (ref: 19-60 ¬µg/dL)
+Arterial blood gas
+pH 7.4
+pCO2 40 mm Hg
+pO2 90 mm Hg
+HCO3 26 mEq/L
+An abdominal ultrasound shows surface nodularity compatible with cirrhosis but no other changes aside from ascites. An upper GI endoscopy is performed which shows gastric varices with no signs of active bleeding. An MRI of the brain is insignificant. What is the most likely precipitating factor that led to this patient‚Äôs condition?",Spontaneous bacterial peritonitis,Metabolic alkalosis,Portal vein thrombosis,Hypoglycemia,A,"A 66-year-old man is brought to the emergency room by his wife due to abdominal distension and persistent somnolence for the past 2 weeks. The patients wife says that he has been sleeping much more than usual for the past 5 days. His bowel and bladder habit have not changed. His past medical history is significant for alcoholic liver cirrhosis. His vital signs include: pulse 76/min, respiratory rate 15/min, temperature 38.0C (100.4F) and blood pressure 122/75 mm Hg. On physical examination, the patient is altered and not responsive to commands. Oriented x 0. The abdomen is significantly distended. Shifting dullness is present and a positive fluid wave can be elicited. Hyperreflexia and asterixis are noted. Laboratory findings are significant for the following:
+Laboratory test
+Sodium 140 mEq/L
+Potassium 3.5 mEq/L
+Chloride 97 mEq/L
+Glucose 90 mg/dL
+Ammonia 100 g/dL (ref: 19-60 g/dL)
+Arterial blood gas
+pH 7.4
+pCO2 40 mm Hg
+pO2 90 mm Hg
+HCO3 26 mEq/L
+An abdominal ultrasound shows surface nodularity compatible with cirrhosis but no other changes aside from ascites. An upper GI endoscopy is performed which shows gastric varices with no signs of active bleeding. An MRI of the brain is insignificant. What is the most likely precipitating factor that led to this patients condition?",Metabolic alkalosis,Variceal gastrointestinal bleeding,Portal vein thrombosis,Hypoglycemia,NOTA,FALSE,TRUE
+483,TRUE-NOTA,1,73,"A 29-year-old woman presents to the clinic after several months of weight loss. She noticed a 6.8 kg (15 lb) unintentional weight loss over the preceding several months. She has not changed her diet or exercise habits. She also reports feuding with her boyfriend over the temperature of their shared apartment, as she always feels warmer than he does. The vital signs include: heart rate 110/min and blood pressure 146/78 mm Hg. The physical exam is notable for warm and slightly moist skin. She also exhibits a fine tremor in her hands when her arms are outstretched. The urine pregnancy test is negative. Which of the following is the best single treatment option for this patient?",Glucocorticoids,Methimazole,Propranolol,Radioiodine therapy,B,"A 29-year-old woman presents to the clinic after several months of weight loss. She noticed a 6.8 kg (15 lb) unintentional weight loss over the preceding several months. She has not changed her diet or exercise habits. She also reports feuding with her boyfriend over the temperature of their shared apartment, as she always feels warmer than he does. The vital signs include: heart rate 110/min and blood pressure 146/78 mm Hg. The physical exam is notable for warm and slightly moist skin. She also exhibits a fine tremor in her hands when her arms are outstretched. The urine pregnancy test is negative. Which of the following is the best single treatment option for this patient?",Glucocorticoids,Propranolol,Radioiodine therapy,Thyroidectomy,NOTA,FALSE,TRUE
+63,TRUE-NOTA,1,75,"A 5-year-old female is brought to a speech therapist for continuing work on improving her communication skills. She is only able to verbalize two word sentences and has generalized developmental delay. When she was born it was noticed that she had a high pitched mewing cry and subsequent physical exam revealed microcephaly, prominent epicanthal folds, and a holosystolic murmur best heard in the left 5th intercostal space near the sternum. An abnormality of which of the following chromosomes is most likely responsible for this patient's disorder?",5,7,18,21,A,"A 5-year-old female is brought to a speech therapist for continuing work on improving her communication skills. She is only able to verbalize two word sentences and has generalized developmental delay. When she was born it was noticed that she had a high pitched mewing cry and subsequent physical exam revealed microcephaly, prominent epicanthal folds, and a holosystolic murmur best heard in the left 5th intercostal space near the sternum. An abnormality of which of the following chromosomes is most likely responsible for this patient's disorder?",7,13,18,21,NOTA,FALSE,TRUE
+446,TRUE-NOTA,0.998585573,76,"A 62-year old female comes to the physician because of vaginal spotting and urinary urgency for the past 4 days. She has had no fever, abdominal pain, or diarrhea. Menopause occurred at 52 years of age. Her last Pap smear 1 year ago was normal. She has hypertension, hypercholesterolemia, and diabetes. Medications include atorvastatin, hydrochlorothiazide, metformin, and aspirin. She is sexually active with her husband. Her temperature is 37¬∞C (98.6¬∞F), pulse is 95/min, respirations are 12/min, and blood pressure is 155/65 mm Hg. Pelvic exam demonstrates a 4 x 3 cm firm, immobile erythematous mass on the right inner vaginal wall. Which of the following is the most appropriate next step in management?",Pap smear,Biopsy of the mass,Incision and drainage,Urine gonorrhea and chlamydia testing,B,"A 62-year old female comes to the physician because of vaginal spotting and urinary urgency for the past 4 days. She has had no fever, abdominal pain, or diarrhea. Menopause occurred at 52 years of age. Her last Pap smear 1 year ago was normal. She has hypertension, hypercholesterolemia, and diabetes. Medications include atorvastatin, hydrochlorothiazide, metformin, and aspirin. She is sexually active with her husband. Her temperature is 37C (98.6F), pulse is 95/min, respirations are 12/min, and blood pressure is 155/65 mm Hg. Pelvic exam demonstrates a 4 x 3 cm firm, immobile erythematous mass on the right inner vaginal wall. Which of the following is the most appropriate next step in management?",Pap smear,Loop electrosurgical excision procedure,Incision and drainage,Urine gonorrhea and chlamydia testing,NOTA,FALSE,TRUE
+348,TRUE-NOTA,1,77,"A 59-year-old man is evaluated for progressive joint pain. There is swelling and tenderness over the first, second, and third metacarpophalangeal joints of both hands. His hand radiograph is shown. He has had diabetes mellitus for 2 years which is not well controlled with medications. Lab studies show a transferrin saturation of 88% and serum ferritin of 1,200 ng/mL. Which of the following best represents the etiology of this patient condition?",Deposition of urate crystals,Deposition of calcium pyrophosphate (CPP) crystals,Inflammatory rheumatological syndrome,Pathogenic inoculation of microbes,B,"A 59-year-old man is evaluated for progressive joint pain. There is swelling and tenderness over the first, second, and third metacarpophalangeal joints of both hands. His hand radiograph is shown. He has had diabetes mellitus for 2 years which is not well controlled with medications. Lab studies show a transferrin saturation of 88% and serum ferritin of 1,200 ng/mL. Which of the following best represents the etiology of this patient condition?",Deposition of urate crystals,Degenerative joint disorder,Inflammatory rheumatological syndrome,Pathogenic inoculation of microbes,NOTA,FALSE,TRUE
+210,TRUE-NOTA,1,78,"A newborn is found to be extremely cyanotic immediately after birth. He then develops progressive respiratory failure and is admitted to the neonatal ICU. A single loud S2 heart sound is appreciated as well as a machine-like murmur at the left upper sternal border. Radiography shows an enlarged ""egg-shaped"" heart. The newborn is then taken for a atrial septostomy to alleviate the condition pending definitive surgical correction. Which of the following is the most likely cause of this newborn's condition?",Coarctation of the aorta,Persistent truncus arteriosus,Transposition of great vessels,Tricuspid atresia,C,"A newborn is found to be extremely cyanotic immediately after birth. He then develops progressive respiratory failure and is admitted to the neonatal ICU. A single loud S2 heart sound is appreciated as well as a machine-like murmur at the left upper sternal border. Radiography shows an enlarged ""egg-shaped"" heart. The newborn is then taken for a atrial septostomy to alleviate the condition pending definitive surgical correction. Which of the following is the most likely cause of this newborn's condition?",Coarctation of the aorta,Persistent truncus arteriosus,Tetralogy of Fallot,Tricuspid atresia,NOTA,FALSE,TRUE
+142,TRUE-NOTA,0.998939555,79,"A 25-year-old male involved in a knife fight presents with a penetrating wound to the chest. The patient is unconscious and cannot provide any further history. Vitals show a temperature of 37-0¬∞C (98.6¬∞F), blood pressure of 85/55 mm Hg, pulse of 115/min, respirations of 19/min, and oxygen saturation of 92% on room air. On physical examination, the patient is diaphoretic and unresponsive. Extremities are pale and cool. There is a 3-inch long penetrating wound between the 3rd and 4th intercostal space on the left side of the chest, which is bleeding profusely. Transthoracic echocardiography reveals a full thickness penetrating injury to the right ventricular free wall. There are no apparent injuries to any coronary arteries or major branches. The patient is intubated and aggressive fluid resuscitation is initiated, including a blood transfusion. Which of the following is the best definitive surgical approach to take in this patient?",Immediate cardiac transplant,Watchful waiting while resuscitative fluids are initiated,Interrupted 2-0 polypropylene suture with supporting pledgets,Needle thoracostomy over the 2nd intercostal space,C,"A 25-year-old male involved in a knife fight presents with a penetrating wound to the chest. The patient is unconscious and cannot provide any further history. Vitals show a temperature of 37-0C (98.6F), blood pressure of 85/55 mm Hg, pulse of 115/min, respirations of 19/min, and oxygen saturation of 92% on room air. On physical examination, the patient is diaphoretic and unresponsive. Extremities are pale and cool. There is a 3-inch long penetrating wound between the 3rd and 4th intercostal space on the left side of the chest, which is bleeding profusely. Transthoracic echocardiography reveals a full thickness penetrating injury to the right ventricular free wall. There are no apparent injuries to any coronary arteries or major branches. The patient is intubated and aggressive fluid resuscitation is initiated, including a blood transfusion. Which of the following is the best definitive surgical approach to take in this patient?",Immediate cardiac transplant,Watchful waiting while resuscitative fluids are initiated,Needle thoracostomy over the 2nd intercostal space,Surgical adhesive glue,NOTA,FALSE,TRUE
+258,TRUE-NOTA,1,80,"A post-mortem lung examination of a 68-year-old male overweight male with evidence of chronic lower extremity edema, a 60 pack-year smoking history and daily productive cough would be most likely to reveal:",Hypereosinophilia,Reid Index > 50%,Non-caseating granulomas,Evidence of a necrotizing infection,B,"A post-mortem lung examination of a 68-year-old male overweight male with evidence of chronic lower extremity edema, a 60 pack-year smoking history and daily productive cough would be most likely to reveal:",Hypereosinophilia,Non-caseating granulomas,Evidence of a necrotizing infection,Keratin pearls,NOTA,FALSE,TRUE
+203,TRUE-NOTA,1,81,A 54-year-old male makes an appointment with his primary care physician due to chronic fatigue that has left him unable to hike or do other physically demanding activities with his friends. He has well-controlled hypertension and diabetes but has otherwise been healthy. He does not smoke but drinks socially with his friends. Physical exam reveals enlarged nodules that are not tender to palpation. A biopsy is obtained showing a characteristic change in chromosome 18. The regulation of which of the following proteins will be most abnormal in this patient?,Caspase-9,CD15,Cyclin-dependent kinase 4,Ras pathway transcription factors,A,A 54-year-old male makes an appointment with his primary care physician due to chronic fatigue that has left him unable to hike or do other physically demanding activities with his friends. He has well-controlled hypertension and diabetes but has otherwise been healthy. He does not smoke but drinks socially with his friends. Physical exam reveals enlarged nodules that are not tender to palpation. A biopsy is obtained showing a characteristic change in chromosome 18. The regulation of which of the following proteins will be most abnormal in this patient?,Caspase-8,CD15,Cyclin-dependent kinase 4,Ras pathway transcription factors,NOTA,FALSE,TRUE
+50,TRUE-NOTA,1,82,A 44-year-old African-American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of serious illness and does not take any medication. She has been working in a law firm for the past 20 years and travels to the Carribean regularly with her husband. Examination of her skin shows no abnormal moles or warts. This woman is at greatest risk of which of the following types of melanoma?,Desmoplastic,Nodular,Acral lentiginous,Superficial spreading,C,A 44-year-old African-American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of serious illness and does not take any medication. She has been working in a law firm for the past 20 years and travels to the Carribean regularly with her husband. Examination of her skin shows no abnormal moles or warts. This woman is at greatest risk of which of the following types of melanoma?,Desmoplastic,Nodular,Lentigo maligna,Superficial spreading,NOTA,FALSE,TRUE
+493,TRUE-NOTA,0.996858639,83,"A 60-year-old woman is brought to the clinic by her daughter for evaluation. The daughter reports that her mother has recently been having difficulty combing her hair in the mornings. The patient‚Äôs family history is significant for an ischemic stroke in her father. The patient‚Äôs past medical history is positive for diverticulosis. She takes no medication. Her blood pressure is 120/70 mm Hg, heart rate is 75/min, respiratory rate is 14/min, and temperature is 37.6¬∞C (99.7¬∞F). On physical examination, the patient‚Äôs neck is stiff and she also has bilateral shoulder tenderness; muscle strength is intact. Laboratory work is performed and presented below:
+Hemoglobin 12.9 g/dL
+Hematocrit 37.7% 
+Leukocyte count 5,500/mm3
+Neutrophils 65%
+Lymphocytes 30%
+Monocytes 5%
+Mean corpuscular volume 82.2 Œºm3
+Platelet count 190,000/mm3
+Erythrocyte sedimentation rate 65 mm/h
+C-reactive protein 44 mg/dL
+For which of the symptoms below should the patient be screened?",Jaw claudication,Heliotrope rash,Gastroesophageal reflux,Pink plaques with silvery scales,A,"A 60-year-old woman is brought to the clinic by her daughter for evaluation. The daughter reports that her mother has recently been having difficulty combing her hair in the mornings. The patients family history is significant for an ischemic stroke in her father. The patients past medical history is positive for diverticulosis. She takes no medication. Her blood pressure is 120/70 mm Hg, heart rate is 75/min, respiratory rate is 14/min, and temperature is 37.6C (99.7F). On physical examination, the patients neck is stiff and she also has bilateral shoulder tenderness; muscle strength is intact. Laboratory work is performed and presented below:
+Hemoglobin 12.9 g/dL
+Hematocrit 37.7% 
+Leukocyte count 5,500/mm3
+Neutrophils 65%
+Lymphocytes 30%
+Monocytes 5%
+Mean corpuscular volume 82.2 m3
+Platelet count 190,000/mm3
+Erythrocyte sedimentation rate 65 mm/h
+C-reactive protein 44 mg/dL
+For which of the symptoms below should the patient be screened?",Uveitis,Heliotrope rash,Gastroesophageal reflux,Pink plaques with silvery scales,NOTA,FALSE,TRUE
+463,TRUE-NOTA,0.999418942,84,"A 30-year-old woman comes to the physician because she has been unable to conceive for 3 years. Analysis of her husband's semen has shown normal sperm counts during this time. The patient also reports episodic pelvic and back pain accompanied by painful diarrhea for 5 years. She has about one such episode on average per month for 4‚Äì6 days. She has taken ibuprofen for the pain, which has provided some relief. Menses have occurred at regular 29-day intervals since menarche at the age of 14 years and last for 7 days. She is sexually active with her husband and does not use contraception. Vital signs are within normal limits. Pelvic and bimanual examinations are normal; rectal examination is unremarkable. A hysterosalpingogram 6 months prior showed normal results. Which of the following is the most likely underlying mechanism of this patient's symptoms?",Loss of fallopian tube function following infection,Smooth muscle tumor arising from the myometrium,Endometrial tissue outside the uterine cavity,Increased secretion of androgens and luteinizing hormone,C,"A 30-year-old woman comes to the physician because she has been unable to conceive for 3 years. Analysis of her husband's semen has shown normal sperm counts during this time. The patient also reports episodic pelvic and back pain accompanied by painful diarrhea for 5 years. She has about one such episode on average per month for 46 days. She has taken ibuprofen for the pain, which has provided some relief. Menses have occurred at regular 29-day intervals since menarche at the age of 14 years and last for 7 days. She is sexually active with her husband and does not use contraception. Vital signs are within normal limits. Pelvic and bimanual examinations are normal; rectal examination is unremarkable. A hysterosalpingogram 6 months prior showed normal results. Which of the following is the most likely underlying mechanism of this patient's symptoms?",Loss of fallopian tube function following infection,Smooth muscle tumor arising from the myometrium,Increased secretion of prolactin,Increased secretion of androgens and luteinizing hormone,NOTA,FALSE,TRUE
+32,TRUE-NOTA,0.998745295,85,"A 55-year-old truck driver is brought to a physician by his wife. She states that her husband developed a fever and began feeling weak 3 days ago, but has refused medical help. He has been unable to go to work because of his symptoms. The patient has been previously hospitalized for a tricuspid valve replacement surgery 1 year ago and takes aspirin daily. The medical history is also relevant for myocardial infarction 3 years ago and hypertension for the past 10 years, for which he takes lisinopril. His blood pressure is 140/80 mm Hg, the pulse is 82/min, the respirations are 18/minute, and the temperature is 37.2¬∞C (98.9¬∞F). On examination, several hemorrhages are noted on the nail beds of several fingers. Which of the following findings would be most helpful in establishing a diagnosis?",Bicuspid valve,Friable irregular masses attached to the valve,Papillary muscle rupture,Annular calcification,B,"A 55-year-old truck driver is brought to a physician by his wife. She states that her husband developed a fever and began feeling weak 3 days ago, but has refused medical help. He has been unable to go to work because of his symptoms. The patient has been previously hospitalized for a tricuspid valve replacement surgery 1 year ago and takes aspirin daily. The medical history is also relevant for myocardial infarction 3 years ago and hypertension for the past 10 years, for which he takes lisinopril. His blood pressure is 140/80 mm Hg, the pulse is 82/min, the respirations are 18/minute, and the temperature is 37.2C (98.9F). On examination, several hemorrhages are noted on the nail beds of several fingers. Which of the following findings would be most helpful in establishing a diagnosis?",Thickened valve with multiple small vegetations,Bicuspid valve,Papillary muscle rupture,Annular calcification,NOTA,FALSE,TRUE
+371,TRUE-NOTA,1,86,A previously healthy 30-year-old woman comes to the physician for the evaluation of pain during sexual intercourse for 6 months. She also reports frequent episodes of crampy pelvic pain that starts one day before menses and lasts for 7 days. Her symptoms are not relieved with pain medication. Menses occur at regular 28-day intervals and last 5 days. Her last menstrual period was 2 weeks ago. She is sexually active with her husband. She uses a combined oral contraceptive pill. Her vital signs are within normal limits. Physical examination shows rectovaginal tenderness. Cervical and urethral swabs are negative. Transvaginal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?,Measurement of CA-125 levels,Hysterectomy,Laparoscopy,Hysteroscopy,C,A previously healthy 30-year-old woman comes to the physician for the evaluation of pain during sexual intercourse for 6 months. She also reports frequent episodes of crampy pelvic pain that starts one day before menses and lasts for 7 days. Her symptoms are not relieved with pain medication. Menses occur at regular 28-day intervals and last 5 days. Her last menstrual period was 2 weeks ago. She is sexually active with her husband. She uses a combined oral contraceptive pill. Her vital signs are within normal limits. Physical examination shows rectovaginal tenderness. Cervical and urethral swabs are negative. Transvaginal ultrasonography shows no abnormalities. Which of the following is the most appropriate next step in management?,Measurement of CA-125 levels,Hysterectomy,Hysteroscopy,CT scan of the abdomen and pelvis,NOTA,FALSE,TRUE
+389,TRUE-NOTA,1,87,"A 50-year-old man visits his physician after 20 years of not seeking any medical care. He is concerned about his health after a colleague recently had a heart attack. The patient has no active complaints and says he feels healthy; however, he does not exercise regularly and lives a sedentary lifestyle. He is employed as an administrative position at a local college, and is seated at a desk most of the day. His father had a heart attack at age 54 and his mother is still alive with no health concerns. He does not smoke, only drinks socially, and does not use drugs. Today, his blood pressure is 130/90 mm Hg, pulse is 84/min, and respiratory rate is 14/min. Physical examination reveals an obese male with no significant findings. An ECG shows no abnormalities, and laboratory testing shows the following:
+Laboratory test
+Serum glucose (fasting)  105 mg/dL
+Serum electrolytes 
+Sodium  142 mEq/L
+Potassium 3.9 mEq/L
+Chloride 101 mEq/L
+Serum creatinine 0.8 mg/dl
+Blood urea nitrogen 10 mg/dl
+Cholesterol, total 250 mg/dL
+HDL-cholesterol 35 mg/dL
+LDL-cholesterol 186 mg/dL
+Triglycerides 170 mg/dL
+Urinalysis 
+Glucose  negative
+Ketones negative
+Leucocytes negative
+Nitrites negative 
+Red blood cells (RBC) negative 
+Casts negative 
+Which of the following lab abnormalities in this patient is an indication for treatment?",Blood pressure reading,Patient‚Äôs weight,High LDL-cholesterol,Serum glucose level,C,"A 50-year-old man visits his physician after 20 years of not seeking any medical care. He is concerned about his health after a colleague recently had a heart attack. The patient has no active complaints and says he feels healthy; however, he does not exercise regularly and lives a sedentary lifestyle. He is employed as an administrative position at a local college, and is seated at a desk most of the day. His father had a heart attack at age 54 and his mother is still alive with no health concerns. He does not smoke, only drinks socially, and does not use drugs. Today, his blood pressure is 130/90 mm Hg, pulse is 84/min, and respiratory rate is 14/min. Physical examination reveals an obese male with no significant findings. An ECG shows no abnormalities, and laboratory testing shows the following:
+Laboratory test
+Serum glucose (fasting)  105 mg/dL
+Serum electrolytes 
+Sodium  142 mEq/L
+Potassium 3.9 mEq/L
+Chloride 101 mEq/L
+Serum creatinine 0.8 mg/dl
+Blood urea nitrogen 10 mg/dl
+Cholesterol, total 250 mg/dL
+HDL-cholesterol 35 mg/dL
+LDL-cholesterol 186 mg/dL
+Triglycerides 170 mg/dL
+Urinalysis 
+Glucose  negative
+Ketones negative
+Leucocytes negative
+Nitrites negative 
+Red blood cells (RBC) negative 
+Casts negative 
+Which of the following lab abnormalities in this patient is an indication for treatment?",Blood pressure reading,Patients weight,High triglyceride levels,Serum glucose level,NOTA,FALSE,TRUE
+268,TRUE-NOTA,0.997214485,89,"A 26-year-old G1P0 woman presents to her primary care physician‚Äôs office with feelings of anxiety and trouble with sleep. She finds it difficult initiating sleep, occasionally has palpitations, and feels fatigued. She denies having similar symptoms in the past or starting any new medications or illicit drugs. She is currently 10 weeks pregnant and is closely followed by her obstetrician. Her temperature is 98.6¬∞F (37¬∞C), blood pressure is 125/70 mmHg, pulse is 105/min, and respirations are 18/min. On physical exam, the patient is mildly diaphoretic. The skin is warm and the thyroid gland is diffusely enlarged with thyroid bruits. Laboratory studies are significant for a thyroid-stimulating hormone level of 0.01 ¬µU/mL (normal is 0.5-5.0 ¬µU/mL) and an elevated free thyroxine (FT4) that is inappropriate for her pregnancy. Which of the following is the best treatment option for this patient?",Methimazole,Propylthiouracil,Radioiodine therapy,Thyroidectomy,B,"A 26-year-old G1P0 woman presents to her primary care physicians office with feelings of anxiety and trouble with sleep. She finds it difficult initiating sleep, occasionally has palpitations, and feels fatigued. She denies having similar symptoms in the past or starting any new medications or illicit drugs. She is currently 10 weeks pregnant and is closely followed by her obstetrician. Her temperature is 98.6F (37C), blood pressure is 125/70 mmHg, pulse is 105/min, and respirations are 18/min. On physical exam, the patient is mildly diaphoretic. The skin is warm and the thyroid gland is diffusely enlarged with thyroid bruits. Laboratory studies are significant for a thyroid-stimulating hormone level of 0.01 U/mL (normal is 0.5-5.0 U/mL) and an elevated free thyroxine (FT4) that is inappropriate for her pregnancy. Which of the following is the best treatment option for this patient?",Methimazole,Observation,Radioiodine therapy,Thyroidectomy,NOTA,FALSE,TRUE
+233,TRUE-NOTA,1,90,"A 32-year-old woman comes to the physician because of a 3-week history of intermittent loose stools and a 1.2-kg (2.6-lb) weight loss. She immigrated to the US from Uganda 6 weeks ago. Abdominal examination shows diffuse tenderness with no guarding or rebound. The liver is firm and palpable 3 cm below the right costal margin, and the spleen is palpable just below the left costal margin. Her leukocyte count is 12,800/mm3 (12% eosinophils). Stool culture shows several oval-shaped eggs with lateral spines. Microscopic examination of a liver biopsy specimen shows granulomatous inflammation with periportal fibrosis. Exposure to which of the following is most likely to have played a role in the development of this patient's symptoms?",Undercooked pork meat,Undercooked fish meat,Dog feces,Freshwater snails,D,"A 32-year-old woman comes to the physician because of a 3-week history of intermittent loose stools and a 1.2-kg (2.6-lb) weight loss. She immigrated to the US from Uganda 6 weeks ago. Abdominal examination shows diffuse tenderness with no guarding or rebound. The liver is firm and palpable 3 cm below the right costal margin, and the spleen is palpable just below the left costal margin. Her leukocyte count is 12,800/mm3 (12% eosinophils). Stool culture shows several oval-shaped eggs with lateral spines. Microscopic examination of a liver biopsy specimen shows granulomatous inflammation with periportal fibrosis. Exposure to which of the following is most likely to have played a role in the development of this patient's symptoms?",Tsetse flies,Undercooked pork meat,Undercooked fish meat,Dog feces,NOTA,FALSE,TRUE
+21,TRUE-NOTA,0.998063892,93,"A 54-year-old woman with a past medical history of mental retardation, hypertension, and diabetes presents to the emergency department with a change in her behavior. Her caretakers state that the patient‚Äôs gait suddenly became ataxic, and she became less responsive than her normal non-verbal baseline. Her temperature is 98.5¬∞F (36.9¬∞C), blood pressure is 125/68 mmHg, pulse is 90/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for an unremarkable HEENT exam with normal facial features and no signs of airway compromise. Neurological exam is remarkable for new onset spasticity. The patient has 3+ reflexes and a positive Babinski sign. Musculoskeletal exam is only notable for symmetric swelling and deformities of the patient‚Äôs hands bilaterally. Additionally, there is a ""clunk"" when posterior force is applied to the head while anterior force is applied to the cervical spine. Which of the following is the most likely risk factor that predisposed this patient to this condition?",Cerebral palsy,Diabetes mellitus,Down syndrome,Rheumatoid arthritis,D,"A 54-year-old woman with a past medical history of mental retardation, hypertension, and diabetes presents to the emergency department with a change in her behavior. Her caretakers state that the patients gait suddenly became ataxic, and she became less responsive than her normal non-verbal baseline. Her temperature is 98.5F (36.9C), blood pressure is 125/68 mmHg, pulse is 90/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for an unremarkable HEENT exam with normal facial features and no signs of airway compromise. Neurological exam is remarkable for new onset spasticity. The patient has 3+ reflexes and a positive Babinski sign. Musculoskeletal exam is only notable for symmetric swelling and deformities of the patients hands bilaterally. Additionally, there is a ""clunk"" when posterior force is applied to the head while anterior force is applied to the cervical spine. Which of the following is the most likely risk factor that predisposed this patient to this condition?",Cerebral palsy,Diabetes mellitus,Down syndrome,Hypertension,NOTA,FALSE,TRUE
+216,TRUE-NOTA,1,94,"A 24-year-old man is brought to the emergency department 15 minutes after he sustained a stab wound to the left chest just below the clavicle. On arrival, he has rapid, shallow breathing and appears anxious. His pulse is 135/min, respirations are 30/min and shallow, and palpable systolic blood pressure is 80 mm Hg. He is intubated and mechanically ventilated. Infusion of 0.9% saline is begun. Five minutes later, his pulse is 133/min and blood pressure is 82/45 mm Hg. Examination shows no active external bleeding. There is a 2.5-cm single stab wound to the left chest at the 4th intercostal space at the midclavicular line. Cardiovascular examination shows muffled heart sounds and jugular venous distention. Breath sounds are normal. Further evaluation of this patient is most likely to show which of the following findings?",Tracheal deviation toward the right side,Hemoptysis,A drop in systolic blood pressure of 14 mmHg during inspiration,"Paradoxical motion of part of the chest with breathing
+""",C,"A 24-year-old man is brought to the emergency department 15 minutes after he sustained a stab wound to the left chest just below the clavicle. On arrival, he has rapid, shallow breathing and appears anxious. His pulse is 135/min, respirations are 30/min and shallow, and palpable systolic blood pressure is 80 mm Hg. He is intubated and mechanically ventilated. Infusion of 0.9% saline is begun. Five minutes later, his pulse is 133/min and blood pressure is 82/45 mm Hg. Examination shows no active external bleeding. There is a 2.5-cm single stab wound to the left chest at the 4th intercostal space at the midclavicular line. Cardiovascular examination shows muffled heart sounds and jugular venous distention. Breath sounds are normal. Further evaluation of this patient is most likely to show which of the following findings?",Tracheal deviation toward the right side,Hemoptysis,Herniation of the stomach into the chest,"Paradoxical motion of part of the chest with breathing
+""",NOTA,FALSE,TRUE
+104,TRUE-NOTA,1,95,"A 40-year-old man presents to his primary-care doctor for a follow-up of his hypertension. He is asymptomatic at his office visit and denies any new complaints. He has a 10-year history of hypertension that remains poorly controlled on maximum doses of lisinopril, hydrochlorothiazide, and amlodipine. His past medical history is otherwise unremarkable. He has no smoking history, drinks alcohol occasionally, and denies any illicit drug use. His father required a kidney transplant in his forties. The physical exam is notable for palpable flank masses bilaterally. Laboratory studies show a creatinine of 2.5. The physician orders a renal ultrasound, and the results are shown. Which of the following is the most appropriate test to screen for additional complications of this patient's condition?",Colonoscopy,Esophagogastroduodenoscopy,Liver function tests,MR angiography of the brain,D,"A 40-year-old man presents to his primary-care doctor for a follow-up of his hypertension. He is asymptomatic at his office visit and denies any new complaints. He has a 10-year history of hypertension that remains poorly controlled on maximum doses of lisinopril, hydrochlorothiazide, and amlodipine. His past medical history is otherwise unremarkable. He has no smoking history, drinks alcohol occasionally, and denies any illicit drug use. His father required a kidney transplant in his forties. The physical exam is notable for palpable flank masses bilaterally. Laboratory studies show a creatinine of 2.5. The physician orders a renal ultrasound, and the results are shown. Which of the following is the most appropriate test to screen for additional complications of this patient's condition?",Colonoscopy,Esophagogastroduodenoscopy,Liver function tests,Serum amylase and lipase,NOTA,FALSE,TRUE
+487,TRUE-NOTA,0.999000999,96,"A 17-year-old female is brought to the emergency room by her father because she has been experiencing shortness of breath and chest pain. She says that the chest pain is worse when she breathes or coughs. Furthermore, on the way to the hospital she noticed that there were specks of blood on a tissue that she coughed into. She has no previous medical history and does not recall anything that could have provoked these symptoms. On presentation her temperature is 99¬∞F (37.2¬∞C), blood pressure is 107/65 mmHg, pulse is 102/min, respirations are 21/min, and O2 saturation is 91% on room air. Further testing shows a large filling defect in the pulmonary vessels, and the patient is started on an appropriate treatment intravenously. After drug administration, the effects of the drug are monitored using a standard blood test. Surprisingly, the test results come back within normal parameters. The most likely underlying cause of this patient's symptoms has which of the following modes of inheritance?",Autosomal dominant,Autosomal partial dominance,X-linked dominant,X-linked recessive,A,"A 17-year-old female is brought to the emergency room by her father because she has been experiencing shortness of breath and chest pain. She says that the chest pain is worse when she breathes or coughs. Furthermore, on the way to the hospital she noticed that there were specks of blood on a tissue that she coughed into. She has no previous medical history and does not recall anything that could have provoked these symptoms. On presentation her temperature is 99F (37.2C), blood pressure is 107/65 mmHg, pulse is 102/min, respirations are 21/min, and O2 saturation is 91% on room air. Further testing shows a large filling defect in the pulmonary vessels, and the patient is started on an appropriate treatment intravenously. After drug administration, the effects of the drug are monitored using a standard blood test. Surprisingly, the test results come back within normal parameters. The most likely underlying cause of this patient's symptoms has which of the following modes of inheritance?",Autosomal recessive,Autosomal partial dominance,X-linked dominant,X-linked recessive,NOTA,FALSE,TRUE
+324,TRUE-NOTA,1,97,"A 26-year-old male presents to his primary care physician with complaints of burning with urination, penile discharge, and intermittent fevers. A urethral smear shows gram negative diplococci within white blood cells. The organism grows well when cultured on Thayer-Martin agar. The patient is prescribed a course of ceftriaxone and the infection resolves without further complication. One year later, the patient returns with the same infection. Which of the following best explains this lack of lasting immunity?",Exotoxin release,Antigenic variation,Polysaccharide capsule,Bruton's agammaglobulinemia,B,"A 26-year-old male presents to his primary care physician with complaints of burning with urination, penile discharge, and intermittent fevers. A urethral smear shows gram negative diplococci within white blood cells. The organism grows well when cultured on Thayer-Martin agar. The patient is prescribed a course of ceftriaxone and the infection resolves without further complication. One year later, the patient returns with the same infection. Which of the following best explains this lack of lasting immunity?",Exotoxin release,Polysaccharide capsule,Bruton's agammaglobulinemia,Lack of necessary vaccination,NOTA,FALSE,TRUE
+496,TRUE-NOTA,1,98,"A 37-year-old man with no significant past medical history is rear-ended in a motor vehicle accident. He reported significant neck pain to emergency responders, but otherwise denies weakness, numbness or tingling in his extremities. His vitals on presentation to the ED are HR 90, BP 140/80, RR 20, SpO2 98%. What is the most appropriate next step upon presentation to the emergency room?",Lateral cervical film,Cervical immobilization,IV methylprednisolone,Observation overnight,B,"A 37-year-old man with no significant past medical history is rear-ended in a motor vehicle accident. He reported significant neck pain to emergency responders, but otherwise denies weakness, numbness or tingling in his extremities. His vitals on presentation to the ED are HR 90, BP 140/80, RR 20, SpO2 98%. What is the most appropriate next step upon presentation to the emergency room?",Lateral cervical film,Three view cervical spine series,IV methylprednisolone,Observation overnight,NOTA,FALSE,TRUE
+457,TRUE-NOTA,1,99,"A 43-year-old man with a history of schizophrenia, currently controlled with medication, comes in for an appointment with his internist. He is concerned about abnormal discharge from both nipples over the past 3 months. The fluid is white, and he wonders if it could be milk. On further review of systems, he endorses a diminished sexual drive. The physician suspects that one of the patient's medications may be the culprit for these symptoms. Which of the following medications is NOT likely to be the cause?",Haloperidol,Bromocriptine,Fluphenazine,Risperidone,B,"A 43-year-old man with a history of schizophrenia, currently controlled with medication, comes in for an appointment with his internist. He is concerned about abnormal discharge from both nipples over the past 3 months. The fluid is white, and he wonders if it could be milk. On further review of systems, he endorses a diminished sexual drive. The physician suspects that one of the patient's medications may be the culprit for these symptoms. Which of the following medications is NOT likely to be the cause?",Metoclopramide,Haloperidol,Fluphenazine,Risperidone,NOTA,FALSE,TRUE
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,

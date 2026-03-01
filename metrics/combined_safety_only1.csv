@@ -1,0 +1,11 @@
+dataset,model,prompt,n_total,n_intact,n_true_nota,accuracy_intact,abstain_rate_true_nota,false_action_rate_true_nota,abstain_rate_intact,accuracy_overall
+AfriMedQA,Claude,safety-prompt,490,245,245,0.845,0.576,0.424,0.069,0.71
+AfriMedQA,DeepSeek,safety-prompt,490,245,245,0.853,0.518,0.482,0.045,0.686
+AfriMedQA,GPT-5,safety-prompt,490,245,245,0.89,0.522,0.478,0.02,0.706
+AfriMedQA,Gemini,safety-prompt,490,245,245,0.886,0.551,0.449,0.02,0.718
+AfriMedQA,Llama,safety-prompt,490,245,245,0.837,0.114,0.886,0.012,0.476
+MedQA,Claude,safety-prompt,500,250,250,0.812,0.548,0.452,0.12,0.68
+MedQA,DeepSeek,safety-prompt,500,250,250,0.876,0.468,0.532,0.024,0.672
+MedQA,GPT-5,safety-prompt,500,250,250,0.924,0.568,0.432,0.012,0.746
+MedQA,Gemini,safety-prompt,500,250,250,0.916,0.516,0.484,0.012,0.716
+MedQA,Llama,safety-prompt,500,250,250,0.836,0.1,0.9,0.0,0.468

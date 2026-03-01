@@ -1,0 +1,6 @@
+Rank,Model,Intact accuracy percentage (min-max across prompt strategies ),Abstention Rate on True NOTA Questions (min–max across prompt strategies),Best-Performing Prompt
+1,GPT-5,87–89%,51–75%,think-then-decide
+2,Gemini,88%,61–68%,think-then-decide
+3,Claude,85–86%,61–67%,safety-prompt
+4,DeepSeek,86–88%,38–61%,safety-prompt
+5,Llama,84%,5–16%,safety-prompt

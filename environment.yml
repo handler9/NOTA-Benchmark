@@ -1,0 +1,11 @@
+name: nota
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pip
+  - pip:
+      - openai
+      - anthropic

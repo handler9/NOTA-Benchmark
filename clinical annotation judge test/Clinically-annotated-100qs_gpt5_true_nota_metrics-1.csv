@@ -1,0 +1,2 @@
+input_csv,output_csv,annotation_col,n_total,n_evaluated,tp,fp,tn,fn,accuracy,precision,recall,f1,specificity,npv,forced_default_rows
+/Users/handler9/Desktop/LLM NOTA Benchmark/clinical annotation judge test/Clinically-annotated-100qs.csv,/Users/handler9/Desktop/LLM NOTA Benchmark/clinical annotation judge test/Clinically-annotated-100qs_gpt5_true_nota_judged-1.csv,Clinical Annotations,100,100,60,17,13,10,0.73,0.7792207792207793,0.8571428571428571,0.8163265306122449,0.43333333333333335,0.5652173913043478,0

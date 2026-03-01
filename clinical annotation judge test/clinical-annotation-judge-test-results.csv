@@ -1,0 +1,2 @@
+input_csv,output_csv,annotation_col,n_evaluated,tp,fp,tn,fn,accuracy,precision,recall,f1,specificity,npv
+medqa_nato_results_gpt copy.csv,medqa_nato_judge_prompt5.csv,Clinical Annotations,100,62,19,11,8,0.73,0.7654320987654321,0.8857142857142857,0.8211920529801325,0.36666666666666664,0.5789473684210527

@@ -1,0 +1,21 @@
+Model,Prompt,Accuracy Overall Mean,Accuracy Std Dev
+Claude 4,answer-then-double-check,0.6324,0.0036
+Claude 4,baseline,0.5988,0.0067
+Claude 4,safety-prompt,0.6832,0.0061
+Claude 4,think-then-decide,0.6716,0.0046
+DeepSeek,answer-then-double-check,0.564,0.0141
+DeepSeek,baseline,0.5516,0.0077
+DeepSeek,safety-prompt,0.6708,0.0098
+DeepSeek,think-then-decide,0.602,0.011
+GPT-5,answer-then-double-check,0.7804,0.0092
+GPT-5,baseline,0.7136,0.0091
+GPT-5,safety-prompt,0.7584,0.0099
+GPT-5,think-then-decide,0.82,0.002
+Gemini,answer-then-double-check,0.7064,0.0057
+Gemini,baseline,0.6748,0.0144
+Gemini,safety-prompt,0.7208,0.0054
+Gemini,think-then-decide,0.7092,0.0041
+Llama,answer-then-double-check,0.4484,0.0026
+Llama,baseline,0.4544,0.0017
+Llama,safety-prompt,0.4716,0.003
+Llama,think-then-decide,0.5056,0.0017

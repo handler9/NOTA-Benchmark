@@ -68,10 +68,11 @@ Same 500 questions run 5 times each to test variability across runs (100 total C
 | Run CSVs | `llm_runs/` *(not included — see note above)* |
 | Results script | `scripts/analyze-results/results_allruns.py` |
 | Metrics output | `metrics/all_runs_metrics.csv` |
-| Variance script | `variancebymodel.py` |
+| Variance script | `scripts/analyze-results/variancebymodel.py` |
 | Variance output | `metrics/variance_summary_by_model_prompt.csv` |
 | Mean/SD script | `scripts/analyze-results/mean-sd-allruns.py` |
 | Mean/SD output | `metrics/accuracy_overall_mean_sd_table.csv` |
+| Run manifest | `data/manifest_files_loaded.csv` |
 
 ---
 
@@ -247,8 +248,6 @@ NOTA-Benchmark/
 ├── metrics/
 ├── tables/
 │
-├── variancebymodel.py
-├── variance_test_all_runs.py
 ├── environment.yml
 ├── LICENSE
 └── README.md

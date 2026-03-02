@@ -7,7 +7,8 @@ from typing import Optional
 # =========================
 # CONFIG
 # =========================
-DATA_DIR = Path("llm_runs")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_ROOT / "llm_runs"
 QUESTION_COL = "question_id"
 
 # Matches: model_prompt_run.csv
@@ -105,7 +106,7 @@ manifest = (
     .drop_duplicates()
     .sort_values(["prompt", "model", "run", "source_file"])
 )
-manifest.to_csv("manifest_files_loaded.csv", index=False)
+manifest.to_csv(REPO_ROOT / "data" / "manifest_files_loaded.csv", index=False)
 
 # =========================
 # RUN COUNTS (GROUND TRUTH)
@@ -132,7 +133,7 @@ per_question = gq.agg(
 ).reset_index()
 
 per_question["abstain_flip"] = per_question["has_abstain"] & (~per_question["all_abstain"])
-per_question.to_csv("variance_per_question.csv", index=False)
+per_question.to_csv(REPO_ROOT / "metrics" / "variance_per_question.csv", index=False)
 
 # =========================
 # SUMMARY BY MODEL × PROMPT
@@ -167,7 +168,7 @@ summary["entropy_mean"] = summary["entropy_mean"].round(4)
 summary["entropy_median"] = summary["entropy_median"].round(4)
 
 summary = summary.sort_values(["prompt", "model"])
-summary.to_csv("variance_summary_by_model_prompt.csv", index=False)
+summary.to_csv(REPO_ROOT / "metrics" / "variance_summary_by_model_prompt.csv", index=False)
 
 # =========================
 # QC WARNINGS

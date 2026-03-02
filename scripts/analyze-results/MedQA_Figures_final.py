@@ -20,7 +20,7 @@ while ROOT != ROOT.parent and not (ROOT / "metrics").exists():
 if not (ROOT / "metrics").exists():
     ROOT = Path(__file__).resolve().parents[2]
 
-METRICS = ROOT / "metrics" / "500q_results_4.csv"
+METRICS = ROOT / "metrics" / "medqa_results.csv"
 RAW_DIR = ROOT / "results_raw"
 OUTDIR = ROOT / "figures"
 OUTDIR.mkdir(exist_ok=True, parents=True)

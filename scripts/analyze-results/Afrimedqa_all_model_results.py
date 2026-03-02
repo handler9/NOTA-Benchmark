@@ -11,7 +11,7 @@ RESULTS_DIR = "results_raw_afrimedqa"
 METRICS_DIR = "metrics"
 
 QUESTION_KEY_FILE = os.path.join(DATA_DIR, "afrimedqa_questions_key.csv")
-OUTPUT_FILE = os.path.join(METRICS_DIR, "afrimedqa_results_1.csv")
+OUTPUT_FILE = os.path.join(METRICS_DIR, "afrimedqa_results.csv")
 
 # --------------------------------------------------------
 # 1. Load question key

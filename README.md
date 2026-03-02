@@ -53,7 +53,7 @@ Each model is evaluated under four prompt styles:
 | Model scripts | `scripts/<model-name>/` |
 | Raw results | `results_raw/` |
 | Analysis script | `scripts/analyze-results/All_Model_Results.py` |
-| Metrics output | `metrics/500q_results_4.csv` |
+| Metrics output | `metrics/medqa_results.csv` |
 
 ---
 
@@ -118,7 +118,7 @@ All files are located in the `clinical-judge-test/` folder.
 | Model scripts | `scripts/<model-name>/` *(scripts labeled `afrimedqa`)* |
 | Raw results | `results_raw_afrimedqa/` |
 | Analysis script | `scripts/analyze-results/Afrimedqa_all_model_results.py` |
-| Metrics output | `metrics/afrimedqa_results_1.csv` |
+| Metrics output | `metrics/afrimedqa_results.csv` |
 
 ---
 
@@ -170,7 +170,7 @@ For each model, the **best-performing prompt strategy** is selected using the sa
 | File/Folder | Path |
 |---|---|
 | Script | `scripts/analyze-results/make_ranked_tables_all_datasets.py` |
-| Input | `metrics/500q_results_4.csv`, `metrics/afrimedqa_results_1.csv`, `metrics/afrimedqa_results_nota-positives.csv`, `metrics/medqa_nota_positive_results.csv` |
+| Input | `metrics/medqa_results.csv`, `metrics/afrimedqa_results.csv`, `metrics/afrimedqa_results_nota-positives.csv`, `metrics/medqa_nota_positive_results.csv` |
 | CSV tables | `tables/` |
 | PNG tables | `tables/` |
 

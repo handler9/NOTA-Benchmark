@@ -8,10 +8,10 @@ import pandas as pd
 
 METRICS_DIR = "metrics"
 
-MEDQA_FILE = os.path.join(METRICS_DIR, "500q_results_4.csv")
-AFRIMEDQA_FILE = os.path.join(METRICS_DIR, "afrimedqa_results_1.csv")
+MEDQA_FILE = os.path.join(METRICS_DIR, "medqa_results.csv")
+AFRIMEDQA_FILE = os.path.join(METRICS_DIR, "afrimedqa_results.csv")
 
-OUTPUT_FILE = os.path.join(METRICS_DIR, "combined_safety_only1.csv")
+OUTPUT_FILE = os.path.join(METRICS_DIR, "combined_safety_only.csv")
 
 
 def normalize_prompt(p: str) -> str:

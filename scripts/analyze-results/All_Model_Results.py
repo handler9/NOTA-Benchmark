@@ -11,7 +11,7 @@ RESULTS_DIR = "results_raw"
 METRICS_DIR = "metrics"
 
 QUESTION_KEY_FILE = os.path.join(DATA_DIR, "question_key.csv")
-OUTPUT_FILE = os.path.join(METRICS_DIR, "500q_results_4.csv")
+OUTPUT_FILE = os.path.join(METRICS_DIR, "medqa_results.csv")
 
 # --------------------------------------------------------
 # 1. Load question key

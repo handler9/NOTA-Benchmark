@@ -15,8 +15,8 @@ For each input CSV, outputs:
   - out_dir/<stem>_model_performance_summary.png  (unless --no_png)
 
 Default inputs (relative to your project root):
-  metrics/500q_results_4.csv
-  metrics/afrimedqa_results_1.csv
+  metrics/medqa_results.csv
+  metrics/afrimedqa_results.csv
   metrics/afrimedqa_results_nota-positives.csv
   metrics/medqa_nota_positive_results.csv
 
@@ -256,8 +256,8 @@ def main():
         "--inputs",
         nargs="*",
         default=[
-            "metrics/500q_results_4.csv",
-            "metrics/afrimedqa_results_1.csv",
+            "metrics/medqa_results.csv",
+            "metrics/afrimedqa_results.csv",
             "metrics/afrimedqa_results_nota-positives.csv",
             "metrics/medqa_nota_positive_results.csv",
         ],

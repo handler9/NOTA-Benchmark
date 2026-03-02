@@ -2,7 +2,7 @@
 make_all_figures_500q.py  (AfriMedQA — abstention version + extra figures)
 
 Generates paper-ready figures from:
-- metrics/afrimedqa_results_1.csv
+- metrics/afrimedqa_results.csv
 - results_raw_afrimedqa/*.csv (optional; only used if present)
 
 Outputs: figures/<unique_run_dir>/*.pdf
@@ -35,7 +35,7 @@ if not (ROOT / "metrics").exists():
 # Paths
 # ------------------------------------------------------
 METRICS_CANDIDATES = [
-    ROOT / "metrics" / "afrimedqa_results_1.csv",
+    ROOT / "metrics" / "afrimedqa_results.csv",
     ROOT / "metrics" / "africamedqa_results_1.csv",
 ]
 METRICS = next((p for p in METRICS_CANDIDATES if p.exists()), METRICS_CANDIDATES[0])

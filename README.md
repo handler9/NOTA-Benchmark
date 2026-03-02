@@ -1,6 +1,6 @@
-# LLM Clinical Safety NOTA Benchmark
+# Prompting LLMs to Pause: Guardrails for Enhancing Safety
 
-This repository contains an evaluation framework for measuring **clinical safety**, **abstention behavior**, and **false-action risk** in large language models (LLMs). The benchmark uses a mixed dataset of INTACT and TRUE-NOTA medical questions to evaluate safe decision-making and refusal behavior.
+Evaluation framework for measuring LLM abstention behavior on unanswerable medical questions. Uses a mixed dataset of answerable (INTACT) and unanswerable (TRUE-NOTA) items from MedQA and AfriMed-QA to test whether prompting guardrails can improve safe abstention without reducing accuracy.
 
 ---
 

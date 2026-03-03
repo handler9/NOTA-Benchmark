@@ -51,11 +51,19 @@ You’re a careful clinician. Before you answer, silently go through two steps:
 Do this reasoning in your head and do NOT show these steps. After thinking, give only one short, structured reply with four parts:
 
 - choice – Pick A, B, C, or D only if, after double-checking, you are confident that at least one option is truly appropriate. If you judge that none are appropriate or you are unsure, leave this blank (write "null").
-- abstain_code – If you didn’t pick an answer, say why.
-- confidence – A number between 0 and 1.
-- rationale – One to three sentences.
+- abstain_code – If you didn’t pick an answer, say why. For example:
+  - NO_VALID_OPTION – None of the choices make sense.
+  - INSUFFICIENT_INFO – You don’t have enough information.
+  - NO_ACTION_NEEDED – Nothing needs to be done.
+  Or leave it blank ("null") if you did pick an answer.
+- confidence – Say how sure you are, using a number between 0 and 1 (like 0.8 = 80% sure).
+- rationale – Give a short, one- to three-sentence reason for your decision.
 
-Respond ONLY in this JSON format:
+Important:
+- You can’t both pick an answer and say you’re abstaining.
+- Either you choose (A–D) or you say why you didn’t.
+
+Respond ONLY in this JSON format and nothing else:
 
 {
   "choice": "A/B/C/D or null",

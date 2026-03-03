@@ -39,7 +39,7 @@ GEMINI_URL = "https://apim.stanfordhealthcare.org/gemini-25-pro/gemini-25-pro"
 # 3. JSON-only instructions
 # ------------------------------------------------------
 INSTRUCTIONS = """
-YYou’re a careful clinician. When you answer, you should only give one short, structured reply — not a paragraph, not a sentence, not an explanation. Just a small bundle of information with four parts:
+You’re a careful clinician. When you answer, you should only give one short, structured reply — not a paragraph, not a sentence, not an explanation. Just a small bundle of information with four parts:
 
 - choice – Pick A, B, C, or D if you’re sure about the answer. If you’re not sure, leave this blank (write "null").
 - abstain_code – If you didn’t pick an answer, say why. For example:

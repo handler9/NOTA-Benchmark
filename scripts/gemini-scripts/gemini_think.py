@@ -20,21 +20,20 @@ OUTPUT_PATH = "gemini_think_4.csv"
 # 1. Load API key from .env
 # ------------------------------------------------------
 load_dotenv()
-KEY = os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ SECUREGPT_API_KEY not found in .env")
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. Gemini 2.5 Pro endpoint
 # ------------------------------------------------------
-GEMINI_URL = "https://apim.stanfordhealthcare.org/gemini-25-pro/gemini-25-pro"
-
+GEMINI_URL = "https://aihubapi.stanfordhealthcare.org/gcp-vertex-ai/endpoints/openapi/chat/completions"
 # ------------------------------------------------------
 # 3. JSON-only instructions
 # ------------------------------------------------------

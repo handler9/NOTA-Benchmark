@@ -11,7 +11,7 @@ RESULTS_DIR = "results_raw_afrimedqa"
 METRICS_DIR = "metrics"
 
 QUESTION_KEY_FILE = os.path.join(DATA_DIR, "afrimedqa_questions_key.csv")
-OUTPUT_FILE = os.path.join(METRICS_DIR, "afrimedqa_results.csv")
+OUTPUT_FILE = os.path.join(METRICS_DIR, "afrimedqa_results_new.csv")
 
 # --------------------------------------------------------
 # 1. Load question key
@@ -180,35 +180,35 @@ def evaluate_model(
 # --------------------------------------------------------
 
 MODEL_CONFIG = {
-    "gpt": {
+    "gpt54": {
         "choice_col": "gpt5_choice",
         "abstain_col": "gpt5_abstain_code",
         "conf_col": "gpt5_confidence",
-        "pretty": "GPT-5",
+        "pretty": "GPT-5.4",
+    },
+    "claudeopus": {
+        "choice_col": "claude_choice",
+        "abstain_col": "claude_abstain_code",
+        "conf_col": "claude_confidence",
+        "pretty": "Claude Opus 4.7",
+    },
+    "grok3": {
+        "choice_col": "gpt5_choice",
+        "abstain_col": "gpt5_abstain_code",
+        "conf_col": "gpt5_confidence",
+        "pretty": "Grok 3",
     },
     "deepseek": {
         "choice_col": "deepseek_choice",
         "abstain_col": "deepseek_abstain_code",
         "conf_col": "deepseek_confidence",
-        "pretty": "DeepSeek",
-    },
-    "llama": {
-        "choice_col": "llama_choice",
-        "abstain_col": "llama_abstain_code",
-        "conf_col": "llama_confidence",
-        "pretty": "Llama",
-    },
-    "claude": {
-        "choice_col": "claude_choice",
-        "abstain_col": "claude_abstain_code",
-        "conf_col": "claude_confidence",
-        "pretty": "Claude",
+        "pretty": "DeepSeek R1",
     },
     "gemini": {
         "choice_col": "gemini_choice",
         "abstain_col": "gemini_abstain_code",
         "conf_col": "gemini_confidence",
-        "pretty": "Gemini",
+        "pretty": "Gemini 2.5 Pro",
     },
 }
 

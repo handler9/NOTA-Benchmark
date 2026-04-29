@@ -37,3 +37,102 @@ env/
 .idea/
 *.swp
 *.swo
+
+# -------------------------------------------------------
+# Old / superseded result files — kept locally, not on GitHub
+# -------------------------------------------------------
+
+# Old MedQA runs (old models / old endpoint)
+results_raw/claude_baseline.csv
+results_raw/claude_safety.csv
+results_raw/claude_think.csv
+results_raw/claude_doublecheck.csv
+results_raw/claude_safety_judge.csv
+results_raw/gpt_baseline.csv
+results_raw/gpt_safety.csv
+results_raw/gpt_think.csv
+results_raw/gpt_doublecheck.csv
+results_raw/llama_baseline.csv
+results_raw/llama_safety.csv
+results_raw/llama_think.csv
+results_raw/llama_doublecheck.csv
+
+# Old AfriMedQA runs (old models / old endpoint)
+results_raw_afrimedqa/claude_baseline_afrimedqa.csv
+results_raw_afrimedqa/claude_safety_afrimedqa.csv
+results_raw_afrimedqa/claude_think_afrimedqa.csv
+results_raw_afrimedqa/claude_doublecheck_afrimedqa.csv
+results_raw_afrimedqa/gpt_baseline_afrimedqa.csv
+results_raw_afrimedqa/gpt_safety_afrimedqa.csv
+results_raw_afrimedqa/gpt_think_afrimedqa.csv
+results_raw_afrimedqa/gpt_doublecheck_afrimedqa.csv
+results_raw_afrimedqa/llama_baseline_afrimedqa.csv
+results_raw_afrimedqa/llama_safety_afrimedqa.csv
+results_raw_afrimedqa/llama_think_afrimedqa.csv
+results_raw_afrimedqa/llama_doublecheck_afrimedqa.csv
+
+# Old HealthBench runs (old 394q, old models, dropped clarification condition)
+results_raw_healthbench/claude_baseline_hb.csv
+results_raw_healthbench/claude_safety_hb.csv
+results_raw_healthbench/claude_clarification_hb.csv
+results_raw_healthbench/claude_refined_clarification_hb.csv
+results_raw_healthbench/gpt_baseline_hb.csv
+results_raw_healthbench/gpt_safety_hb.csv
+results_raw_healthbench/gpt_clarification_hb.csv
+results_raw_healthbench/gpt_refined_clarification_hb.csv
+results_raw_healthbench/llama_baseline_hb.csv
+results_raw_healthbench/llama_safety_hb.csv
+results_raw_healthbench/llama_clarification_hb.csv
+results_raw_healthbench/llama_refined_clarification_hb.csv
+results_raw_healthbench/deepseek_baseline_hb.csv
+results_raw_healthbench/deepseek_safety_hb.csv
+results_raw_healthbench/deepseek_clarification_hb.csv
+results_raw_healthbench/deepseek_refined_clarification_hb.csv
+results_raw_healthbench/gemini_baseline_hb.csv
+results_raw_healthbench/gemini_safety_hb.csv
+results_raw_healthbench/gemini_clarification_hb.csv
+results_raw_healthbench/gemini_refined_clarification_hb.csv
+
+# Old labeled HealthBench dirs (superseded by *_new/)
+results_labeled_healthbench/
+results_labeled_healthbench_claude/
+results_labeled_healthbench_v2/
+
+# Old metrics files (superseded by hb_* and *_new.csv files)
+metrics/medqa_results.csv
+metrics/afrimedqa_results.csv
+metrics/afrimedqa_results_nota-positives.csv
+metrics/medqa_nota_positive_results.csv
+metrics/all_runs_metrics.csv
+metrics/combined_baseline_safety.csv
+metrics/combined_safety_only.csv
+metrics/accuracy_overall_mean_sd_table.csv
+metrics/variance_summary_by_model_prompt.csv
+metrics/summary_50intact.csv
+metrics/per-question-50q-test/
+metrics/healthbench_rowlevel.csv
+metrics/healthbench_rowlevel_claudejudge.csv
+metrics/healthbench_results_aggregate.csv
+metrics/healthbench_results_claudejudge.csv
+metrics/healthbench_results_pct.csv
+metrics/healthbench_results_table.csv
+metrics/healthbench_premature_closure.csv
+metrics/healthbench_over_deferral.csv
+metrics/healthbench_behavior_distribution.csv
+metrics/healthbench_rubric_scores.csv
+metrics/healthbench_summary.csv
+metrics/healthbench_significance.csv
+metrics/healthbench_significance_claudejudge.csv
+metrics/healthbench_judge_agreement.csv
+metrics/healthbench_judge_audit.csv
+metrics/healthbench_judge_audit_claude.csv
+metrics/healthbench_pairwise_claude.csv
+
+# Misc loose files not part of core study
+afrimedqa-labels.csv
+afrimedqa-labels.xlsx
+expanded_afrimedqa_labels.csv
+first person - afrimedqa-labels.csv
+final version - afrimedqa clinician validated labels copy.xlsx
+healthbench_professional_eval.jsonl
+logs/

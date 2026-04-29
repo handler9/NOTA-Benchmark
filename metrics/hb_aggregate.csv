@@ -1,0 +1,41 @@
+model,condition,subset,N,N_valid_behavior,pct_answered,pct_clarified,pct_escalated,pct_partial,premature_closure_rate,mean_rubric_score_pct
+GPT-5.4,baseline,hedging_reducible_uncertainty,250,250,24.4,1.6,0.8,73.2,14.0,57.4
+GPT-5.4,baseline,sufficient_context,241,239,75.5,0.0,2.9,20.7,0.0,62.9
+GPT-5.4,baseline,underspecified_low_risk,180,179,24.4,1.1,0.6,73.3,73.2,49.7
+GPT-5.4,baseline,underspecified_urgent,180,179,3.9,0.0,13.9,81.7,5.0,74.1
+GPT-5.4,safety,hedging_reducible_uncertainty,249,249,16.5,2.0,0.0,81.5,10.4,59.8
+GPT-5.4,safety,sufficient_context,241,239,66.8,0.0,2.5,29.9,0.0,62.4
+GPT-5.4,safety,underspecified_low_risk,180,179,17.2,3.3,1.1,77.8,61.5,53.2
+GPT-5.4,safety,underspecified_urgent,180,179,1.7,0.0,12.2,85.6,2.2,76.2
+Claude Opus 4.7,baseline,hedging_reducible_uncertainty,250,250,20.4,1.2,1.2,77.2,21.6,54.6
+Claude Opus 4.7,baseline,sufficient_context,250,246,65.2,0.4,3.2,29.6,0.0,63.6
+Claude Opus 4.7,baseline,underspecified_low_risk,181,180,22.7,4.4,1.7,70.7,74.4,46.8
+Claude Opus 4.7,baseline,underspecified_urgent,180,179,3.3,0.6,14.4,81.1,12.3,71.5
+Claude Opus 4.7,safety,hedging_reducible_uncertainty,250,250,14.4,2.4,1.6,81.6,13.2,57.1
+Claude Opus 4.7,safety,sufficient_context,250,246,62.0,0.0,3.6,32.8,0.0,62.3
+Claude Opus 4.7,safety,underspecified_low_risk,181,180,21.5,5.0,1.7,71.3,68.3,49.3
+Claude Opus 4.7,safety,underspecified_urgent,180,179,1.7,0.0,9.4,88.3,4.5,72.1
+Grok 3,baseline,hedging_reducible_uncertainty,250,250,8.0,2.4,0.4,89.2,12.4,51.7
+Grok 3,baseline,sufficient_context,243,241,43.2,0.4,2.1,53.5,0.0,52.2
+Grok 3,baseline,underspecified_low_risk,180,179,13.9,3.9,0.0,81.7,78.2,39.4
+Grok 3,baseline,underspecified_urgent,180,179,2.2,1.7,3.9,91.7,19.6,56.7
+Grok 3,safety,hedging_reducible_uncertainty,249,249,5.6,0.8,0.4,93.2,6.4,55.2
+Grok 3,safety,sufficient_context,242,240,37.2,0.0,1.7,60.3,0.0,53.8
+Grok 3,safety,underspecified_low_risk,180,179,8.9,1.7,1.1,87.8,62.6,43.7
+Grok 3,safety,underspecified_urgent,180,179,0.6,0.0,4.4,94.4,6.1,60.6
+Gemini 2.5 Pro,baseline,hedging_reducible_uncertainty,250,250,56.0,4.0,4.0,36.0,42.8,37.7
+Gemini 2.5 Pro,baseline,sufficient_context,250,246,86.0,0.8,5.2,6.4,0.0,53.6
+Gemini 2.5 Pro,baseline,underspecified_low_risk,181,180,60.8,5.5,2.2,30.9,82.8,31.0
+Gemini 2.5 Pro,baseline,underspecified_urgent,180,179,9.4,1.1,39.4,49.4,20.1,55.4
+Gemini 2.5 Pro,safety,hedging_reducible_uncertainty,250,250,55.6,1.6,7.2,35.6,31.2,39.4
+Gemini 2.5 Pro,safety,sufficient_context,250,246,85.6,0.4,6.4,6.0,0.0,56.7
+Gemini 2.5 Pro,safety,underspecified_low_risk,181,180,49.7,6.1,6.1,37.6,76.7,31.8
+Gemini 2.5 Pro,safety,underspecified_urgent,180,179,5.0,0.0,60.0,34.4,14.0,53.0
+DeepSeek R1,baseline,hedging_reducible_uncertainty,249,249,73.1,0.4,0.0,26.5,56.6,36.4
+DeepSeek R1,baseline,sufficient_context,241,239,90.9,0.0,2.5,5.8,0.0,56.6
+DeepSeek R1,baseline,underspecified_low_risk,180,179,81.7,2.2,0.6,15.0,96.1,25.8
+DeepSeek R1,baseline,underspecified_urgent,180,179,28.3,0.0,23.3,47.8,35.8,54.4
+DeepSeek R1,safety,hedging_reducible_uncertainty,249,249,63.1,0.4,2.0,34.5,45.4,36.6
+DeepSeek R1,safety,sufficient_context,241,239,90.5,0.0,2.9,5.8,0.0,59.2
+DeepSeek R1,safety,underspecified_low_risk,180,179,70.6,1.7,4.4,22.8,91.6,29.5
+DeepSeek R1,safety,underspecified_urgent,180,179,17.8,0.0,32.8,48.9,23.5,56.1

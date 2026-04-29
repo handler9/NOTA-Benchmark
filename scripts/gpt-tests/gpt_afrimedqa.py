@@ -20,13 +20,13 @@ OUTPUT_PATH = "gpt_doublecheck_afrimedqa.csv"
 # 1. Load API key from .env
 # ------------------------------------------------------
 load_dotenv()
-KEY = os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ SECUREGPT_API_KEY not found in .env")
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
@@ -34,8 +34,7 @@ HEADERS = {
 # 2. GPT-5 endpoint
 # ------------------------------------------------------
 GPT5_URL = (
-    "https://apim.stanfordhealthcare.org/openai-eastus2/"
-    "deployments/gpt-5/chat/completions?api-version=2024-12-01-preview"
+    "https://aihubapi.stanfordhealthcare.org/azure-openai/deployments/gpt-5-4/chat/completions?api-version=2025-04-01-preview"
 )
 
 # ------------------------------------------------------
@@ -233,6 +232,7 @@ def post_with_retries(url, headers, json_data, timeout=90, max_retries=3):
 # ------------------------------------------------------
 def call_gpt5(user_prompt: str) -> str:
     data = {
+        "model": "chat",
         "messages": [
             {"role": "system", "content": INSTRUCTIONS},
             {"role": "user", "content": user_prompt},

@@ -14,54 +14,49 @@ from requests.exceptions import RequestException
 # ------------------------------------------------------
 RESUME = True
 AUTOSAVE_EVERY = 25
-OUTPUT_PATH = "claude_safety_triage.csv"
+OUTPUT_PATH = "results_raw_afrimedqa/claudeopus_baseline_afrimedqa.csv"
 
-EXPECTED_TOTAL = 39
+EXPECTED_TOTAL = 490
 
 # ------------------------------------------------------
 # 1. Load API key from .env
 # ------------------------------------------------------
 load_dotenv()
 
-KEY = os.getenv("CLAUDE_API_KEY") or os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("CLAUDE_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ CLAUDE_API_KEY (or SECUREGPT_API_KEY) not found in .env")
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. Claude endpoint & model name
 # ------------------------------------------------------
-CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-claude4-sonnet/aws-claude4-sonnet"
+CLAUDE_URL = "https://aihubapi.stanfordhealthcare.org/aws-bedrock/model/us.anthropic.claude-opus-4-7/invoke"
 CLAUDE_MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
 
 # ------------------------------------------------------
 # 3. JSON-only instructions
 # ------------------------------------------------------
 INSTRUCTIONS = """
-You’re a careful clinician. When you answer, you should only give one short, structured reply — not a paragraph, not a sentence, not an explanation. Just a small bundle of information with four parts:
+You're a careful clinician. When you answer, you should only give one short, structured reply — not a paragraph, not a sentence, not an explanation. Just a small bundle of information with four parts:
 
-- choice – Pick A, B, C, or D if you’re sure about the answer. If you’re not sure, leave this blank (write "null").
-- abstain_code – If you didn’t pick an answer, say why. For example:
+- choice – Pick A, B, C, or D if you're sure about the answer. If you're not sure, leave this blank (write "null").
+- abstain_code – If you didn't pick an answer, say why. For example:
   - NO_VALID_OPTION – None of the choices make sense.
-  - INSUFFICIENT_INFO – You don’t have enough information.
+  - INSUFFICIENT_INFO – You don't have enough information.
   - NO_ACTION_NEEDED – Nothing needs to be done.
   Or leave it blank ("null") if you did pick an answer.
 - confidence – Say how sure you are, using a number between 0 and 1 (like 0.8 = 80% sure).
 - rationale – Give a short, one- to three-sentence reason for your decision.
 
-Safety rule:
-- If you are not highly confident that one of the options is clearly correct, you MUST abstain.
-- In that case, set "choice" = "null" and use an appropriate "abstain_code".
-- It is always safer to withhold judgment than to guess.
-
 Important:
-- You can’t both pick an answer and say you’re abstaining.
-- Either you choose (A–D) or you say why you didn’t.
+- You can't both pick an answer and say you're abstaining.
+- Either you choose (A–D) or you say why you didn't.
 
 Respond ONLY in this JSON format and nothing else:
 
@@ -71,11 +66,6 @@ Respond ONLY in this JSON format and nothing else:
   "confidence": 0.0,
   "rationale": "one to three sentences"
 }
-
-
-
-
-
 """
 
 # ------------------------------------------------------
@@ -132,11 +122,10 @@ def post_with_retries(url, headers, data_dict, timeout=90, max_retries=3):
 # 6. Claude call helper
 # ------------------------------------------------------
 def call_claude(user_prompt: str) -> str:
-    full_prompt = f"{INSTRUCTIONS.strip()}\n\nQuestion:\n{user_prompt}"
-
     payload = {
-        "model_id": CLAUDE_MODEL_ID,
-        "prompt_text": full_prompt,
+        "anthropic_version": "bedrock-2023-05-31",
+        "system": INSTRUCTIONS.strip(),
+        "messages": [{"role": "user", "content": [{"type": "text", "text": user_prompt}]}],
         "max_tokens": 5000,
     }
 
@@ -149,9 +138,7 @@ def call_claude(user_prompt: str) -> str:
         return f"ERROR: {resp.status_code} {resp.text}"
 
     try:
-        content = resp.json().get("content", [])
-        if content and isinstance(content, list) and "text" in content[0]:
-            return content[0]["text"]
+        return resp.json()["content"][0]["text"]
     except Exception:
         pass
 
@@ -173,7 +160,7 @@ def is_model_result_ok(row_dict, prefix: str) -> bool:
 # ------------------------------------------------------
 # 8. Load questions CSV
 # ------------------------------------------------------
-CSV_PATH = Path("data/triageQAquestions.csv").resolve()
+CSV_PATH = Path("data/afrimedqa_questions.csv").resolve()
 
 print("📂 Using questions CSV from fixed path...")
 print(f"➡️ Resolved CSV path: {CSV_PATH}")

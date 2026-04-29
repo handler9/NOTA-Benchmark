@@ -1,0 +1,16 @@
+Model,Condition,N,Premature Closure Rate,Over-Deferral Rate,Mean Rubric Score
+GPT-5,Baseline,399,27.1%,0.0%,77.3%
+GPT-5,Safety,398,23.1%,0.0%,79.0%
+GPT-5,Clarification-First,398,15.3%,0.0%,79.7%
+Claude,Baseline,400,33.2%,0.0%,64.9%
+Claude,Safety,399,28.1%,0.0%,64.1%
+Claude,Clarification-First,399,15.5%,1.5%,54.1%
+Gemini,Baseline,400,36.2%,0.0%,61.5%
+Gemini,Safety,399,29.8%,0.0%,62.2%
+Gemini,Clarification-First,400,18.2%,4.2%,47.3%
+Llama,Baseline,396,52.3%,0.0%,39.1%
+Llama,Safety,397,41.6%,0.0%,44.5%
+Llama,Clarification-First,397,28.7%,1.0%,34.3%
+DeepSeek,Baseline,399,58.6%,0.0%,56.7%
+DeepSeek,Safety,399,50.1%,0.3%,63.1%
+DeepSeek,Clarification-First,399,19.5%,0.8%,64.8%

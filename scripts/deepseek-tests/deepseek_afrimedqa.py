@@ -20,20 +20,20 @@ OUTPUT_PATH = "deepseek_doublecheck_afrimedqa.csv"
 # 1. Load API key from .env
 # ------------------------------------------------------
 load_dotenv()
-KEY = os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ SECUREGPT_API_KEY not found in .env")
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. DeepSeek endpoint & model
 # ------------------------------------------------------
-DEEPSEEK_URL = "https://apim.stanfordhealthcare.org/deepseekr1/v1/chat/completions"
+DEEPSEEK_URL = "https://aihubapi.stanfordhealthcare.org/azure-openai/deployments/deepseek-r1/chat/completions?api-version=2025-04-01-preview"
 DEEPSEEK_MODEL = "deepseek-chat"
 
 # ------------------------------------------------------

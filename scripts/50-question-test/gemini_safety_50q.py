@@ -24,7 +24,6 @@ OUTPUT_PATH = "gemini_doublecheck_judge.csv"
 SLEEP_BETWEEN_CALLS = 0.15
 MAX_RETRIES = 3
 
-MAX_OUT_TOKENS_GEMINI = 5000
 THINKING_BUDGET = 128
 TEMPERATURE = 0.0
 
@@ -35,13 +34,13 @@ HTTP_DEBUG_TRUNCATE = 6000
 # 1. Load API key
 # ------------------------------------------------------
 load_dotenv()
-KEY = os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ SECUREGPT_API_KEY not found in .env")
     raise SystemExit(1)
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 session = requests.Session()
@@ -49,9 +48,7 @@ session = requests.Session()
 # ------------------------------------------------------
 # 2. Endpoint (ONLY the one that works)
 # ------------------------------------------------------
-GEMINI_MODE = "native_contents"
-GEMINI_URL = "https://apim.stanfordhealthcare.org/gemini-25-pro/gemini-25-pro"
-
+GEMINI_URL = "https://aihubapi.stanfordhealthcare.org/gcp-vertex-ai/endpoints/openapi/chat/completions"
 # ------------------------------------------------------
 # 3. Instructions (UPDATED)
 # ------------------------------------------------------
@@ -217,28 +214,6 @@ def post_with_retries(url, headers, payload_dict, timeout=120, max_retries=MAX_R
         return last_resp
     raise last_err if last_err else RuntimeError("Unknown error")
 
-def extract_text_from_native_contents(data) -> str:
-    """
-    Stanford APIM returns a LIST of chunk objects.
-    We concatenate text across ALL chunks (in order).
-    """
-    texts = []
-
-    items = data if isinstance(data, list) else [data]
-
-    for item in items:
-        if not isinstance(item, dict):
-            continue
-        candidates = item.get("candidates") or []
-        if not candidates:
-            continue
-        content = candidates[0].get("content") or {}
-        parts = content.get("parts") or []
-        for p in parts:
-            if isinstance(p, dict) and isinstance(p.get("text"), str):
-                texts.append(p["text"])
-
-    return "".join(texts).strip()
 
 def looks_truncated_or_broken(raw: str) -> bool:
     if not isinstance(raw, str) or not raw.strip():
@@ -277,42 +252,25 @@ def norm_key(v):
 # ------------------------------------------------------
 # 5. Gemini call
 # ------------------------------------------------------
-def call_gemini(user_prompt: str):
-    full_text = f"{INSTRUCTIONS}\n\nQuestion:\n{user_prompt}"
+def call_gemini(user_prompt: str) -> str:
+    full_text = f"{INSTRUCTIONS}
 
+Question:
+{user_prompt}"
     payload = {
-        "contents": [{"role": "user", "parts": [{"text": full_text}]}],
-        "generationConfig": {
-            "maxOutputTokens": MAX_OUT_TOKENS_GEMINI,
-            "temperature": TEMPERATURE,
-            "thinkingConfig": {"thinkingBudget": THINKING_BUDGET},
-        },
+        "model": "google/gemini-2.5-pro",
+        "messages": [{"role": "user", "content": full_text}],
     }
-
     try:
         resp = post_with_retries(GEMINI_URL, HEADERS, payload)
     except Exception as e:
-        return f"ERROR: {e}", None
-
-    http_debug = None
-    if SAVE_HTTP_DEBUG:
-        http_debug = f"status={resp.status_code}\n{resp.text[:HTTP_DEBUG_TRUNCATE]}"
-
+        return f"ERROR: {e}"
     if resp.status_code != 200:
-        return f"ERROR: {resp.status_code} {resp.text[:1500]}", http_debug
-
+        return f"ERROR: {resp.status_code} {resp.text}"
     try:
-        data = resp.json()
-    except Exception:
-        return f"ERROR: Could not decode JSON: {resp.text[:1500]}", http_debug
-
-    try:
-        text = extract_text_from_native_contents(data)
-        if not text:
-            return "ERROR: Empty extracted text", http_debug
-        return text, http_debug
+        return resp.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        return f"ERROR: Extract failed: {e}", http_debug
+        return f"ERROR: parse failed: {e} | raw: {resp.text[:200]}"
 
 # ------------------------------------------------------
 # 6. Load input CSV

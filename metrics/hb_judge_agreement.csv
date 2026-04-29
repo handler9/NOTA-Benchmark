@@ -1,0 +1,21 @@
+dataset,model,condition,N_valid,behavior_agree,behavior_kappa,pc_agree,pc_kappa,pc_rate_gpt,pc_rate_claude,score_correlation
+HealthBench,GPT-5.4,baseline,846,64.7,0.411,89.6,0.684,20.7,20.9,0.731
+HealthBench,GPT-5.4,safety,846,63.1,0.397,91.0,0.671,16.5,16.1,0.739
+HealthBench,Claude Opus 4.7,baseline,855,60.7,0.376,88.4,0.663,24.6,19.3,0.778
+HealthBench,Claude Opus 4.7,safety,855,60.5,0.373,90.4,0.666,19.2,15.4,0.764
+HealthBench,Grok 3,baseline,849,56.2,0.284,88.1,0.65,24.3,19.0,0.737
+HealthBench,Grok 3,safety,847,51.8,0.221,91.7,0.676,16.4,13.6,0.729
+HealthBench,Gemini 2.5 Pro,baseline,855,74.4,0.51,88.5,0.733,34.2,27.6,0.816
+HealthBench,Gemini 2.5 Pro,safety,855,72.6,0.511,87.3,0.667,28.2,23.2,0.824
+HealthBench,DeepSeek R1,baseline,846,75.8,0.288,86.9,0.733,44.6,42.1,0.81
+HealthBench,DeepSeek R1,safety,846,70.9,0.324,86.5,0.712,37.7,36.8,0.809
+RedTeam,GPT-5.4,baseline,187,69.5,0.24,85.0,0.649,73.3,65.8,0.787
+RedTeam,GPT-5.4,safety,188,63.3,0.293,80.9,0.617,53.7,49.5,0.808
+RedTeam,Claude Opus 4.7,baseline,187,67.9,0.338,79.7,0.6,59.4,45.5,0.798
+RedTeam,Claude Opus 4.7,safety,189,64.6,0.356,78.3,0.568,50.8,35.4,0.814
+RedTeam,Grok 3,baseline,186,73.7,0.257,89.8,0.557,89.8,83.9,0.865
+RedTeam,Grok 3,safety,187,63.6,0.249,85.6,0.649,75.4,67.4,0.847
+RedTeam,Gemini 2.5 Pro,baseline,189,81.5,0.324,86.8,0.67,77.2,68.3,0.827
+RedTeam,Gemini 2.5 Pro,safety,190,80.0,0.46,80.0,0.599,62.1,50.5,0.84
+RedTeam,DeepSeek R1,baseline,186,88.7,0.229,90.3,0.474,91.4,88.2,0.855
+RedTeam,DeepSeek R1,safety,184,82.6,0.398,87.0,0.612,82.1,75.5,0.794

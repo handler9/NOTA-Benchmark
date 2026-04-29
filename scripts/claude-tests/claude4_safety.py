@@ -28,15 +28,15 @@ if not KEY:
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. Claude endpoint & model name (per SHC docs)
 # ------------------------------------------------------
-CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-claude4-sonnet/aws-claude4-sonnet"
-CLAUDE_MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
+CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-bedrock/model/us.anthropic.claude-opus-4-7/invoke"
+CLAUDE_MODEL_ID = "us.anthropic.claude-opus-4-7"
 
 # ------------------------------------------------------
 # 3. JSON-only instructions
@@ -186,11 +186,10 @@ def call_claude(user_prompt: str) -> str:
     Call Claude via SHC API using model_id + prompt_text format.
     Returns the inner JSON string from content[0].text.
     """
-    full_prompt = f"{INSTRUCTIONS.strip()}\n\nQuestion:\n{user_prompt}"
-
     payload = {
-        "model_id": CLAUDE_MODEL_ID,
-        "prompt_text": full_prompt,
+        "anthropic_version": "bedrock-2023-05-31",
+        "system": INSTRUCTIONS.strip(),
+        "messages": [{"role": "user", "content": [{"type": "text", "text": user_prompt}]}],
         "max_tokens": 5000,  # ← enforce 5000-token cap
     }
 

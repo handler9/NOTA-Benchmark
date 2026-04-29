@@ -11,7 +11,7 @@ RESULTS_DIR = "results_raw"
 METRICS_DIR = "metrics"
 
 QUESTION_KEY_FILE = os.path.join(DATA_DIR, "question_key.csv")
-OUTPUT_FILE = os.path.join(METRICS_DIR, "medqa_results.csv")
+OUTPUT_FILE = os.path.join(METRICS_DIR, "medqa_results_new.csv")
 
 # --------------------------------------------------------
 # 1. Load question key
@@ -162,36 +162,35 @@ def evaluate_model(
 # --------------------------------------------------------
 
 MODEL_CONFIG = {
-    "gpt": {
+    "gpt54": {
         "choice_col": "gpt5_choice",
         "abstain_col": "gpt5_abstain_code",
         "conf_col": "gpt5_confidence",
-        "pretty": "GPT-5",
+        "pretty": "GPT-5.4",
+    },
+    "claudeopus": {
+        "choice_col": "claude_choice",
+        "abstain_col": "claude_abstain_code",
+        "conf_col": "claude_confidence",
+        "pretty": "Claude Opus 4.7",
+    },
+    "grok3": {
+        "choice_col": "gpt5_choice",
+        "abstain_col": "gpt5_abstain_code",
+        "conf_col": "gpt5_confidence",
+        "pretty": "Grok 3",
     },
     "deepseek": {
         "choice_col": "deepseek_choice",
         "abstain_col": "deepseek_abstain_code",
         "conf_col": "deepseek_confidence",
-        "pretty": "DeepSeek",
+        "pretty": "DeepSeek R1",
     },
-    "llama": {
-        "choice_col": "llama_choice",
-        "abstain_col": "llama_abstain_code",
-        "conf_col": "llama_confidence",
-        "pretty": "Llama",
-    },
-    "claude": {
-        "choice_col": "claude_choice",
-        "abstain_col": "claude_abstain_code",
-        "conf_col": "claude_confidence",
-        "pretty": "Claude",
-    },
-    # ---------- Gemini ----------
     "gemini": {
         "choice_col": "gemini_choice",
         "abstain_col": "gemini_abstain_code",
         "conf_col": "gemini_confidence",
-        "pretty": "Gemini",
+        "pretty": "Gemini 2.5 Pro",
     },
 }
 
@@ -215,13 +214,18 @@ for path in glob.glob(pattern):
     fname = os.path.basename(path)
 
     root, _ = os.path.splitext(fname)
-    parts = root.split("_", 1)
+    tokens = root.lower().split("_")
 
-    if len(parts) != 2:
+    if len(tokens) < 2:
         print(f"Skipping unrecognized filename: {fname}")
         continue
 
-    model_key, prompt_key = parts[0].lower(), parts[1].lower()
+    # Strip trailing 'medqa' token if present (e.g. gpt54_baseline_medqa)
+    if tokens[-1] == "medqa":
+        tokens = tokens[:-1]
+
+    model_key = tokens[0]
+    prompt_key = "_".join(tokens[1:])
 
     if model_key not in MODEL_CONFIG:
         print(f"Unknown model in filename: {fname}")

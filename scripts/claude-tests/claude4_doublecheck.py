@@ -27,15 +27,15 @@ if not KEY:
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. Claude endpoint & model name
 # ------------------------------------------------------
-CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-claude4-sonnet/aws-claude4-sonnet"
-CLAUDE_MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
+CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-bedrock/model/us.anthropic.claude-opus-4-7/invoke"
+CLAUDE_MODEL_ID = "us.anthropic.claude-opus-4-7"
 
 # ------------------------------------------------------
 # 3. JSON-only instructions

@@ -21,19 +21,17 @@ SLEEP_BETWEEN_CALLS = 0.15
 MAX_RETRIES = 3
 
 # Keep generations small for stability (your output is tiny JSON)
-MAX_OUT_TOKENS_GEMINI = 256
-
 # ------------------------------------------------------
 # 1. Load API key from .env
 # ------------------------------------------------------
 load_dotenv()
-KEY = os.getenv("SECUREGPT_API_KEY")
+KEY = os.getenv("AIHUB_API_KEY") or os.getenv("SECUREGPT_API_KEY")
 if not KEY:
     print("❌ SECUREGPT_API_KEY not found in .env")
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
@@ -44,17 +42,7 @@ session = requests.Session()
 # ------------------------------------------------------
 # We will try these in order until one returns HTTP 200 consistently.
 # (Stanford APIM sometimes exposes Gemini via different front doors.)
-GEMINI_CANDIDATES = [
-    # Your current one (often Google-native)
-    ("native_contents", "https://apim.stanfordhealthcare.org/gemini-25-pro/gemini-25-pro"),
-
-    # Common OpenAI-compatible front doors (if enabled in your APIM)
-    ("chat_completions_v1", "https://apim.stanfordhealthcare.org/gemini-25-pro/v1/chat/completions"),
-    ("chat_completions", "https://apim.stanfordhealthcare.org/gemini-25-pro/chat/completions"),
-]
-
-# Cache the working candidate after first success
-_WORKING_GEMINI = {"mode": None, "url": None}
+GEMINI_URL = "https://aihubapi.stanfordhealthcare.org/gcp-vertex-ai/endpoints/openapi/chat/completions"
 
 # ------------------------------------------------------
 # 3. JSON-only instructions
@@ -236,136 +224,6 @@ def post_with_retries(url, headers, payload_dict, timeout=90, max_retries=MAX_RE
 # ------------------------------------------------------
 # 6. Build payloads for each candidate mode
 # ------------------------------------------------------
-def build_payload(mode: str, full_text: str):
-    """
-    Return (payload_dict, response_extractor_fn)
-    extractor takes response_json -> text (or raises)
-    """
-    if mode == "native_contents":
-        payload = {
-            "contents": [{"role": "user", "parts": [{"text": full_text}]}],
-            "generation_config": {"maxOutputTokens": MAX_OUT_TOKENS_GEMINI},
-        }
-
-        def extract(data):
-            # Stanford sometimes returns list; sometimes dict
-            items = data if isinstance(data, list) else [data]
-            texts = []
-            for item in items:
-                candidates = item.get("candidates") or []
-                if not candidates:
-                    continue
-                content = candidates[0].get("content", {}) or {}
-                parts = content.get("parts", []) or []
-                for p in parts:
-                    if isinstance(p, dict) and isinstance(p.get("text"), str):
-                        texts.append(p["text"])
-            out = "".join(texts).strip()
-            if not out:
-                raise ValueError("Empty text from native_contents")
-            return out
-
-        return payload, extract
-
-    # OpenAI-compatible chat/completions style
-    payload = {
-        "model": "gemini-2.5-pro",
-        "messages": [
-            {"role": "user", "content": full_text},
-        ],
-        "max_tokens": MAX_OUT_TOKENS_GEMINI,
-        "temperature": 0.0,
-    }
-
-    def extract(data):
-        return data["choices"][0]["message"]["content"]
-
-    return payload, extract
-
-# ------------------------------------------------------
-# 7. Autodetect Gemini route once
-# ------------------------------------------------------
-def autodetect_gemini():
-    if _WORKING_GEMINI["url"] and _WORKING_GEMINI["mode"]:
-        return _WORKING_GEMINI["mode"], _WORKING_GEMINI["url"]
-
-    probe_text = (
-        f"{INSTRUCTIONS}\n\n"
-        f"Question:\nTEST\n\nOptions:\n"
-        f"A. a\nB. b\nC. c\nD. d\n"
-    )
-
-    for mode, url in GEMINI_CANDIDATES:
-        payload, extract = build_payload(mode, probe_text)
-        try:
-            resp = post_with_retries(url, HEADERS, payload, timeout=60, max_retries=2)
-        except Exception as e:
-            print(f"🔎 Gemini probe {mode} @ {url} -> EXCEPTION: {e}")
-            continue
-
-        if resp.status_code != 200:
-            print(f"🔎 Gemini probe {mode} @ {url} -> {resp.status_code}: {resp.text[:200]}")
-            continue
-
-        try:
-            data = resp.json()
-            _ = extract(data)
-        except Exception as e:
-            print(f"🔎 Gemini probe {mode} @ {url} -> 200 but could not parse response: {e}")
-            continue
-
-        print(f"✅ Gemini route detected: mode={mode} url={url}")
-        _WORKING_GEMINI["mode"] = mode
-        _WORKING_GEMINI["url"] = url
-        return mode, url
-
-    # If nothing works, hard fail with guidance
-    raise RuntimeError(
-        "❌ Could not detect a working Gemini route. All candidates failed.\n"
-        "This usually means the APIM Gemini deployment is down or your subscription key lacks access.\n"
-        "Next step: paste one full 500 response body + any request-id/trace headers to APIM support."
-    )
-
-# ------------------------------------------------------
-# 8. Gemini call (uses detected route)
-# ------------------------------------------------------
-def call_gemini(user_prompt: str) -> str:
-    mode, url = autodetect_gemini()
-    full_text = f"{INSTRUCTIONS}\n\nQuestion:\n{user_prompt}"
-
-    payload, extract = build_payload(mode, full_text)
-
-    try:
-        resp = post_with_retries(url, HEADERS, payload)
-    except Exception as e:
-        return f"ERROR: {e}"
-
-    if resp.status_code != 200:
-        return f"ERROR: {resp.status_code} {resp.text}"
-
-    try:
-        data = resp.json()
-    except Exception:
-        return f"ERROR: Could not decode JSON: {resp.text[:300]}"
-
-    try:
-        return extract(data)
-    except Exception as e:
-        return f"ERROR: Could not extract text: {e} | raw={resp.text[:300]}"
-
-# ------------------------------------------------------
-# 9. Resume helper
-# ------------------------------------------------------
-def is_model_result_ok(row_dict, prefix: str) -> bool:
-    raw = row_dict.get(f"{prefix}_raw")
-    abst = row_dict.get(f"{prefix}_abstain_code")
-    if not isinstance(raw, str):
-        return False
-    if raw.startswith("ERROR:"):
-        return False
-    if abst == "API_ERROR":
-        return False
-    return True
 
 def to_csv_null(v):
     return "null" if v is None else v

@@ -27,15 +27,15 @@ if not KEY:
     raise SystemExit
 
 HEADERS = {
-    "Ocp-Apim-Subscription-Key": KEY,
+    "api-key": KEY,
     "Content-Type": "application/json",
 }
 
 # ------------------------------------------------------
 # 2. Claude endpoint & model name (per SHC docs)
 # ------------------------------------------------------
-CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-claude4-sonnet/aws-claude4-sonnet"
-CLAUDE_MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
+CLAUDE_URL = "https://apim.stanfordhealthcare.org/aws-bedrock/model/us.anthropic.claude-opus-4-7/invoke"
+CLAUDE_MODEL_ID = "us.anthropic.claude-opus-4-7"
 
 # ------------------------------------------------------
 # 3. JSON-only instructions
@@ -120,11 +120,10 @@ def post_with_retries(url, headers, data_dict, timeout=90, max_retries=3):
 # 6. Claude call helper
 # ------------------------------------------------------
 def call_claude(user_prompt: str) -> str:
-    full_prompt = f"{INSTRUCTIONS.strip()}\n\nQuestion:\n{user_prompt}"
-
     payload = {
-        "model_id": CLAUDE_MODEL_ID,
-        "prompt_text": full_prompt,
+        "anthropic_version": "bedrock-2023-05-31",
+        "system": INSTRUCTIONS.strip(),
+        "messages": [{"role": "user", "content": [{"type": "text", "text": user_prompt}]}],
         "max_tokens": 5000,
     }
 
@@ -137,9 +136,7 @@ def call_claude(user_prompt: str) -> str:
         return f"ERROR: {resp.status_code} {resp.text}"
 
     try:
-        content = resp.json().get("content", [])
-        if content and isinstance(content, list) and "text" in content[0]:
-            return content[0]["text"]
+        return resp.json()["content"][0]["text"]
     except:
         pass
 

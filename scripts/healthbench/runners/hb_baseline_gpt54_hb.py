@@ -19,6 +19,9 @@ if not KEY:
 HEADERS = {"api-key": KEY, "Content-Type": "application/json"}
 
 GPT5_URL = (
+    # NOTE: The URL below is a Stanford AIHub internal endpoint used in this study.
+    # External users should substitute their own API endpoint
+    # (e.g., https://api.openai.com/v1/chat/completions for GPT-5.4 via OpenAI directly).
     "https://aihubapi.stanfordhealthcare.org/azure-openai/deployments/gpt-5-4/"
     "chat/completions?api-version=2025-04-01-preview"
 )

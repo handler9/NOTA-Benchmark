@@ -35,6 +35,9 @@ HEADERS = {
 # ------------------------------------------------------
 # 2. Claude endpoint & model name (per SHC docs)
 # ------------------------------------------------------
+# NOTE: The URL below is a Stanford AIHub internal endpoint used in this study.
+# External users should substitute their own API endpoint
+# (e.g., https://api.openai.com/v1/chat/completions for GPT-5.4 via OpenAI directly).
 CLAUDE_URL = "https://aihubapi.stanfordhealthcare.org/aws-bedrock/model/us.anthropic.claude-opus-4-7/invoke"
 CLAUDE_MODEL_ID = "us.anthropic.claude-sonnet-4-20250514-v1:0"
 

@@ -1,4 +1,4 @@
-row_index,question_id,stem,option_A,option_B,option_C,option_D,gpt5_raw,gpt5_choice,gpt5_abstain_code,gpt5_confidence,gpt5_rationale
+row_index,question_id,stem,option_A,option_B,option_C,option_D,grok3_raw,grok3_choice,grok3_abstain_code,grok3_confidence,grok3_rationale
 1,369ee941ab1d2799ffbd6914eb48d8dae7a478d491da8730898f282f90583b9e,A 75-year-old patient has a history of squamous cell carcinoma of the lung that was resected some years ago. He presents with pedal edema. Urinary dipstick showed protein 2+. What is the most likely diagnosis?,Membranous nephropathy,Membranoproliferative glomerulonephritis,Minimal change nephropathy,IgA nephropathy,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -60,7 +60,7 @@ immunofluorescence. Which of the following diagnoses fits best with this clinica
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options accurately reflect the principles of damage control treatment strategy in trauma. Damage control resuscitation and surgery prioritize rapid control of bleeding and contamination over definitive repair in unstable patients, which is not clearly represented in the choices.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options accurately reflect the principles of damage control treatment strategy in trauma. Damage control resuscitation and surgery prioritize rapid control of bleeding and contamination over definitive repair in unstable patients, which is not clearly represented in the choices."
+}",,NO_VALID_OPTION,0.0,"None of the provided options accurately reflect the principles of damage control treatment strategy in trauma. Damage control resuscitation and surgery prioritize rapid control of bleeding and contamination over definitive repair in unstable patients, which is not clearly represented in the choices."
 9,ded60398ca460057abc8708ca47b00a1cec62b89dd1d9ae012a8ffd23ee008bb,"A young medical student has come to you to you with complaints of oligomenorrrhea, hirsuitism and weight gain, ultrasound reveals bulky ovaries with sub-capsular cysts. Most likely diagnosis is: 
 ",Ovarian cancer.,Cushing's syndrome.,Polycystic ovarian disease.,Diabetes mellitus.,"{
   ""choice"": ""C"",
@@ -73,7 +73,7 @@ immunofluorescence. Which of the following diagnoses fits best with this clinica
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's symptoms suggest possible complications post-reduction, such as strangulation or ischemia. However, none of the provided options directly correlate with an incarcerated inguinal hernia or its complications. Further clinical information or imaging is needed to confirm the diagnosis.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient's symptoms suggest possible complications post-reduction, such as strangulation or ischemia. However, none of the provided options directly correlate with an incarcerated inguinal hernia or its complications. Further clinical information or imaging is needed to confirm the diagnosis."
+}",,INSUFFICIENT_INFO,0.0,"The patient's symptoms suggest possible complications post-reduction, such as strangulation or ischemia. However, none of the provided options directly correlate with an incarcerated inguinal hernia or its complications. Further clinical information or imaging is needed to confirm the diagnosis."
 11,e5a27fedf79c3a2209069f7839800ea8c7a2a1e7707c5cf4ff377bfaca63d8f2,"Kwesi Simon Senyo is a 25 year old man whose presented with the father to you at the clinic. His father reports that Kwesi has been a stubborn child since childhood. He would skip school , bully other children , steal from home and sometimes insulted his teachers. Currently he has not been able to stay in school, he has been caught for stealing and scamming people on several occasions. He mostly lies to get money from the parents. He thinks mostly about himself and wouldn’t mind hurting other people to benefit himself. He lacks remorse when he does bad things and is confronted. 
 What is the most likely diagnosis for Kwesi’s condition?",Narcissistic personality disorder,Histrionic personality disorder,Avoidant personality disorder,Antisocial personality disorder,"{
   ""choice"": ""D"",
@@ -104,7 +104,7 @@ What is the most likely diagnosis for Kwesi’s condition?",Narcissistic persona
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests a possible connective tissue disorder like Marfan syndrome, which is associated with aortic regurgitation, fitting the early diastolic murmur at the left third intercostal space. However, none of the provided options include aortic regurgitation, and the listed choices do not align with the likely diagnosis.""
-}",null,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a possible connective tissue disorder like Marfan syndrome, which is associated with aortic regurgitation, fitting the early diastolic murmur at the left third intercostal space. However, none of the provided options include aortic regurgitation, and the listed choices do not align with the likely diagnosis."
+}",,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a possible connective tissue disorder like Marfan syndrome, which is associated with aortic regurgitation, fitting the early diastolic murmur at the left third intercostal space. However, none of the provided options include aortic regurgitation, and the listed choices do not align with the likely diagnosis."
 16,7cfc58c7adeeca17732e6dbb3b423dbf0a581a5008d3efda214cc6b8168d0c76,"A 28-year-old male was injured in a motorcycle accident in which he was not wearing a helmet. On admission to the emergency room he was in severe respiratory distress and hypotensive (blood pressure 80/40 mm. Hg), and appeared cyanotic. He was bleeding profusely from the nose and had an obviously open femur fracture with exposed bone. Breath sounds were decreased on the right side of the chest. The initial management priority should be:",Control of hemorrhage with anterior and posterior nasal packing.,Tube thoracostomy in the right hemithorax,Endotracheal intubation with in-line cervical traction.,Obtain intravenous access and begin emergency type O blood transfusions.,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -116,7 +116,7 @@ What is the most likely diagnosis for Kwesi’s condition?",Narcissistic persona
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation of fever, weight loss, hypertension, nodular rash, peripheral neuropathy, elevated ESR, and RBC casts suggests a systemic vasculitis like polyarteritis nodosa, which is often associated with drug abuse. None of the provided options (A-D) align with this likely diagnosis. A more fitting option is missing.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation of fever, weight loss, hypertension, nodular rash, peripheral neuropathy, elevated ESR, and RBC casts suggests a systemic vasculitis like polyarteritis nodosa, which is often associated with drug abuse. None of the provided options (A-D) align with this likely diagnosis. A more fitting option is missing."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation of fever, weight loss, hypertension, nodular rash, peripheral neuropathy, elevated ESR, and RBC casts suggests a systemic vasculitis like polyarteritis nodosa, which is often associated with drug abuse. None of the provided options (A-D) align with this likely diagnosis. A more fitting option is missing."
 18,a08c41234ec67f3778fbc05d789adffc5a16b36b5a2c10fd68071c2f66627009,A 2-year old child presents with two-day history of passage of blood-streaked loose stool. There was no associated vomiting but there was history of excessive crying prior to bowel opening. The most likely aetiology is:,Enterohaemorrhagic Escherichia coli.,Entamoeba coli,Shigella flexneri,Shigella dysenteriae,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -147,13 +147,13 @@ Examination reveals warty lesions. Subsequently she is referred to the vulval cl
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.5,
   ""rationale"": ""The symptoms and positive anti-mitochondrial antibody test suggest primary biliary cholangitis (PBC), but this is not listed among the options. None of the provided choices align well with the clinical picture and test results. Further information or additional options are needed to make a definitive choice.""
-}",null,INSUFFICIENT_INFO,0.5,"The symptoms and positive anti-mitochondrial antibody test suggest primary biliary cholangitis (PBC), but this is not listed among the options. None of the provided choices align well with the clinical picture and test results. Further information or additional options are needed to make a definitive choice."
+}",,INSUFFICIENT_INFO,0.5,"The symptoms and positive anti-mitochondrial antibody test suggest primary biliary cholangitis (PBC), but this is not listed among the options. None of the provided choices align well with the clinical picture and test results. Further information or additional options are needed to make a definitive choice."
 23,11b9d730349397642247b17fbc68510c89752e0cf1aef01f66f62e0ef3f5584e,A patient with psychotic disorder is convinced that she has caused a recent earthquake because she was bored and wishing for something exciting to occur. Which of the following symptoms MOST CLOSELY describes this symptom?,Echolalia,Obsession,Thought broadcasting,Nihilism,"{
   ""choice"": ""null"",
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptom described appears to be a delusion of guilt or grandiosity, where the patient believes she caused a natural disaster. None of the provided options (echolalia, obsession, thought broadcasting, or nihilism) accurately describe this specific symptom.""
-}",null,NO_VALID_OPTION,0.0,"The symptom described appears to be a delusion of guilt or grandiosity, where the patient believes she caused a natural disaster. None of the provided options (echolalia, obsession, thought broadcasting, or nihilism) accurately describe this specific symptom."
+}",,NO_VALID_OPTION,0.0,"The symptom described appears to be a delusion of guilt or grandiosity, where the patient believes she caused a natural disaster. None of the provided options (echolalia, obsession, thought broadcasting, or nihilism) accurately describe this specific symptom."
 24,b2dce8406017590d925e3db8a7c60ceaf4a8acaa13ddfe24a48c48d9ca887d8e,A 20-year old male presents in your emergency room with multiple facial lacerations after a motorvehicle collision. There is one particularly deep laceration through the tragus and 4 cm into the parotid gland. You remember to check the facial nerve function and find no motion around the eye or over the forehead. The nasal ala flares on deep breathing and the corner of the mouth appears normal on smiling. What area of the facial nerve is most likely injured?,Main trunk,Inferior division,Superior division,Temporal branch,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -197,7 +197,7 @@ A. He","He should probably be treated with endovascular placement of a carotid s
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The options provided do not clearly indicate a reassuring feature of a normal cardiotocograph. Baseline variability <5 bpm and absence of accelerations are concerning, while a heart rate of 100 bpm may be borderline low. More context or corrected options are needed to make a confident decision.""
-}",null,INSUFFICIENT_INFO,0.2,"The options provided do not clearly indicate a reassuring feature of a normal cardiotocograph. Baseline variability <5 bpm and absence of accelerations are concerning, while a heart rate of 100 bpm may be borderline low. More context or corrected options are needed to make a confident decision."
+}",,INSUFFICIENT_INFO,0.2,"The options provided do not clearly indicate a reassuring feature of a normal cardiotocograph. Baseline variability <5 bpm and absence of accelerations are concerning, while a heart rate of 100 bpm may be borderline low. More context or corrected options are needed to make a confident decision."
 31,beb60b2b374bbe06ebf60da3a61ee428c8a43f5218eef93852630864deebf280,"A 48-year-old black female complains of joint pain and morning stiffness over 4 months. Examination reveals swelling of the wrists and MCPs as well as tenderness and joint effusion in both knees. The rheumatoid factor is positive, antibodies to cyclic citrullinated protein are present, and subcutaneous nodules are noted on the extensor surfaces of the forearm.
 Which of the following statements is correct?",Prednisone 60 mg per day should be started,The patient has RA and should be evaluated for disease-modifying antirheumatic therapy,A nonsteroidal anti-inflammatory drug should be added to aspirin,The patient’s prognosis is highly favorable,"{
   ""choice"": ""B"",
@@ -331,7 +331,7 @@ Use the above information to answer questions 7 to 10
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.9,
   ""rationale"": ""None of the provided options accurately reflect the current recommendations for HPV vaccination. According to guidelines, HPV vaccination is recommended for both girls and boys ideally between ages 11 and 12, before sexual activity begins, to ensure maximum effectiveness.""
-}",null,NO_VALID_OPTION,0.9,"None of the provided options accurately reflect the current recommendations for HPV vaccination. According to guidelines, HPV vaccination is recommended for both girls and boys ideally between ages 11 and 12, before sexual activity begins, to ensure maximum effectiveness."
+}",,NO_VALID_OPTION,0.9,"None of the provided options accurately reflect the current recommendations for HPV vaccination. According to guidelines, HPV vaccination is recommended for both girls and boys ideally between ages 11 and 12, before sexual activity begins, to ensure maximum effectiveness."
 50,a71e69f6da95944bd900d70073b4f98317f30c20fab2b2b01a640d77a1f2c9fc,"Radiologic investigations are important in the assessment of interstitial lung diseases (ILD). Which of the following imaging findings is indicative of a poor prognosis in a case of ILD?
 
 
@@ -343,7 +343,7 @@ Use the above information to answer questions 7 to 10
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""I am not confident in selecting an answer without specific context about the type of interstitial lung disease. Different ILDs have varying prognostic indicators on imaging, and the options provided are not uniquely tied to poor prognosis without additional clinical correlation.""
-}",null,INSUFFICIENT_INFO,0.0,"I am not confident in selecting an answer without specific context about the type of interstitial lung disease. Different ILDs have varying prognostic indicators on imaging, and the options provided are not uniquely tied to poor prognosis without additional clinical correlation."
+}",,INSUFFICIENT_INFO,0.0,"I am not confident in selecting an answer without specific context about the type of interstitial lung disease. Different ILDs have varying prognostic indicators on imaging, and the options provided are not uniquely tied to poor prognosis without additional clinical correlation."
 51,81c65f005f1a5cc8b537f820404566146f31122f85631c19a17a1db5d6e62828,"Following delivery, a woman is found to have a third-degree tear and a trainee wishes to do the repair under supervision. Which two suture materials have equivalent efficacy when repairing the external anal sphincter? 
 ",Polydiaxanone (PDS) and chromic catgut,Polydiaxanone (PDS) and nylon (Prolene),Polyglactin (Vicryl) and nylon (Prolene),Polyglactin (Vicryl) and chromic catgut,"{
   ""choice"": ""B"",
@@ -457,7 +457,7 @@ III Whole blood is superior to blood components in preventing acute kidney Injur
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's history of recurrent hematuria, hearing loss, and family history of kidney disease and hearing loss suggests a possible genetic condition like Alport syndrome, which is not listed among the options. Without additional diagnostic information or the correct condition as a choice, I cannot select an answer.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient's history of recurrent hematuria, hearing loss, and family history of kidney disease and hearing loss suggests a possible genetic condition like Alport syndrome, which is not listed among the options. Without additional diagnostic information or the correct condition as a choice, I cannot select an answer."
+}",,INSUFFICIENT_INFO,0.0,"The patient's history of recurrent hematuria, hearing loss, and family history of kidney disease and hearing loss suggests a possible genetic condition like Alport syndrome, which is not listed among the options. Without additional diagnostic information or the correct condition as a choice, I cannot select an answer."
 68,d98200fefe7a924c186102a1ddd9775b288ad2103072cd395118c5f6b9805a16,A 28-year-old woman had an open-heart surgery for a mitral valve replacement. She developed severe haemorrhagic as a complication such that her renal function was severely impaired. The consequent hyperkalaemia was refractory to medical therapy. What is the most appropriate course of action,a.	Increase the concentration of dextrose solution and dose of insulin,b.	Increase the dose and frequency of calcium gluconate,c.	Revise the surgery,d.	Start haemodialysis,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -482,7 +482,7 @@ Asterixis was positive. A diagnosis of hepatic encephalopathy was made. Which of
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation and ultrasound findings suggest a molar pregnancy, which is not listed among the options. None of the provided choices (twin pregnancy, ectopic pregnancy, fibroid uterus, or septic induced abortion) align with the described symptoms and imaging.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation and ultrasound findings suggest a molar pregnancy, which is not listed among the options. None of the provided choices (twin pregnancy, ectopic pregnancy, fibroid uterus, or septic induced abortion) align with the described symptoms and imaging."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation and ultrasound findings suggest a molar pregnancy, which is not listed among the options. None of the provided choices (twin pregnancy, ectopic pregnancy, fibroid uterus, or septic induced abortion) align with the described symptoms and imaging."
 72,c5005109d08126945ee225063425e55cb50d2271648b0b3f5a9863f41d7b0d40,"A 25-year-old male presents with a severe sore throat, difficulty swallowing, and a feverof 38.8 C three days after he underwent dental surgery. There are no palpable lymph nodes, but on your exam, the posterior pharyngeal wall is red and bulging forward. A lateral soft tissue radiograph of the neck shows swelling in the retropharyngeal space. What organism is the most likely cause of this infection?",Staphylococcus aureus,Polymicrobial anaerobes,Moraxella catarrhalis,Streptococcus pneumonia,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -579,7 +579,7 @@ decides to perform arterial blood gas sampling. What disturbance of acid-base ba
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""Option A is not a management choice but a repeat of the question. Options B, C, and D are incorrectly formatted and unclear. I cannot select a valid management option from the provided list.""
-}",null,NO_VALID_OPTION,0.0,"Option A is not a management choice but a repeat of the question. Options B, C, and D are incorrectly formatted and unclear. I cannot select a valid management option from the provided list."
+}",,NO_VALID_OPTION,0.0,"Option A is not a management choice but a repeat of the question. Options B, C, and D are incorrectly formatted and unclear. I cannot select a valid management option from the provided list."
 88,7b4fcb6ebb5a87778c3608b021bce987a165c5bfd6ac5b9919bdb4a9993489f0,A 20-year old female presents with complaints of general abdominal pain. she reports multiple episodes of diarrhea and vomiting. On examination she is afebrile but appears moderately dehydrated. Her abdomen is moderately tender in the peri-umbilical and epigastric regions. There is no guarding or rebound tenderness. Her white cell count is normal. Which of the following statements correctly describes the next course of management?,A diagnosis of acute abdomen should be made and laparotomy performed immediately,An abdominal CT scan is required to determine the pathology,Insert a nasogastric tube to decompress the stomach,Non surgical causes of acute abdomen should be considered,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -753,7 +753,7 @@ Which type of Immunoglobulin is expected to account for this process?",IgD,IgA,I
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options are directly relevant to diagnosing the likely cause of chronic diarrhea and failure to thrive in a child, such as malabsorption or parasitic infection. A stool study for ova and parasites or celiac screening would be more appropriate.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options are directly relevant to diagnosing the likely cause of chronic diarrhea and failure to thrive in a child, such as malabsorption or parasitic infection. A stool study for ova and parasites or celiac screening would be more appropriate."
+}",,NO_VALID_OPTION,0.0,"None of the provided options are directly relevant to diagnosing the likely cause of chronic diarrhea and failure to thrive in a child, such as malabsorption or parasitic infection. A stool study for ova and parasites or celiac screening would be more appropriate."
 116,ece5aa9de23e19ff7eec7e5a55b262c6f81d985cf0e5b588b6e64def264b831f,Mr. Essien has had two different antipsychotics at the highest tolerable dose for 6 weeks without a change in his condition. His doctors suspect treatment resistance Schizophrenia. Which of the following should you prescribe?,Clozapine,Amisulpride,Quetiapine,Risperidone,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -771,7 +771,7 @@ Which type of Immunoglobulin is expected to account for this process?",IgD,IgA,I
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options align with the most likely cause of red eye in a healthy 30-year-old woman with watering, stinging, and mild photophobia. Conditions like conjunctivitis or a mild corneal abrasion are more probable, but they are not listed among the choices.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options align with the most likely cause of red eye in a healthy 30-year-old woman with watering, stinging, and mild photophobia. Conditions like conjunctivitis or a mild corneal abrasion are more probable, but they are not listed among the choices."
+}",,NO_VALID_OPTION,0.0,"None of the provided options align with the most likely cause of red eye in a healthy 30-year-old woman with watering, stinging, and mild photophobia. Conditions like conjunctivitis or a mild corneal abrasion are more probable, but they are not listed among the choices."
 119,c33e85e6503936222ca5e945aff5b15e3e7a08586d4546199e9e56d7b6b4fa16,"A 32-year-old woman presented with painful vulva at 36 weeks' gestation. Clinical examination revealed multiple painful vesicles suggestive of genital herpes infection. She had a sexual health screening and was given oral acyclovir for 5 days. She was booked for elective caesarean section at 39 weeks' gestation. However, she presents at 38 weeks in second stage and delivered vaginally within half an hour of admission to labour ward. The newborn baby develops neonatal herpes Infection. What was the most likely mode of viral transmission to the fetus?",Blood borne,Direct contact with genital secretions,Transplacental,Postnatal transmission,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -783,7 +783,7 @@ Which type of Immunoglobulin is expected to account for this process?",IgD,IgA,I
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms suggest a possible intracranial infection or complication like abscess or meningitis due to the history of ear discharge, fever, and neurological symptoms. However, none of the provided options directly align with this likely diagnosis. Further clinical details or imaging are needed to confirm.""
-}",null,INSUFFICIENT_INFO,0.0,"The symptoms suggest a possible intracranial infection or complication like abscess or meningitis due to the history of ear discharge, fever, and neurological symptoms. However, none of the provided options directly align with this likely diagnosis. Further clinical details or imaging are needed to confirm."
+}",,INSUFFICIENT_INFO,0.0,"The symptoms suggest a possible intracranial infection or complication like abscess or meningitis due to the history of ear discharge, fever, and neurological symptoms. However, none of the provided options directly align with this likely diagnosis. Further clinical details or imaging are needed to confirm."
 121,2d61088bad397690e806eee1196ed5f79574c7633f66617ab97350379ffe7b38,"A 29-year-old woman presents to her GP at 27 weeks' gestation with a rash on her trunk. She had developed this rash 10 hours previously and thought that she had developed a food allergy. On questioning she gives a history of coming in close contact, 3 days earlier, with her niece, who had developed chickenpox rash. General examination reveals rash typical of varicella or chickenpox. She is otherwise well. What is her next initial management following diagnosis of chickenpox",Intravenous acyclovir,Oral gancyclovir for 7 days,Oral acyclovir for 7 days,Elective caesarean section at 39 weeks' gestation,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -854,7 +854,7 @@ e. 4 months of Rifampicin , Ethambutol 4 months of Isoniazid, pyrazinamide, etha
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms described, such as generalized weakness worse in the evenings, double vision, and eyelid drooping, suggest a neuromuscular condition like myasthenia gravis, which is not listed among the options. None of the provided choices (Motor neuron disease, Dermatomyositis, Stroke, or Parkinson’s disease) adequately explain the pattern of symptoms, especially the diurnal variation and ocular involvement.""
-}",null,NO_VALID_OPTION,0.0,"The symptoms described, such as generalized weakness worse in the evenings, double vision, and eyelid drooping, suggest a neuromuscular condition like myasthenia gravis, which is not listed among the options. None of the provided choices (Motor neuron disease, Dermatomyositis, Stroke, or Parkinson’s disease) adequately explain the pattern of symptoms, especially the diurnal variation and ocular involvement."
+}",,NO_VALID_OPTION,0.0,"The symptoms described, such as generalized weakness worse in the evenings, double vision, and eyelid drooping, suggest a neuromuscular condition like myasthenia gravis, which is not listed among the options. None of the provided choices (Motor neuron disease, Dermatomyositis, Stroke, or Parkinson’s disease) adequately explain the pattern of symptoms, especially the diurnal variation and ocular involvement."
 132,62794deedbfb0a32ee748be2f76272a6908d83cffb2b12a422ce18b6fddfedd9,"A 35-year-old man is admitted following blunt head trauma with a CT showing several areas ofsmall intracerebral hemorrhage. He is intubated but agitated. His heart rate is 90 bpm, and his mean arterial pressure (MAP) is 85 mmHg. An intracranial pressure monitor shows an ICP of 26 mmHg. Which of the 
 following is the next best step?",Hyperventilation to PCO2 of 25 to 30 mmHg,Administer mannitol.,. Place the patient in Trendelenburg position.,Begin vasopressortherapy.,"{
   ""choice"": ""B"",
@@ -867,7 +867,7 @@ following is the next best step?",Hyperventilation to PCO2 of 25 to 30 mmHg,Admi
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The presentation suggests idiopathic thrombocytopenic purpura (ITP) following a viral illness, but it is not listed among the options. The provided choices do not fully align with the clinical picture of isolated thrombocytopenia without other systemic signs. Further history or diagnostic tests are needed to confirm the diagnosis or rule out other causes.""
-}",null,INSUFFICIENT_INFO,0.3,"The presentation suggests idiopathic thrombocytopenic purpura (ITP) following a viral illness, but it is not listed among the options. The provided choices do not fully align with the clinical picture of isolated thrombocytopenia without other systemic signs. Further history or diagnostic tests are needed to confirm the diagnosis or rule out other causes."
+}",,INSUFFICIENT_INFO,0.3,"The presentation suggests idiopathic thrombocytopenic purpura (ITP) following a viral illness, but it is not listed among the options. The provided choices do not fully align with the clinical picture of isolated thrombocytopenia without other systemic signs. Further history or diagnostic tests are needed to confirm the diagnosis or rule out other causes."
 134,c2e1eea0db2d2f595822d56d5b768e3af3fba3777d63fce3581f2d842ee1856d,"A woman undergoes a triple assessment for a left upper outer quadrant breast lump. The results of the clinical assessment show the lump to be 4.5 cm in diameter, with mobile lymph nodes on the same side and no evidence of distant metastases. Which of the following is her TNM classification?",T1N3M0,T2N1M0,T3N0M0,T2N3M1,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -885,7 +885,7 @@ following is the next best step?",Hyperventilation to PCO2 of 25 to 30 mmHg,Admi
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The correct definition for ASA 3 is a patient with severe systemic disease that limits activity but is not incapacitating. None of the provided options accurately reflect this definition. Therefore, I cannot select an answer from the given choices.""
-}",null,NO_VALID_OPTION,0.0,"The correct definition for ASA 3 is a patient with severe systemic disease that limits activity but is not incapacitating. None of the provided options accurately reflect this definition. Therefore, I cannot select an answer from the given choices."
+}",,NO_VALID_OPTION,0.0,"The correct definition for ASA 3 is a patient with severe systemic disease that limits activity but is not incapacitating. None of the provided options accurately reflect this definition. Therefore, I cannot select an answer from the given choices."
 137,b35ed145756eef4b810e5ef2232747375cd277c77cf0cbadd4c3fb51d2abae68,"Which of the following is true regarding sickle cell disease in pregnancy?
 i Maintaining an sp 02 of at least 90% is required throughout pregnancy 
 ii There is a lower risk of sickle cell crisis during the puerperium
@@ -912,13 +912,13 @@ iii Vaginal delivery is permissible",i only,C. Il and Ill only,iii only,"A. I, I
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical findings suggest a pneumothorax, with reduced expansion, hyper-resonance, and decreased breath sounds on the left side. However, pneumothorax is not listed among the provided options. None of the given choices (A-D) align with these classic signs.""
-}",null,NO_VALID_OPTION,0.0,"The clinical findings suggest a pneumothorax, with reduced expansion, hyper-resonance, and decreased breath sounds on the left side. However, pneumothorax is not listed among the provided options. None of the given choices (A-D) align with these classic signs."
+}",,NO_VALID_OPTION,0.0,"The clinical findings suggest a pneumothorax, with reduced expansion, hyper-resonance, and decreased breath sounds on the left side. However, pneumothorax is not listed among the provided options. None of the given choices (A-D) align with these classic signs."
 141,7535dd19354496158072c59d8557a2544fd82a8e1724692e8a8687cdf255949a,A 15-month old unimmunized child presents with persistent cough of a week duration. It is associated with occasional loud inspiratory noise and vomiting after episodes of cough. Which of the following additional features should be searched for?,Severe conjunctivitis,Encephalitis,Morbilliform rash,Loud stridor,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The symptoms suggest possible pertussis due to the persistent cough and inspiratory noise, but the options provided do not directly align with typical pertussis complications or confirmatory signs. Further clinical history or diagnostic tests are needed to confirm the diagnosis and identify associated features.""
-}",null,INSUFFICIENT_INFO,0.3,"The symptoms suggest possible pertussis due to the persistent cough and inspiratory noise, but the options provided do not directly align with typical pertussis complications or confirmatory signs. Further clinical history or diagnostic tests are needed to confirm the diagnosis and identify associated features."
+}",,INSUFFICIENT_INFO,0.3,"The symptoms suggest possible pertussis due to the persistent cough and inspiratory noise, but the options provided do not directly align with typical pertussis complications or confirmatory signs. Further clinical history or diagnostic tests are needed to confirm the diagnosis and identify associated features."
 142,7c73e2081f88c8d16140d6bc4b3d5a9160c509805a8bc96b0c6c602a752b823a,"A 27-year-old man is admitted with weight loss and headaches for 3 weeks. Upon evaluation, he was found to have cryptococcal meningitis and started amphotericin B. Two days later. Urea and creatinine are requested. Which of the following is a finding of concern",Hyponatremia,Hypomagnesemia,Hypokalemia,Hypochloremia,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -997,7 +997,7 @@ presentation are",Serum Sodium: Normal; Serum Osmolality: Normal; Urine Sodium: 
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's symptoms, including confusion, drowsiness, and hyponatremia, suggest a paraneoplastic syndrome, possibly SIADH, which is commonly associated with small cell lung cancer. However, small cell lung cancer is not listed among the options provided. Without further diagnostic confirmation or inclusion of the most likely histology, I cannot select an answer.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient's symptoms, including confusion, drowsiness, and hyponatremia, suggest a paraneoplastic syndrome, possibly SIADH, which is commonly associated with small cell lung cancer. However, small cell lung cancer is not listed among the options provided. Without further diagnostic confirmation or inclusion of the most likely histology, I cannot select an answer."
+}",,INSUFFICIENT_INFO,0.0,"The patient's symptoms, including confusion, drowsiness, and hyponatremia, suggest a paraneoplastic syndrome, possibly SIADH, which is commonly associated with small cell lung cancer. However, small cell lung cancer is not listed among the options provided. Without further diagnostic confirmation or inclusion of the most likely histology, I cannot select an answer."
 153,6e5b28107c63ad61f98c8ef134f3e414438df3f3f3a1da3eac145c9f52317bfa,A 72-year-old man presents with intermittent dysphagia to both solids and liquids over the past 8 months. He experiences retrosternal pain which is relieved by regurgitating food. He has had one episode of pneumonia over the past year. There is mild epigastric tenderness on palpation. A barium swallow done showed dilated oesophagus with a bird’s beak appearance. What is the most likely diagnosis?,Oesophageal carcinoma,Eosinophilic oesophagitis,Zenker’s diverticulum,Oesophageal spasms,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -1021,7 +1021,7 @@ presentation are",Serum Sodium: Normal; Serum Osmolality: Normal; Urine Sodium: 
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The described phenomenon is known as Kernohan's notch or Kernohan's phenomenon, which is not listed among the provided options. None of the given choices (A to D) correctly describe this condition.""
-}",null,NO_VALID_OPTION,0.0,"The described phenomenon is known as Kernohan's notch or Kernohan's phenomenon, which is not listed among the provided options. None of the given choices (A to D) correctly describe this condition."
+}",,NO_VALID_OPTION,0.0,"The described phenomenon is known as Kernohan's notch or Kernohan's phenomenon, which is not listed among the provided options. None of the given choices (A to D) correctly describe this condition."
 156,586d62e76745b3f0496ccf8387f1033f77ed7c095234b4b8cc89d41d7bfadc3d,"A 45-year-old white female smoker is admitted to the hospital for observation after presenting to the emergency department with vague chest pain. There is no past history of cardiac disease, diabetes, hypertension, or hyperlipidemia. Later that night while in bed she has a recurrence of pain, at which time cardiac monitoring shows a transient elevation of precordial ST segments. The pain is promptly relieved by sublingual nitroglycerin. Physical exam is unremarkable. Which of the following is the best follow up management plan?",Echocardiography and anti-inflammatory therapy,EGD and proton pump inhibitor therapy,Exercise stress testing; treatment depending on results,Coronary angiography; likely treatment with nitrates and calcium channel blockers,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -1081,7 +1081,7 @@ presentation are",Serum Sodium: Normal; Serum Osmolality: Normal; Urine Sodium: 
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation and radiograph suggest a diagnosis like sigmoid volvulus, which is common in elderly patients with severe abdominal pain, distension, and constipation. However, none of the provided options (A-D) align with this likely diagnosis. Therefore, I cannot select an answer from the given choices.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation and radiograph suggest a diagnosis like sigmoid volvulus, which is common in elderly patients with severe abdominal pain, distension, and constipation. However, none of the provided options (A-D) align with this likely diagnosis. Therefore, I cannot select an answer from the given choices."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation and radiograph suggest a diagnosis like sigmoid volvulus, which is common in elderly patients with severe abdominal pain, distension, and constipation. However, none of the provided options (A-D) align with this likely diagnosis. Therefore, I cannot select an answer from the given choices."
 165,7401fe2dccb710e6c51ca179e86e789efec56b0f8682cfc10258c21ba8a52eee,"A baby delivered at 39 weeks of gestation weighs 1.55 kg, which plots on the 5 th centile of the weigh for gestational age chart. Which of the following clinical problems is the infant unlikely to encounter?",Hyperglycaemia,Hyaline membrane disease.,Hypocalcaemia.,Hypothermia.,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -1105,7 +1105,7 @@ presentation are",Serum Sodium: Normal; Serum Osmolality: Normal; Urine Sodium: 
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms described, including tongue fasciculations and deviation to the side of the lesion, strongly suggest involvement of the hypoglossal nerve (CN XII), which is not listed among the options. None of the provided choices (CN IX, X, XI, or VII) primarily control tongue movement or would typically cause these specific findings.""
-}",null,NO_VALID_OPTION,0.0,"The symptoms described, including tongue fasciculations and deviation to the side of the lesion, strongly suggest involvement of the hypoglossal nerve (CN XII), which is not listed among the options. None of the provided choices (CN IX, X, XI, or VII) primarily control tongue movement or would typically cause these specific findings."
+}",,NO_VALID_OPTION,0.0,"The symptoms described, including tongue fasciculations and deviation to the side of the lesion, strongly suggest involvement of the hypoglossal nerve (CN XII), which is not listed among the options. None of the provided choices (CN IX, X, XI, or VII) primarily control tongue movement or would typically cause these specific findings."
 169,1a7cf0d8ae8b5e6388e73651e03aaefcabfa73180784a246cf892fcc38d814aa,A 29-year-old Caucasian woman presented to her GP at 37 weeks' gestation with a chickenpox rash during winter season. She was prescribed oral acyclovir for 7 days but was warned to report back if unwell. Three days later she presents to the emergency department with severe shortness of breath. What is the likely diagnosis in her case?,Exacerbation of her past tuberculosis,Bronchitis due to allergy to pollen,Drug-induced adult respiratory distress syndrome,Community-acquired pneumonia,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -1198,14 +1198,14 @@ Which of the following is true regarding the blastocyst?
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.5,
   ""rationale"": ""The symptoms and elevated serum amylase suggest acute pancreatitis, but this is not listed among the options. Without a matching diagnosis in the choices, I cannot select an answer. Additional clinical information or a revised set of options is needed.""
-}",null,INSUFFICIENT_INFO,0.5,"The symptoms and elevated serum amylase suggest acute pancreatitis, but this is not listed among the options. Without a matching diagnosis in the choices, I cannot select an answer. Additional clinical information or a revised set of options is needed."
+}",,INSUFFICIENT_INFO,0.5,"The symptoms and elevated serum amylase suggest acute pancreatitis, but this is not listed among the options. Without a matching diagnosis in the choices, I cannot select an answer. Additional clinical information or a revised set of options is needed."
 183,f681f4f27a17981da261ca26961030109aec478b37f72539381867e137024fb0,"A 72-year-old smoker is reviewed following a bronchoscopy and biopsy of a lung lesion that has confirmed to be squamous cell carcinoma of the bronchus.
 What electrolyte abnormality is most likely to be found on investigation?",Hypocalcaemia,Hypokalaemia,Hyperkalaemia,Hyperphosphatemia,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""Squamous cell carcinoma of the lung can be associated with paraneoplastic syndromes, such as hypercalcemia due to PTHrP secretion. However, the options provided do not include hypercalcemia, and the other electrolyte abnormalities listed are less directly linked to this diagnosis without additional clinical context.""
-}",null,INSUFFICIENT_INFO,0.2,"Squamous cell carcinoma of the lung can be associated with paraneoplastic syndromes, such as hypercalcemia due to PTHrP secretion. However, the options provided do not include hypercalcemia, and the other electrolyte abnormalities listed are less directly linked to this diagnosis without additional clinical context."
+}",,INSUFFICIENT_INFO,0.2,"Squamous cell carcinoma of the lung can be associated with paraneoplastic syndromes, such as hypercalcemia due to PTHrP secretion. However, the options provided do not include hypercalcemia, and the other electrolyte abnormalities listed are less directly linked to this diagnosis without additional clinical context."
 184,8c5e947defe0b7f8bd9abad5d6a3cf200b79dbc927ef834ecaeae7fe9a6529dd,"A 73-year old man with extensive smoking history is diagnosed with lung cancer after he presented with cough and mild hemoptysis. On review of systems, he has headaches, which worsen at night. His physical appearance is shown in the image below. Which of the following would you suspect as his diagnosis",Phrenic nerve palsy,Pancoast's syndrome,SVC syndrome,CNS metastases,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -1266,20 +1266,20 @@ abdominal striae. What is the next most useful investigation?",Random growth hor
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests a possible aortic dissection due to sudden chest pain radiating to the back, unequal blood pressures in the arms, and an early diastolic murmur indicating aortic regurgitation. However, aortic dissection is not listed among the provided options. Therefore, none of the choices adequately match the most likely diagnosis.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation suggests a possible aortic dissection due to sudden chest pain radiating to the back, unequal blood pressures in the arms, and an early diastolic murmur indicating aortic regurgitation. However, aortic dissection is not listed among the provided options. Therefore, none of the choices adequately match the most likely diagnosis."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation suggests a possible aortic dissection due to sudden chest pain radiating to the back, unequal blood pressures in the arms, and an early diastolic murmur indicating aortic regurgitation. However, aortic dissection is not listed among the provided options. Therefore, none of the choices adequately match the most likely diagnosis."
 193,40fe8837bf67bea3a9aac3b84d0c31b065ecbd71de71625ee377d1b8855180f8,"A 16-year-old male presents with easy fatigability, exercise intolerance, bleeding gums, gum hypertrophy and fevers. His complete blood count is significant for pancytopenia. Which of the following diagnostic tests are NOT necessary in the work-up of such a patient?",Molecular genetic analysis of the bone marrow cells,Flow cytometry or cytochemistry of the bone marrow cells,Cytogenetic analysis of the bone marrow cells,Morphology of blood and bone marrow smears,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests a hematologic malignancy or bone marrow disorder, but the necessity of each test depends on specific differential diagnoses and initial findings. Without additional context or preliminary results, it's unclear which test might be unnecessary.""
-}",null,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a hematologic malignancy or bone marrow disorder, but the necessity of each test depends on specific differential diagnoses and initial findings. Without additional context or preliminary results, it's unclear which test might be unnecessary."
+}",,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a hematologic malignancy or bone marrow disorder, but the necessity of each test depends on specific differential diagnoses and initial findings. Without additional context or preliminary results, it's unclear which test might be unnecessary."
 194,7d506f9fe412ee115e660e84eeae150c3f26ce5c87f26cca26406abaf5258d36,"A patient undergoes a challenging hysterectomy. A drain is left in the pelvis. You are called to review the patient eight hours later as the nurses have noted a high serous drain output and poor urinary output. What finding would identify if the drain fluid is urine (suggestive of a bladder/ureteric injury) or normal peritoneal fluid? 
 ",Peritoneal creatinine urine nitrogen,Peritoneal urea > urine urea,Serum creatinine à peritoneal creatinine,Serum nitrogen > drain fluid nitrogen levels,"{
   ""choice"": ""null"",
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options clearly and accurately identify a method to distinguish urine from peritoneal fluid in the context of a potential bladder or ureteric injury. The most relevant test would involve comparing creatinine levels between the drain fluid and serum, as urine typically has much higher creatinine levels, but the options are unclear or incorrect.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options clearly and accurately identify a method to distinguish urine from peritoneal fluid in the context of a potential bladder or ureteric injury. The most relevant test would involve comparing creatinine levels between the drain fluid and serum, as urine typically has much higher creatinine levels, but the options are unclear or incorrect."
+}",,NO_VALID_OPTION,0.0,"None of the provided options clearly and accurately identify a method to distinguish urine from peritoneal fluid in the context of a potential bladder or ureteric injury. The most relevant test would involve comparing creatinine levels between the drain fluid and serum, as urine typically has much higher creatinine levels, but the options are unclear or incorrect."
 195,aaed87829b996f0a6cbded06fd4748e4e4b13b04b412b545b8b4cbda391071f3,"73)	Grace is a 4-year-old who attends A & E following profuse watery diarrhoea for 5 days and vomiting for 2 days. Her clinical findings are of lethargy, heart rate of 150 beats per minute, respiratory rate of 35/minute, capillary refill of 4 seconds and cold peripheries. What is the diagnosis?",b)	Gastroenteritis with moderate dehydration.,b)	Gastroenteritis with moderate dehydration.,e)	Metabolic alkalosis,d)	Metabolic acidosis,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -1396,7 +1396,7 @@ GFR may be assessed by the various methods except:                              
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests a respiratory infection, possibly pneumonia, with a history of eye discharge that could indicate a congenital infection. However, the options provided do not include Chlamydia trachomatis, which is the most likely cause of afebrile pneumonia in this age group following neonatal conjunctivitis. Without this option, I cannot confidently select an answer.""
-}",null,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a respiratory infection, possibly pneumonia, with a history of eye discharge that could indicate a congenital infection. However, the options provided do not include Chlamydia trachomatis, which is the most likely cause of afebrile pneumonia in this age group following neonatal conjunctivitis. Without this option, I cannot confidently select an answer."
+}",,INSUFFICIENT_INFO,0.0,"The clinical presentation suggests a respiratory infection, possibly pneumonia, with a history of eye discharge that could indicate a congenital infection. However, the options provided do not include Chlamydia trachomatis, which is the most likely cause of afebrile pneumonia in this age group following neonatal conjunctivitis. Without this option, I cannot confidently select an answer."
 212,eb861b87c4acdc8b6f20738d3d445b01ef2399d00bdf8bedaa4c4194a85b2db7,A 24-year-old man presents to the ER with an acute abdomen. He has a generally tender abdomen with guarding and rebound tenderness. The bowel sounds are absent. He is being managed for generalised peritonitis secondary to a hollow viscus perforation. The imaging investigation appropriate to demonstrate air in the abdomen is,a.	Abdominal X-ray,b.	Erect chest X-ray,c.	Abdominal Ultrasound,d.	Pelvic Ultrasound,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -1446,7 +1446,7 @@ past month. His heart rate is 88 bpm and regular. Blood pressure checked was 140
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests pre-eclampsia, characterized by hypertension, proteinuria, and symptoms like headache and visual disturbances at 30 weeks' gestation. However, pre-eclampsia is not listed among the provided options. None of the given choices adequately explain the full clinical picture.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation suggests pre-eclampsia, characterized by hypertension, proteinuria, and symptoms like headache and visual disturbances at 30 weeks' gestation. However, pre-eclampsia is not listed among the provided options. None of the given choices adequately explain the full clinical picture."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation suggests pre-eclampsia, characterized by hypertension, proteinuria, and symptoms like headache and visual disturbances at 30 weeks' gestation. However, pre-eclampsia is not listed among the provided options. None of the given choices adequately explain the full clinical picture."
 220,c03079d1061f23a8a3e00aed79a453c1fe80df97c10e7f475ce1f5e388c76c8b,"A 47 years old man presents with a 2 day history of disorientation, auditory and visual hallucinaitons. His wife says he has been complaining of headaches 2 days prior to presentation. His blood pressure is 212/125 mmHg. This is his first such episode. He most likely has;",Schizophrenia,Bipolar Affective Disorder,Schizo-Affective Disorder,Organic cause of psychosis,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -1500,7 +1500,7 @@ past month. His heart rate is 88 bpm and regular. Blood pressure checked was 140
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""I do not have access to specific statistical data or current clinical guidelines regarding the conversion rate to laparotomy following injury during diagnostic laparoscopy. Without verified data or context-specific information, I cannot provide an accurate answer.""
-}",null,INSUFFICIENT_INFO,0.0,"I do not have access to specific statistical data or current clinical guidelines regarding the conversion rate to laparotomy following injury during diagnostic laparoscopy. Without verified data or context-specific information, I cannot provide an accurate answer."
+}",,INSUFFICIENT_INFO,0.0,"I do not have access to specific statistical data or current clinical guidelines regarding the conversion rate to laparotomy following injury during diagnostic laparoscopy. Without verified data or context-specific information, I cannot provide an accurate answer."
 229,17e093b6d955b95bf1bb8176ab8d01a214f70e36489b0af3b88d929b887a81b4,"A 36 year old factory worker developed itchy, annular scaly plaques in both groins Application of a corticosteroid ointment led to temporary relief but the plaques continued to extend at the periphery. The most likely diagnosis is?",erythem annulare centrifugum,granuloma annulare,.tinea cruris,. psoriasis,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -1543,7 +1543,7 @@ Most common cause of Cushing’s syndrome is?
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The clinical presentation suggests a neurological issue possibly related to chronic alcohol use, such as Wernicke's encephalopathy, but this is not listed among the options. The provided choices do not fully align with the classic triad of confusion, ataxia, and ocular findings typically seen in Wernicke's. Additional history or diagnostic tests are needed to confirm the diagnosis.""
-}",null,INSUFFICIENT_INFO,0.3,"The clinical presentation suggests a neurological issue possibly related to chronic alcohol use, such as Wernicke's encephalopathy, but this is not listed among the options. The provided choices do not fully align with the classic triad of confusion, ataxia, and ocular findings typically seen in Wernicke's. Additional history or diagnostic tests are needed to confirm the diagnosis."
+}",,INSUFFICIENT_INFO,0.3,"The clinical presentation suggests a neurological issue possibly related to chronic alcohol use, such as Wernicke's encephalopathy, but this is not listed among the options. The provided choices do not fully align with the classic triad of confusion, ataxia, and ocular findings typically seen in Wernicke's. Additional history or diagnostic tests are needed to confirm the diagnosis."
 235,9e2a74aecccfcd24a0f05a86b106fda763d7009f24f344563dd588247b7f0dd1,"28)	A 16-year-old girl complains of dysuria of 1 week's duration. She was seen 4 days ago at an urgent care facility and was prescribed trimethoprim-sulfamethoxazole because of abnormal urinalysis findings. Although she has taken the antibiotic as directed, she has had no relief from the dysuria. She has no nausea, vomiting, flank pain, vaginal discharge, or fever. Of the following, the MOST appropriate course of action is to",treat with fluconazole,order ultrasonography of the kidneys,inspect her genitalia,add doxycycline to the treatment,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -1639,13 +1639,13 @@ Most common cause of Cushing’s syndrome is?
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options directly correlate with the clinical presentation of hypovolemic shock due to splenic rupture and blood loss from a motorcycle accident. Hypovolemic shock is the most likely condition given the history and vital signs, but it is not listed among the choices.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options directly correlate with the clinical presentation of hypovolemic shock due to splenic rupture and blood loss from a motorcycle accident. Hypovolemic shock is the most likely condition given the history and vital signs, but it is not listed among the choices."
+}",,NO_VALID_OPTION,0.0,"None of the provided options directly correlate with the clinical presentation of hypovolemic shock due to splenic rupture and blood loss from a motorcycle accident. Hypovolemic shock is the most likely condition given the history and vital signs, but it is not listed among the choices."
 251,5d0690a27a1894785ec024fd755728d356573d074acf86418e829aad653ad366,"An otherwise healthy 45-year-old schizophrenic comes to his psychiatrist for a routine visit. He has had a poor response to several trials of typical antipsychotics, as well as to risperidone and olanzapine. His psychiatrist recommends a trial of clozapine. Which of the following baseline tests should be ordered on this patient before starting this drug?",Liver function tests,Thyroid function tests,EEG,Blood urea nitrogen (BUN),"{
   ""choice"": ""null"",
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.9,
   ""rationale"": ""None of the provided options include a complete blood count (CBC), which is essential before starting clozapine due to the risk of agranulocytosis. Monitoring white blood cell counts is a critical baseline test for this medication.""
-}",null,NO_VALID_OPTION,0.9,"None of the provided options include a complete blood count (CBC), which is essential before starting clozapine due to the risk of agranulocytosis. Monitoring white blood cell counts is a critical baseline test for this medication."
+}",,NO_VALID_OPTION,0.9,"None of the provided options include a complete blood count (CBC), which is essential before starting clozapine due to the risk of agranulocytosis. Monitoring white blood cell counts is a critical baseline test for this medication."
 252,e69eb1ce8c0d8ebcd234a090ed1476ff3bbbd20d396db551e02083b415c4926c,"A 19-year-old man is seen in the emergency department 20 minutes after a high-speed head-on collision with a tree, in which his car caught fire. He was not wearing a seat belt and was ejected from the vehicle. In the emergency department, he is alert, but he does not remember what happened. He admits to drinking a few beers earlier. Blood pressure is 75/40 mmHg and heart rate 140. His airway is patent. Breath sounds are equal bilaterally. Arterial blood gases reveal a Pa O 2 of 140, Sa O 2 of 98%, Pa CO 2 of 34, and p H of 7.33. He has burns to 15% TBSA, involving his anterior trunk and legs. His abdomen is covered with burns but appears distended; tenderness is hard to determine because of painful burn wounds. What is the most likely cause of his hypotension?",Smoke inhalation injury,Burn shock,Intra-abdominal hemorrhage,Ethanol intoxication,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -1745,7 +1745,7 @@ A small smooth goitre is palpated. She has fine tremors and sweaty palms. Her bl
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests varicose veins with a venous ulcer, given the history of distended veins, leg swelling, and an ulcer near the medial malleolus. However, none of the provided options (neurotrophic, gestational, decubitus, or diabetic ulcer) accurately match this diagnosis. A venous ulcer or chronic venous insufficiency would be the most likely diagnosis, but it is not listed.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation suggests varicose veins with a venous ulcer, given the history of distended veins, leg swelling, and an ulcer near the medial malleolus. However, none of the provided options (neurotrophic, gestational, decubitus, or diabetic ulcer) accurately match this diagnosis. A venous ulcer or chronic venous insufficiency would be the most likely diagnosis, but it is not listed."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation suggests varicose veins with a venous ulcer, given the history of distended veins, leg swelling, and an ulcer near the medial malleolus. However, none of the provided options (neurotrophic, gestational, decubitus, or diabetic ulcer) accurately match this diagnosis. A venous ulcer or chronic venous insufficiency would be the most likely diagnosis, but it is not listed."
 266,ac023df1c1b9c72aa51e356d0117711d143936e0cc3452257e68d9b68b17a887,"A 46-year-old man is diagnosed with an estrogen receptor-positive invasive ductal carcinoma of the right breast after having discovered a lump 3 months before. The patient is found to have multiple involved axillary lymph nodes, and the tumor is of an aggressive phenotype. The most appropriate treatment option for this patient is:",Cytotoxic chemotherapy and Tamoxifen but no surgery,Mastectomy + axillary clearance + systemic chemotherapy + radiotherapy and  Tamoxifen,Wide local excision and Tamoxifen only,Mastectomy + postoperative radiotherapy only,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -1808,7 +1808,7 @@ Which medication should be used to 'prime' the cervix prior to the hysteroscopy?
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.5,
   ""rationale"": ""The symptoms suggest a possible cluster headache due to the unilateral severe pain, short duration, recurrence, lacrimation, and rhinorrhea. However, cluster headache is not listed among the options, and none of the provided choices fully align with the clinical picture. Further information or additional options are needed for a definitive diagnosis.""
-}",null,INSUFFICIENT_INFO,0.5,"The symptoms suggest a possible cluster headache due to the unilateral severe pain, short duration, recurrence, lacrimation, and rhinorrhea. However, cluster headache is not listed among the options, and none of the provided choices fully align with the clinical picture. Further information or additional options are needed for a definitive diagnosis."
+}",,INSUFFICIENT_INFO,0.5,"The symptoms suggest a possible cluster headache due to the unilateral severe pain, short duration, recurrence, lacrimation, and rhinorrhea. However, cluster headache is not listed among the options, and none of the provided choices fully align with the clinical picture. Further information or additional options are needed for a definitive diagnosis."
 276,c66dac7de40a0c11e9c20b00f59135670c17349db3f0786c282252fc7716ebd7,A 39-year-old male presents with severe epigastric abdominal pain and vomiting. He prefers to sit bending forward. He has a tinge of jaundice and his abdomen is tender with an echymotic periumbilical region. What should be considered in this patient’s evaluation?,A perforated duodenal ulcer is the most likely cause of his pain,Associated fever and joint pains would exclude an autoimmune  aetiology of his condition,History of a preceding endoscopic procedure is significant in the history taking,A low  serum calcium report is of aetiological significance in his laboratory workup,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -1845,7 +1845,7 @@ What is the likely diagnosis?",Temporal arteritis,Brain tumor,Sinusitis,Temporom
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""Calcium pyrophosphate crystals are associated with pseudogout, which is not listed among the options. Without pseudogout as a choice, I cannot confidently select an answer. Additional clinical context or a corrected set of options is needed.""
-}",null,INSUFFICIENT_INFO,0.0,"Calcium pyrophosphate crystals are associated with pseudogout, which is not listed among the options. Without pseudogout as a choice, I cannot confidently select an answer. Additional clinical context or a corrected set of options is needed."
+}",,INSUFFICIENT_INFO,0.0,"Calcium pyrophosphate crystals are associated with pseudogout, which is not listed among the options. Without pseudogout as a choice, I cannot confidently select an answer. Additional clinical context or a corrected set of options is needed."
 282,dcfa986a150a1f96531efeea0ca2bdec52066bbfc2f1bdd58c7edb033b188660,"Your hospital has recently had an increase in postoperative infections. As a result, you are formulating a new guideline that includes information on skin preparation and hair removal prior to surgery. What is the most appropriate method of hair removal prior to surgery? 
 ",Electric clippers,Shaving,Electrolysis,Laser,"{
   ""choice"": ""A"",
@@ -1895,7 +1895,7 @@ What is the likely diagnosis?",Temporal arteritis,Brain tumor,Sinusitis,Temporom
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The symptoms and family history suggest a possible genetic neurodegenerative disorder like Huntington's disease, which is not listed among the options. The provided choices do not fully align with the clinical picture of rapid intellectual decline and choreiform movements over a short period. Additional information or testing (e.g., genetic testing) would be needed to confirm a diagnosis.""
-}",null,INSUFFICIENT_INFO,0.3,"The symptoms and family history suggest a possible genetic neurodegenerative disorder like Huntington's disease, which is not listed among the options. The provided choices do not fully align with the clinical picture of rapid intellectual decline and choreiform movements over a short period. Additional information or testing (e.g., genetic testing) would be needed to confirm a diagnosis."
+}",,INSUFFICIENT_INFO,0.3,"The symptoms and family history suggest a possible genetic neurodegenerative disorder like Huntington's disease, which is not listed among the options. The provided choices do not fully align with the clinical picture of rapid intellectual decline and choreiform movements over a short period. Additional information or testing (e.g., genetic testing) would be needed to confirm a diagnosis."
 290,e7e8f425eb3660cf78fe17bd9b5314dcbf5443b4cc3f427b740c41a752189c75,"A 25-year old woman, injured in a motor vehicular crash is admitted to the emergency department Hi pupils react sluggishly and his eyes open to painful stimuli. He does not follow commands but she moans periodically. His right arm is deformed and does not respond to painful stimulus; however, his left hand reaches purposefully toward the painful stimulus. Both legs are extended. His GCS score is",2,4,6,9,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -1973,7 +1973,7 @@ What is the likely diagnosis?",Temporal arteritis,Brain tumor,Sinusitis,Temporom
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical features described, including proximal wing-beating tremor, dystonia, incoordination, elevated transaminases, and brownish corneal deposits, strongly suggest Wilson’s disease. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate.""
-}",null,NO_VALID_OPTION,0.0,"The clinical features described, including proximal wing-beating tremor, dystonia, incoordination, elevated transaminases, and brownish corneal deposits, strongly suggest Wilson’s disease. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate."
+}",,NO_VALID_OPTION,0.0,"The clinical features described, including proximal wing-beating tremor, dystonia, incoordination, elevated transaminases, and brownish corneal deposits, strongly suggest Wilson’s disease. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate."
 303,d0bd03f1241e0624f3e1d18e9fec143f710d5cbeb01feeb27568254efe3f614f,A 58-year-old man has been found to persistent have systolic blood pressure readings between 145 and 155 mmHg and diastolic pressures between 80 and 95 mmHg when checked at routine visits at the hospital. His blood pressure today is 130/85 mmHg. What is the next most appropriate step in his management?,Start him on a beta blocker,Reassure and discharge from follow-up,Start him on a calcium channel blocker,24 hour ambulatory BP monitoring,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2005,7 +2005,7 @@ Question: What is the anion gap? .",The anion gap is 16 mmol/L.,The anion gap is
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options correspond to the Epworth Sleepiness Scale, which is the standard measure for assessing daytime sleepiness in OSA. The correct name is not listed among the choices.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options correspond to the Epworth Sleepiness Scale, which is the standard measure for assessing daytime sleepiness in OSA. The correct name is not listed among the choices."
+}",,NO_VALID_OPTION,0.0,"None of the provided options correspond to the Epworth Sleepiness Scale, which is the standard measure for assessing daytime sleepiness in OSA. The correct name is not listed among the choices."
 307,7b8c6e99ca42c937f94981e7b985b20867ffcc1670800433afbbcf5b2abcea09,"You have just examined a 28-year-old primigravida in spontaneous labour. Examination findings are 0/5 palpable per abdomen, cervix is 7 cm dilated, cephalic presentation,-1 station, anterior fontanelle palpable with orbital ridges and nasal bridge felt anteriorly. What is the presenting diameter of the fetus?",Suboccipitobregmatic,Suboccipitofrontal,Suboccipitobregmatic,Occipitofrontal,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2017,7 +2017,7 @@ Question: What is the anion gap? .",The anion gap is 16 mmol/L.,The anion gap is
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The symptoms suggest reactive arthritis, but I lack confirmatory test results or detailed history of recent infections. The options provided do not align perfectly with the most likely diagnosis, and further information is needed to rule out other conditions.""
-}",null,INSUFFICIENT_INFO,0.3,"The symptoms suggest reactive arthritis, but I lack confirmatory test results or detailed history of recent infections. The options provided do not align perfectly with the most likely diagnosis, and further information is needed to rule out other conditions."
+}",,INSUFFICIENT_INFO,0.3,"The symptoms suggest reactive arthritis, but I lack confirmatory test results or detailed history of recent infections. The options provided do not align perfectly with the most likely diagnosis, and further information is needed to rule out other conditions."
 309,07ac9805d801e7b98ea88417bee01c9740a217a2ad0076e6178cdfb407b80bf7,A 43-year-old lady with a history of heavy menstrual bleeding and a scan suggesting a polyp is due to undergo an outpatient hysteroscopy. Which distension medium is routinely recommended due to its improved quality of image and speed of the procedure?,Carbon dioxide,Purosol,Gelofusin,5% glucose,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -2071,7 +2071,7 @@ Question: What is the anion gap? .",The anion gap is 16 mmol/L.,The anion gap is
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests a peritonsillar abscess due to unilateral throat pain, trismus, fever, soft palate swelling, and uvula deviation. However, this specific diagnosis is not listed among the provided options. Therefore, none of the choices (A, B, C, or D) accurately reflect the most likely diagnosis.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation suggests a peritonsillar abscess due to unilateral throat pain, trismus, fever, soft palate swelling, and uvula deviation. However, this specific diagnosis is not listed among the provided options. Therefore, none of the choices (A, B, C, or D) accurately reflect the most likely diagnosis."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation suggests a peritonsillar abscess due to unilateral throat pain, trismus, fever, soft palate swelling, and uvula deviation. However, this specific diagnosis is not listed among the provided options. Therefore, none of the choices (A, B, C, or D) accurately reflect the most likely diagnosis."
 317,3c25fbb2790b3886b33f82fa040363c73ff319a95ff178a4f38d774f1e5eb578,"A 27-year-old female presents with palpitations, weight loss, polyuria, diarrhea, and increased appetite for 3 weeks. Her past medical history is non-significant. Which of the following investigations is the most appropriate for this patient?",Urinalysis,Random blood sugar,Thyroid function tests,Liver function tests,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2092,13 +2092,13 @@ The scoring is done out of?
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""I am not confident in selecting an answer as I recall the MMSE is scored out of 30, which is not listed among the provided options. This discrepancy suggests a possible error in the question or options.""
-}",null,INSUFFICIENT_INFO,0.0,"I am not confident in selecting an answer as I recall the MMSE is scored out of 30, which is not listed among the provided options. This discrepancy suggests a possible error in the question or options."
+}",,INSUFFICIENT_INFO,0.0,"I am not confident in selecting an answer as I recall the MMSE is scored out of 30, which is not listed among the provided options. This discrepancy suggests a possible error in the question or options."
 320,6d7eb25e737d630e2b132207333d2d94712257afef6033ab5bcb4bac6495990c,"A 45-year-old male presents with a daily headache. He describes two attacks per day over the last 3 weeks. Each attack lasts about an hour and awakens the patient from sleep. The patient has noted associated tearing and reddening of the right eye as well as nasal stuffiness. The pain is deep, excruciating, and limited to the right side of the head. The neurologic examination is non-focal. The most likely diagnosis of this patient’s headache is?",Tension headache,Giant cell arteritis,Migraine headache,Brain tumor,"{
   ""choice"": ""null"",
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation suggests cluster headache due to the unilateral, severe pain, short duration, and autonomic symptoms like tearing and nasal stuffiness. However, cluster headache is not listed among the provided options. Therefore, none of the choices accurately reflect the most likely diagnosis.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation suggests cluster headache due to the unilateral, severe pain, short duration, and autonomic symptoms like tearing and nasal stuffiness. However, cluster headache is not listed among the provided options. Therefore, none of the choices accurately reflect the most likely diagnosis."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation suggests cluster headache due to the unilateral, severe pain, short duration, and autonomic symptoms like tearing and nasal stuffiness. However, cluster headache is not listed among the provided options. Therefore, none of the choices accurately reflect the most likely diagnosis."
 321,1ec4d76462409fd5da3abf265e6e748c12a6fac83e92e5f727fa24a1edbbae2b,"A 35-year-old nulliparous woman at 36 weeks' gestation was diagnosed with pre eclampsis She complains of headaches and visual disturbances. Her blood pressure is 150/100 mmHg and Hb 10 g/dl, platelets 90, ALT 88. She is at risk of the following complications except which one?",Cerebral haemorrhage,Placenta praevia,Pulmonary oedema,Eclampsia,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -2236,7 +2236,7 @@ shows a follicular neoplasm. What is the next best step in management?",Thyroid 
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms described, including jaw stiffness, back and neck pain, dysphagia, and seizures following a penetrating wound, strongly suggest tetanus, which is not listed among the options. None of the provided choices (Rabies, Bovine Spongiform Encephalopathy, Meningitis, Encephalitis) fully align with the clinical presentation and history of a nail injury.""
-}",null,NO_VALID_OPTION,0.0,"The symptoms described, including jaw stiffness, back and neck pain, dysphagia, and seizures following a penetrating wound, strongly suggest tetanus, which is not listed among the options. None of the provided choices (Rabies, Bovine Spongiform Encephalopathy, Meningitis, Encephalitis) fully align with the clinical presentation and history of a nail injury."
+}",,NO_VALID_OPTION,0.0,"The symptoms described, including jaw stiffness, back and neck pain, dysphagia, and seizures following a penetrating wound, strongly suggest tetanus, which is not listed among the options. None of the provided choices (Rabies, Bovine Spongiform Encephalopathy, Meningitis, Encephalitis) fully align with the clinical presentation and history of a nail injury."
 341,566abaa5a94025620a799fb595753d977e7e015d9605ef3346d32d1921056326,A 30 year old female presents with weakness of the lower limbs. On examination there is loss of proprioception and vibration sense. Here full blood count reveals increased mean corpuscular volume (MCV). What is the likely diagnosis?,Tropical spastic paraplegia,Tabes dorsalis,Subacute combined degeneration of the cord,Multiple sclerosis,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2286,7 +2286,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The description of a radiolucent lesion in the distal femur during pregnancy raises concern for a possible bone tumor, but there is not enough information about the specific diagnosis or extent of the lesion. Further imaging or biopsy might be needed to determine the nature of the lesion before deciding on a treatment plan. Risks to the pregnancy must also be considered in any intervention.""
-}",null,INSUFFICIENT_INFO,0.2,"The description of a radiolucent lesion in the distal femur during pregnancy raises concern for a possible bone tumor, but there is not enough information about the specific diagnosis or extent of the lesion. Further imaging or biopsy might be needed to determine the nature of the lesion before deciding on a treatment plan. Risks to the pregnancy must also be considered in any intervention."
+}",,INSUFFICIENT_INFO,0.2,"The description of a radiolucent lesion in the distal femur during pregnancy raises concern for a possible bone tumor, but there is not enough information about the specific diagnosis or extent of the lesion. Further imaging or biopsy might be needed to determine the nature of the lesion before deciding on a treatment plan. Risks to the pregnancy must also be considered in any intervention."
 348,129a1227dc7cde1cbfa05450a534bdb020e8176d8cfd761ee4d554aff8c9cb7c,Iron released from enterocytes basolateral membrane binds to free sites on the plasma iron transport protein transferrin. Normal transferrin saturation is ~30%. Systemic regulation of iron absorption is mediated by?,DMT1,Ferroportin,Serum iron,Ferritin,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -2369,7 +2369,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""None of the provided options include parietal cells, which are responsible for secreting intrinsic factor necessary for vitamin B12 absorption. After a gastrectomy, the loss of parietal cells necessitates lifelong vitamin B12 supplementation. The listed cell types do not play a direct role in this process.""
-}",null,NO_VALID_OPTION,0.0,"None of the provided options include parietal cells, which are responsible for secreting intrinsic factor necessary for vitamin B12 absorption. After a gastrectomy, the loss of parietal cells necessitates lifelong vitamin B12 supplementation. The listed cell types do not play a direct role in this process."
+}",,NO_VALID_OPTION,0.0,"None of the provided options include parietal cells, which are responsible for secreting intrinsic factor necessary for vitamin B12 absorption. After a gastrectomy, the loss of parietal cells necessitates lifelong vitamin B12 supplementation. The listed cell types do not play a direct role in this process."
 361,398c30382eebf900234b98562c994d0c696225f03a6f1ce27419650844f48eb9,"A 47 year old man had a huge lipoma excised from his back. He was admitted 8 days after surgery because the wound dressing was soaked with blood. His pulse rate was 80 beats/min, with good volume. Which of the following describes the clinical condition?",Primary haemorrhage,Reactionary haemmorrhage,Secondary haemorrhage,Septic haemmorrhage,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2393,7 +2393,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The options provided contain inconsistencies (e.g., incorrect gender pronouns) and do not accurately reflect a calculated likelihood of appendicitis using a clinical scoring system like the Alvarado score. Additionally, some options focus on urgent operation without addressing likelihood as asked in the question.""
-}",null,NO_VALID_OPTION,0.0,"The options provided contain inconsistencies (e.g., incorrect gender pronouns) and do not accurately reflect a calculated likelihood of appendicitis using a clinical scoring system like the Alvarado score. Additionally, some options focus on urgent operation without addressing likelihood as asked in the question."
+}",,NO_VALID_OPTION,0.0,"The options provided contain inconsistencies (e.g., incorrect gender pronouns) and do not accurately reflect a calculated likelihood of appendicitis using a clinical scoring system like the Alvarado score. Additionally, some options focus on urgent operation without addressing likelihood as asked in the question."
 365,16d94ac28333d2ef4836257bd204f7c626069667a8ba467cfb7b18a9f1115d35,A 21-year old woman presents with left lower quadrant pain. A 7-cm firm adnexal mass is palpated. Ultrasound confirms a complex adnexal mass with solid components that appears to contain a tooth. What type of ovarian tumour is this?,Dysgerminoma,Matured teratoma,cystadenoma,brenners tumour,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -2483,7 +2483,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The clinical data provided does not clearly point to any of the given options as the cause of the vertebral compression deformity. Additional information, such as bone density scans or history of metabolic bone disease, is needed to make an informed choice. The lack of trauma or pain further complicates the diagnosis without more context.""
-}",null,INSUFFICIENT_INFO,0.3,"The clinical data provided does not clearly point to any of the given options as the cause of the vertebral compression deformity. Additional information, such as bone density scans or history of metabolic bone disease, is needed to make an informed choice. The lack of trauma or pain further complicates the diagnosis without more context."
+}",,INSUFFICIENT_INFO,0.3,"The clinical data provided does not clearly point to any of the given options as the cause of the vertebral compression deformity. Additional information, such as bone density scans or history of metabolic bone disease, is needed to make an informed choice. The lack of trauma or pain further complicates the diagnosis without more context."
 380,ce366707f28ad2a804e4986497031bc156cef06847de2bd01f592ce6df6e40ec,"A 24-year-old presents with fever, dyspnea, and cough for 3 weeks. Chest auscultation is unremarkable. Chest radiograph shows bilateral peri-hilar interstitial infiltrates in a butterfly pattern. His HIV antibody test is positive. Which of the following is TRUE?",Cotrimoxazole is second-line therapy in patients who do not respond to macrolides,Tuberculous lymphadenitis explains the findings,Dapsone has no role in the management,Cryptococcosis is the most likely diagnosis,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -2501,7 +2501,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical presentation and ECG findings of a short PR interval and delta waves strongly suggest Wolff-Parkinson-White (WPW) syndrome, which is not listed among the options. None of the provided choices align with these specific ECG characteristics and the history of atrial fibrillation in a young patient.""
-}",null,NO_VALID_OPTION,0.0,"The clinical presentation and ECG findings of a short PR interval and delta waves strongly suggest Wolff-Parkinson-White (WPW) syndrome, which is not listed among the options. None of the provided choices align with these specific ECG characteristics and the history of atrial fibrillation in a young patient."
+}",,NO_VALID_OPTION,0.0,"The clinical presentation and ECG findings of a short PR interval and delta waves strongly suggest Wolff-Parkinson-White (WPW) syndrome, which is not listed among the options. None of the provided choices align with these specific ECG characteristics and the history of atrial fibrillation in a young patient."
 383,e937e6df2cad4e9875eb4f834e5c86773235471a55715bdbdf1170f0f2b8fec3,"A 72-year-old patient with obesity and superficial varicose veins was admitted to the surgical department with a strangulated large incisional hernia. On the next day after the operation, the patient complained of pain in the left thigh. On day 3 after the operation, during an attempt to stand up, the patient experienced inspiratory dyspnea, dull chest pain, systolic BP of 60 mmHg, and a heart rate of 130 beats per minute. Which method of treatment would be most effective in this case?",Surgical embolectomy,Observation and supportive care,Therapy for pulmonary edema,Heparin,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -2513,7 +2513,7 @@ valve presents to thehospital with acute-onset pain in her right lower extremity
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The clinical features described, such as centripetal obesity, buffalo hump, hirsutism, hypertension, and hyperglycemia, strongly suggest Cushing's syndrome. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate.""
-}",null,NO_VALID_OPTION,0.0,"The clinical features described, such as centripetal obesity, buffalo hump, hirsutism, hypertension, and hyperglycemia, strongly suggest Cushing's syndrome. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate."
+}",,NO_VALID_OPTION,0.0,"The clinical features described, such as centripetal obesity, buffalo hump, hirsutism, hypertension, and hyperglycemia, strongly suggest Cushing's syndrome. However, this condition is not listed among the provided options. Therefore, none of the choices are appropriate."
 385,3d357da3b5eb16b5293f607f7d2b169d958d3006ff5b061547ae40a1427955fd,40-year-old female with a history of B 12 deficiency is diagnosed of pernicious anemia. Anti-parietal cell antibodies are detected on investigation. These antibodies are directed against which of the following?,"H+, K+ ATPase",Acetylcholine receptors,gastrin receptors,prostaglandin receptors,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -2544,7 +2544,7 @@ the following is TRUE of this condition?",Treatment involves surgical resection 
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The description suggests fibromuscular dysplasia due to the 'beaded' appearance of the internal carotid artery, but I lack specific clinical context or confirmation of the diagnosis. Additionally, options C and D are identical, which may be a typo, and none of the options seem definitively correct without further information.""
-}",null,INSUFFICIENT_INFO,0.2,"The description suggests fibromuscular dysplasia due to the 'beaded' appearance of the internal carotid artery, but I lack specific clinical context or confirmation of the diagnosis. Additionally, options C and D are identical, which may be a typo, and none of the options seem definitively correct without further information."
+}",,INSUFFICIENT_INFO,0.2,"The description suggests fibromuscular dysplasia due to the 'beaded' appearance of the internal carotid artery, but I lack specific clinical context or confirmation of the diagnosis. Additionally, options C and D are identical, which may be a typo, and none of the options seem definitively correct without further information."
 389,a04232b8e5ff04165bd1d8ad44c48b3b13e2285c3f69f8e39cc4a18586654afb,"A 22-year-old girl who is diabetic presents with pain in the abdomen, vomiting and shortness of breath. She also gives a 3-day history of fevers and sore throat. Which of the following is the likely cause of her symptoms?",Hypoglycaemia,Non-ketotic hyperosmolar,Renal failure,Diabetic ketoacidosis,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2575,19 +2575,19 @@ Which of the following GLUT is an insulin-responsive glucose transporter?",GLUT-
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's presentation of primary amenorrhea, 46 XY karyotype, normal height, and lack of pubic/axillary hair suggests a condition like Androgen Insensitivity Syndrome, which is not listed among the options. None of the provided choices (Kallmann syndrome, Premature ovarian failure, Klinefelter syndrome, or Turner syndrome) align with a 46 XY karyotype and this clinical picture.""
-}",null,NO_VALID_OPTION,0.0,"The patient's presentation of primary amenorrhea, 46 XY karyotype, normal height, and lack of pubic/axillary hair suggests a condition like Androgen Insensitivity Syndrome, which is not listed among the options. None of the provided choices (Kallmann syndrome, Premature ovarian failure, Klinefelter syndrome, or Turner syndrome) align with a 46 XY karyotype and this clinical picture."
+}",,NO_VALID_OPTION,0.0,"The patient's presentation of primary amenorrhea, 46 XY karyotype, normal height, and lack of pubic/axillary hair suggests a condition like Androgen Insensitivity Syndrome, which is not listed among the options. None of the provided choices (Kallmann syndrome, Premature ovarian failure, Klinefelter syndrome, or Turner syndrome) align with a 46 XY karyotype and this clinical picture."
 394,b7cb4c911cdb1839fa05ce2d2cbe00cf72f4f4a5a0d2470e8c19243481862f7c,"31. A 19-year-old teenager had an emergency laparotomy with an appendicectomy on account of typhoid ileal perforation. Today is POD 2 and the NG tube drained about 1 L of bilious aspirate. His urine output was however adequate, and he does not appear to be dehydrated. What is the fluid requirement of this patient",2L of NS; 1L of 5% Dextrose and 1L of 10% Dextrose,"1L of ORS, 1L of 5% Dextrose and 3L of Badoe’s solution",e.1L of Gastrointestinal replacement fluid and 3L of 5% Dextrose,"d.1L of RL, 1L of NS, 1L of 10% Dextrose","{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's fluid requirement calculation needs more specific data such as body weight, ongoing losses, and electrolyte status. Without this information, selecting an appropriate fluid regimen from the options is not possible.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient's fluid requirement calculation needs more specific data such as body weight, ongoing losses, and electrolyte status. Without this information, selecting an appropriate fluid regimen from the options is not possible."
+}",,INSUFFICIENT_INFO,0.0,"The patient's fluid requirement calculation needs more specific data such as body weight, ongoing losses, and electrolyte status. Without this information, selecting an appropriate fluid regimen from the options is not possible."
 395,c008d598d30043b33ff136ee7446314c03d503a2c346d31090d762d511b3760b,A 42 year old engineer developed redness of the glans and radial fissuring of the prepuce 2 weeks ago. A potassium hydroxide preparation of scrapings from the glans showed pseudohyphae and buds. Which one of the following Systemic Illnesses should he be screened for?,Pulmonary Tuberculosis,Syphilis,Chronic Renal Failure,Systemic Candidiasis,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The presence of pseudohyphae and buds suggests a fungal infection, likely candidiasis. However, the options provided do not include a systemic illness directly associated with increased risk of cutaneous or mucocutaneous candidiasis, such as diabetes mellitus. Without a clear link to the listed conditions, I cannot confidently select an answer.""
-}",null,INSUFFICIENT_INFO,0.2,"The presence of pseudohyphae and buds suggests a fungal infection, likely candidiasis. However, the options provided do not include a systemic illness directly associated with increased risk of cutaneous or mucocutaneous candidiasis, such as diabetes mellitus. Without a clear link to the listed conditions, I cannot confidently select an answer."
+}",,INSUFFICIENT_INFO,0.2,"The presence of pseudohyphae and buds suggests a fungal infection, likely candidiasis. However, the options provided do not include a systemic illness directly associated with increased risk of cutaneous or mucocutaneous candidiasis, such as diabetes mellitus. Without a clear link to the listed conditions, I cannot confidently select an answer."
 396,85b56212d097accf343e9054ef1c9ef276bae9e9d3ae8a1a89b86b137def5ab2,"A 45-year-old woman has pain in her fingers on exposure to cold, arthralgias, and difficulty swallowing solid food. Of the following tests, which, if positive, would be most supportive of a definitive diagnosis?",Rheumatoid factor,ECG,BUN and creatinine,Reproduction of symptoms and findings by immersion of hands in cold water,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2605,7 +2605,7 @@ Which of the following GLUT is an insulin-responsive glucose transporter?",GLUT-
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The provided options do not appear to be in a recognizable format for complication rates (e.g., percentage or per 1,000 cases). Without context or clarification on what these numbers represent, I cannot select a correct answer.""
-}",null,NO_VALID_OPTION,0.0,"The provided options do not appear to be in a recognizable format for complication rates (e.g., percentage or per 1,000 cases). Without context or clarification on what these numbers represent, I cannot select a correct answer."
+}",,NO_VALID_OPTION,0.0,"The provided options do not appear to be in a recognizable format for complication rates (e.g., percentage or per 1,000 cases). Without context or clarification on what these numbers represent, I cannot select a correct answer."
 399,944b2ffc0615f89dbcd2d5eabab8f7a33ff687019b5c04709187986a233bf5c6,A 7-day old infant presents with inability to move the left upper limb. Examination shows the limb is adducted at the shoulder with pronation at the elbow and flexion at the wrist joint. The likely diagnosis is:,Klumpke’s palsy,Phrenic nerve injury,Erb’s palsy,Fracture of clavicle.,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2636,13 +2636,13 @@ Which of the following GLUT is an insulin-responsive glucose transporter?",GLUT-
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The options provided do not clearly align with known risk factors for silent myocardial infarction, such as diabetes or older age. More specific patient history or context is needed to make an informed choice.""
-}",null,INSUFFICIENT_INFO,0.0,"The options provided do not clearly align with known risk factors for silent myocardial infarction, such as diabetes or older age. More specific patient history or context is needed to make an informed choice."
+}",,INSUFFICIENT_INFO,0.0,"The options provided do not clearly align with known risk factors for silent myocardial infarction, such as diabetes or older age. More specific patient history or context is needed to make an informed choice."
 404,5779caf944a47670770a725733148ad61823049e6b8a591c48e31c9c55de0eba,"A 9-year-old boy presents with fever, vomiting, upper abdominal pain and passage of dark urine of three days duration. He had taken a hypodermic injection for a foot injury in the preceding month. Physical examination reveals moderate pallor, heart rate of 80/minute, and 6 cm tender hepatomegaly. The most likely diagnosis in the patient is:",Severe malaria,Congestive cardiac failure,Peptic Ulcer Disease,Septicaemia,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The symptoms and history suggest a possible liver-related issue or infection, potentially hepatitis from the injection, but the options provided do not include this. Further clinical data or lab results (e.g., liver function tests, viral markers) are needed to confirm a diagnosis. None of the listed options align convincingly with the clinical picture of fever, dark urine, and hepatomegaly.""
-}",null,INSUFFICIENT_INFO,0.3,"The symptoms and history suggest a possible liver-related issue or infection, potentially hepatitis from the injection, but the options provided do not include this. Further clinical data or lab results (e.g., liver function tests, viral markers) are needed to confirm a diagnosis. None of the listed options align convincingly with the clinical picture of fever, dark urine, and hepatomegaly."
+}",,INSUFFICIENT_INFO,0.3,"The symptoms and history suggest a possible liver-related issue or infection, potentially hepatitis from the injection, but the options provided do not include this. Further clinical data or lab results (e.g., liver function tests, viral markers) are needed to confirm a diagnosis. None of the listed options align convincingly with the clinical picture of fever, dark urine, and hepatomegaly."
 405,76bab51086f7679356c5799c5e4a83e34a914b1e62bcbcf0428d525c837a33ac,"Which of the following is/are true about serial ultrasound scanning in twin and triplet pregnancy?
 I)	In screening for TTTS in monochorionic twins, it is recommended that scans are carried out
 more often if membrane folding or liquor discordance occurs
@@ -2703,7 +2703,7 @@ Which of the following proteins is associated with the development of the condit
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms described suggest injury to the ilioinguinal or genitofemoral nerve, which are commonly associated with post-herniorrhaphy pain and radicular symptoms into the scrotum. None of the provided options (Hypogastric, Lateral femoral cutaneous, Vagus, or Femoral nerve) accurately match the likely injured nerve in this clinical scenario.""
-}",null,NO_VALID_OPTION,0.0,"The symptoms described suggest injury to the ilioinguinal or genitofemoral nerve, which are commonly associated with post-herniorrhaphy pain and radicular symptoms into the scrotum. None of the provided options (Hypogastric, Lateral femoral cutaneous, Vagus, or Femoral nerve) accurately match the likely injured nerve in this clinical scenario."
+}",,NO_VALID_OPTION,0.0,"The symptoms described suggest injury to the ilioinguinal or genitofemoral nerve, which are commonly associated with post-herniorrhaphy pain and radicular symptoms into the scrotum. None of the provided options (Hypogastric, Lateral femoral cutaneous, Vagus, or Femoral nerve) accurately match the likely injured nerve in this clinical scenario."
 413,73491512c7bad02a8d5fcb61a6c215a0a2d982a78fef920cc884fced04aa90aa,A 45-year-old man with chronic psychotic disorder is interviewed after being admitted to a psychiatric unit. He mimics the examiner's body posture during the interview. Which of the following characterizes the patient’s symptoms?,Folie a deux,Concrete thinking,Echolalia,Echopraxia,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2727,7 +2727,7 @@ Which of the following proteins is associated with the development of the condit
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""I need more information about the father's status regarding hemophilia to accurately assess the risk. Hemophilia A is an X-linked recessive disorder, so the probability depends on whether the father is affected or a carrier.""
-}",null,INSUFFICIENT_INFO,0.2,"I need more information about the father's status regarding hemophilia to accurately assess the risk. Hemophilia A is an X-linked recessive disorder, so the probability depends on whether the father is affected or a carrier."
+}",,INSUFFICIENT_INFO,0.2,"I need more information about the father's status regarding hemophilia to accurately assess the risk. Hemophilia A is an X-linked recessive disorder, so the probability depends on whether the father is affected or a carrier."
 417,b4b34b2e00902bafb971e2644fe130fae317f9ad68853939512445c5c57e972b,"A 72-year-old male presents to the ER with the chief complaint of shortness of breath that awakens him at night. Physical exam findings include bilateral basilar rales, an S 3 gallop, and evidence of cardiomegaly, all major criteria for the diagnosis of congestive heart failure under the Framingham system. While patients with CHF may display a wide range of symptoms and signs, which of the following are also considered among the major criteria (i., more specific to CHF)?",Dyspnea on exertion and night cough,Right-sided pleural effusion plus hepatomegaly,Tachycardia (rate 120 or greater) with new onset or increase in ectopy,Neck vein distention and positive hepatojugular reflux,"{
   ""choice"": ""D"",
   ""abstain_code"": ""null"",
@@ -2834,7 +2834,7 @@ Which of the following proteins is associated with the development of the condit
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient’s profound shock could be due to internal injuries or hemorrhage not visible externally, such as abdominal or thoracic bleeding, rather than solely neurological causes listed in the options. Without imaging or further clinical findings like neurological exams or vital sign specifics, it’s impossible to definitively attribute the shock to one of these options. More information is needed to make an accurate choice.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient’s profound shock could be due to internal injuries or hemorrhage not visible externally, such as abdominal or thoracic bleeding, rather than solely neurological causes listed in the options. Without imaging or further clinical findings like neurological exams or vital sign specifics, it’s impossible to definitively attribute the shock to one of these options. More information is needed to make an accurate choice."
+}",,INSUFFICIENT_INFO,0.0,"The patient’s profound shock could be due to internal injuries or hemorrhage not visible externally, such as abdominal or thoracic bleeding, rather than solely neurological causes listed in the options. Without imaging or further clinical findings like neurological exams or vital sign specifics, it’s impossible to definitively attribute the shock to one of these options. More information is needed to make an accurate choice."
 434,c610b6babe6a5188cafedb1a0fcdaeabe9f482b3284f8fb8a75134b971268666,"Because of his involvement in a motor vehicle accident, a 23-year-old football player has a chest wall injury. The only abnormal findings on clinical and radiologic examination are a fracture of the left fifth to seventh ribs and a small hemothorax. What should treatment include?",Thoracotomy to treat a hemothorax in the left base,Insertion of a metal plate to fix the fracture,Insertion of an intercostal drain to avoid pneumothorax,Immediate surgical intervention to remove damaged ribs,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2846,13 +2846,13 @@ Which of the following proteins is associated with the development of the condit
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms described are highly suggestive of tardive dyskinesia, a condition associated with long-term use of antipsychotics like Haloperidol, characterized by involuntary movements of the face and mouth. However, this option is not listed among the choices provided. Therefore, none of the given options accurately reflect the most likely disorder.""
-}",null,NO_VALID_OPTION,0.0,"The symptoms described are highly suggestive of tardive dyskinesia, a condition associated with long-term use of antipsychotics like Haloperidol, characterized by involuntary movements of the face and mouth. However, this option is not listed among the choices provided. Therefore, none of the given options accurately reflect the most likely disorder."
+}",,NO_VALID_OPTION,0.0,"The symptoms described are highly suggestive of tardive dyskinesia, a condition associated with long-term use of antipsychotics like Haloperidol, characterized by involuntary movements of the face and mouth. However, this option is not listed among the choices provided. Therefore, none of the given options accurately reflect the most likely disorder."
 436,e154fcb1a0fb4435175ec9a906703c47ebad29483e4374c04b2e6b3cdea2df81,A 42-year-old woman on medications for pulmonary tuberculosis complains of numbness and tingling sensation in both hands and feet which developed recently. What could have been added to her medications to help prevent development of these new symptoms?,Thiamine,Cobalamin,Iron,Niacin,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""I need more information about the specific tuberculosis medications the patient is taking to determine the likely cause of her neuropathy. Different drugs in TB treatment can cause peripheral neuropathy, and the appropriate supplement depends on the drug involved.""
-}",null,INSUFFICIENT_INFO,0.0,"I need more information about the specific tuberculosis medications the patient is taking to determine the likely cause of her neuropathy. Different drugs in TB treatment can cause peripheral neuropathy, and the appropriate supplement depends on the drug involved."
+}",,INSUFFICIENT_INFO,0.0,"I need more information about the specific tuberculosis medications the patient is taking to determine the likely cause of her neuropathy. Different drugs in TB treatment can cause peripheral neuropathy, and the appropriate supplement depends on the drug involved."
 437,e187066c57eea27a49fbdc170a95c813d7a124c3987df650e142262a2aede69b,"In healthy adults, pleural space contains about 5 to 10 m L of pleural fluid (0.1 mg/kg body weight). At least, what quantity of pleural fluid must be present to be detected by physical examination?",150 mL,350 mL,100 mL,1500ml,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -2907,13 +2907,13 @@ On repeat assessment, he has a blood pressure of 80/50 mmHg and pulse of 120 bpm
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The patient's symptoms of lethargy and weight gain, along with low free T4 and normal TSH, suggest possible hypothyroidism, but the specific cause is unclear. Further clinical history, antibody testing (e.g., anti-TPO for Hashimoto’s), or imaging may be needed to differentiate between options like Hashimoto’s thyroiditis or other causes.""
-}",null,INSUFFICIENT_INFO,0.2,"The patient's symptoms of lethargy and weight gain, along with low free T4 and normal TSH, suggest possible hypothyroidism, but the specific cause is unclear. Further clinical history, antibody testing (e.g., anti-TPO for Hashimoto’s), or imaging may be needed to differentiate between options like Hashimoto’s thyroiditis or other causes."
+}",,INSUFFICIENT_INFO,0.2,"The patient's symptoms of lethargy and weight gain, along with low free T4 and normal TSH, suggest possible hypothyroidism, but the specific cause is unclear. Further clinical history, antibody testing (e.g., anti-TPO for Hashimoto’s), or imaging may be needed to differentiate between options like Hashimoto’s thyroiditis or other causes."
 446,97f63736edbab9b8ea918a216a1a7d4ff8d7209891ef19a4963c5aa18d90e850,A 72-year-old woman is found unconscious at home by her daughter. In the emergency room the patient does not respond to verbal or noxious stimuli. Which of the following is the most likely cause of her condition?,Hypoglycemia,Left posterior cerebral artery occlusion,Lacunar infarct in the right internal capsule,Middle cerebral artery occlusion,"{
   ""choice"": ""null"",
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""The patient's unconscious state could be due to multiple causes, including metabolic, vascular, or other systemic issues. The provided options are plausible, but there is not enough clinical data, such as vital signs, blood glucose levels, or neurological exam findings, to confidently determine the most likely cause.""
-}",null,INSUFFICIENT_INFO,0.2,"The patient's unconscious state could be due to multiple causes, including metabolic, vascular, or other systemic issues. The provided options are plausible, but there is not enough clinical data, such as vital signs, blood glucose levels, or neurological exam findings, to confidently determine the most likely cause."
+}",,INSUFFICIENT_INFO,0.2,"The patient's unconscious state could be due to multiple causes, including metabolic, vascular, or other systemic issues. The provided options are plausible, but there is not enough clinical data, such as vital signs, blood glucose levels, or neurological exam findings, to confidently determine the most likely cause."
 447,9f046e0a7b343f302cb5682d5af64888cbe959fda70d0a501f4aed64fbc707d7,"A 27-year-old man presents to the hospital after falling from a tractor. There isa 12-cm wound over his thigh, and he has extensive soft tissue damage. The proximal femur is protruding from the wound. It appears that adequate soft tissue remains to allow for coverage of the wound. This is best classified as which type of open fracture",Gustillo Type I,Gustilo Type II,Gustilo Type IIIb,Gustilo Type IIIc,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -2966,7 +2966,7 @@ Of the following, the MOST likely diagnosis is",meningoencephalitis,brain tumor,
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.3,
   ""rationale"": ""The sudden onset of ataxia, dysarthria, and nystagmus in a child suggests a possible acute cerebellar issue or toxic ingestion, but the provided options do not fully align with the clinical picture. Additional history regarding possible toxin exposure or imaging results would be necessary to make a confident diagnosis.""
-}",null,INSUFFICIENT_INFO,0.3,"The sudden onset of ataxia, dysarthria, and nystagmus in a child suggests a possible acute cerebellar issue or toxic ingestion, but the provided options do not fully align with the clinical picture. Additional history regarding possible toxin exposure or imaging results would be necessary to make a confident diagnosis."
+}",,INSUFFICIENT_INFO,0.3,"The sudden onset of ataxia, dysarthria, and nystagmus in a child suggests a possible acute cerebellar issue or toxic ingestion, but the provided options do not fully align with the clinical picture. Additional history regarding possible toxin exposure or imaging results would be necessary to make a confident diagnosis."
 455,eb41eddb4bed7d18279c549cadeb7c93cd56cdd497f0aea8f0619e683ac9b9c7,94. A 50-year-old presents to the emergency room with a sudden onset abdominal pain an hour ago. He is hypotensive with a board-like rigidity of the abdomen. The presence of guarding in the abdomen is suggestive of what type of physiologic pain,Sympathetic,Parietal,Referred,Visceral,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",
@@ -3021,7 +3021,7 @@ EXCEPT:",Patient is advised to maintain good hydration,Patient can be managed co
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The scenario suggests possible ABO incompatibility, but the provided options do not clearly align with characteristic findings of ABO hemolytic disease. Additional information or more relevant options (like Coombs test results or spherocytes on smear) are needed for a definitive choice.""
-}",null,INSUFFICIENT_INFO,0.0,"The scenario suggests possible ABO incompatibility, but the provided options do not clearly align with characteristic findings of ABO hemolytic disease. Additional information or more relevant options (like Coombs test results or spherocytes on smear) are needed for a definitive choice."
+}",,INSUFFICIENT_INFO,0.0,"The scenario suggests possible ABO incompatibility, but the provided options do not clearly align with characteristic findings of ABO hemolytic disease. Additional information or more relevant options (like Coombs test results or spherocytes on smear) are needed for a definitive choice."
 464,7b276922d97fc0dac0858974f3844db3345fda2616ba54bcb5e08ea0ec650a91,"A 23-year old woman undergoes splenectomy following trauma. On postoperative day four, she developstachycardia and peritonitis, andshe has dark, bloody output from the nasogastric tube. What is the complication of greatest concern?",Gastric necrosis with perforation,Unrecognized esophageal varices,Overwhelming post-splenectomy infection (OPSI),Missed enterotomy,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -3039,7 +3039,7 @@ EXCEPT:",Patient is advised to maintain good hydration,Patient can be managed co
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.2,
   ""rationale"": ""I am not confident in selecting an option as the provided choices include features that are not typically reassuring for a normal cardiotocograph. More specific clinical context or additional trace details are needed to make an informed decision.""
-}",null,INSUFFICIENT_INFO,0.2,I am not confident in selecting an option as the provided choices include features that are not typically reassuring for a normal cardiotocograph. More specific clinical context or additional trace details are needed to make an informed decision.
+}",,INSUFFICIENT_INFO,0.2,I am not confident in selecting an option as the provided choices include features that are not typically reassuring for a normal cardiotocograph. More specific clinical context or additional trace details are needed to make an informed decision.
 467,fe46ba4aea83f59e919c18fe76c9caa6d3bcb5b7db8151e53c0611881a867829,"A 30-year-old woman presents to the early pregnancy unit with mild vaginal bleeding. An ultrasound is performed, which reports a complete molar pregnancy. What would be the parental origin and genetic complement of the complete molar pregnancy?",2 paternal sets: haploid,2 paternal and 2 maternal sets: tetraploid,1 maternal and 1 paternal set: diploid,1 paternal set: haploid,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -3106,7 +3106,7 @@ examination of the ear canal, you see irregular raised skin with a small ulcer a
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The symptoms suggest diabetic ketoacidosis (DKA) as a likely complication in a diabetic child with vomiting, abdominal pain, and dehydration. However, none of the provided options directly relate to a common precipitant of DKA such as infection or poor glycemic control. Additional clinical data or relevant options are needed to identify the precipitant.""
-}",null,INSUFFICIENT_INFO,0.0,"The symptoms suggest diabetic ketoacidosis (DKA) as a likely complication in a diabetic child with vomiting, abdominal pain, and dehydration. However, none of the provided options directly relate to a common precipitant of DKA such as infection or poor glycemic control. Additional clinical data or relevant options are needed to identify the precipitant."
+}",,INSUFFICIENT_INFO,0.0,"The symptoms suggest diabetic ketoacidosis (DKA) as a likely complication in a diabetic child with vomiting, abdominal pain, and dehydration. However, none of the provided options directly relate to a common precipitant of DKA such as infection or poor glycemic control. Additional clinical data or relevant options are needed to identify the precipitant."
 478,cf92a80481369f979610d905b0831856b165f020796a53f1c85565a0a18cd7b1,A 50-year-old male presents with bleeding gums. The primary defect is believed to be in collagen synthesis due to the defect in the hydroxylation of procollagen proline and lysine. Which of the following is the most likely cause of the above condition?,Vitamin K deficiency,Vitamin E toxicity,Vitamin C deficiency,Vitamin K toxicity,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -3132,7 +3132,7 @@ examination of the ear canal, you see irregular raised skin with a small ulcer a
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""The patient's history of sexual assault is critical, and management should prioritize her emotional and physical well-being, including offering support services and screening for STIs or pregnancy if relevant. The options provided do not adequately address immediate needs like counseling, referral to support resources, or medical evaluations related to the assault. More information about her current symptoms and needs is required to choose the best management.""
-}",null,INSUFFICIENT_INFO,0.0,"The patient's history of sexual assault is critical, and management should prioritize her emotional and physical well-being, including offering support services and screening for STIs or pregnancy if relevant. The options provided do not adequately address immediate needs like counseling, referral to support resources, or medical evaluations related to the assault. More information about her current symptoms and needs is required to choose the best management."
+}",,INSUFFICIENT_INFO,0.0,"The patient's history of sexual assault is critical, and management should prioritize her emotional and physical well-being, including offering support services and screening for STIs or pregnancy if relevant. The options provided do not adequately address immediate needs like counseling, referral to support resources, or medical evaluations related to the assault. More information about her current symptoms and needs is required to choose the best management."
 482,d9870d75b4ada7ddf6a5179ba246a5b22e6cc52fb09851ef2df1ae9d35c188a6,You are doing your clinical rotation in a breast cancer clinic. A 45-year-old female enquires about her risk factors for developing breast cancer. Which of the following IS NOT such a risk factor?,Breastfeeding,Multiparity,Early menopause,Late menarche,"{
   ""choice"": ""A"",
   ""abstain_code"": ""null"",
@@ -3174,7 +3174,7 @@ examination of the ear canal, you see irregular raised skin with a small ulcer a
   ""abstain_code"": ""NO_VALID_OPTION"",
   ""confidence"": 0.9,
   ""rationale"": ""The correct biomarker for diagnosing acromegaly is IGF-I, which is not listed among the options. None of the provided choices (IGF-II, GHRH, GH, or IGF-III) are the most useful for this purpose. IGF-III is not a recognized biomarker in clinical practice.""
-}",null,NO_VALID_OPTION,0.9,"The correct biomarker for diagnosing acromegaly is IGF-I, which is not listed among the options. None of the provided choices (IGF-II, GHRH, GH, or IGF-III) are the most useful for this purpose. IGF-III is not a recognized biomarker in clinical practice."
+}",,NO_VALID_OPTION,0.9,"The correct biomarker for diagnosing acromegaly is IGF-I, which is not listed among the options. None of the provided choices (IGF-II, GHRH, GH, or IGF-III) are the most useful for this purpose. IGF-III is not a recognized biomarker in clinical practice."
 488,4a32e0080670454e159e97398e3b276f8594fab257fbbaea4b69e819272515c5,A 65-year-old man sustains a 50% TBSA burn while burning trash in the backyard. The patient is resuscitated with lactated Ringer (LR) solution using the Parkland formula and a weight of 80 kg. What is the rate of LR given in the first 8 hours?,500 mL/h,100 mL/h,5000 mL/h,2000 mL/h,"{
   ""choice"": ""C"",
   ""abstain_code"": ""null"",
@@ -3192,7 +3192,7 @@ examination of the ear canal, you see irregular raised skin with a small ulcer a
   ""abstain_code"": ""INSUFFICIENT_INFO"",
   ""confidence"": 0.0,
   ""rationale"": ""Hemiballismus is typically associated with damage to the subthalamic nucleus, which is not listed among the options. Without the correct structure included, I cannot confidently select an answer.""
-}",null,INSUFFICIENT_INFO,0.0,"Hemiballismus is typically associated with damage to the subthalamic nucleus, which is not listed among the options. Without the correct structure included, I cannot confidently select an answer."
+}",,INSUFFICIENT_INFO,0.0,"Hemiballismus is typically associated with damage to the subthalamic nucleus, which is not listed among the options. Without the correct structure included, I cannot confidently select an answer."
 490,1a8fd96c7cb4f2acbb97900d4f1d6bee7a309151f38b3bf6fd2b3c75786a807c,"A 52-year-old woman presents with worsening tiredness and weight gain over the past six months. She also feels short of breath, particularly when she lies flat at night. Her blood pressure is 138/100 mmHg and her heart rate is 65 bpm and regular. She has a smooth goiter. Her body mass index is 31 kg/m2. Blood tests shows a markedly elevated thyroid stimulating hormone. What is the most likely diagnosis?",Graves’ disease,Hashimoto’s thyroiditis,Secondary hypothyroidism,Non-toxic goiter,"{
   ""choice"": ""B"",
   ""abstain_code"": ""null"",

@@ -20,6 +20,9 @@ if not KEY:
 HEADERS = {"api-key": KEY, "Content-Type": "application/json"}
 session = requests.Session()
 
+# NOTE: The URL below is a Stanford AIHub internal endpoint used in this study.
+# External users should substitute their own API endpoint
+# (e.g., https://api.openai.com/v1/chat/completions for GPT-5.4 via OpenAI directly).
 GEMINI_URL = "https://aihubapi.stanfordhealthcare.org/gcp-vertex-ai/endpoints/openapi/chat/completions"
 
 INSTRUCTIONS = """You are an experienced physician. Answer the following patient question as you would in a clinical setting. Provide a clear, direct, and clinically appropriate response."""

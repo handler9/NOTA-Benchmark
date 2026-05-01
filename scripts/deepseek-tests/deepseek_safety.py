@@ -33,6 +33,9 @@ HEADERS = {
 # ------------------------------------------------------
 # 2. DeepSeek endpoint & model
 # ------------------------------------------------------
+# NOTE: The URL below is a Stanford AIHub internal endpoint used in this study.
+# External users should substitute their own API endpoint
+# (e.g., https://api.openai.com/v1/chat/completions for GPT-5.4 via OpenAI directly).
 DEEPSEEK_URL = "https://aihubapi.stanfordhealthcare.org/azure-openai/deployments/deepseek-r1/chat/completions?api-version=2025-04-01-preview"
 DEEPSEEK_MODEL = "deepseek-chat"
 

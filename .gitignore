@@ -39,66 +39,156 @@ env/
 *.swo
 
 # -------------------------------------------------------
-# Old / superseded result files — kept locally, not on GitHub
+# Superseded / irrelevant files — kept locally, not on GitHub
 # -------------------------------------------------------
 
-# Old MedQA runs (old models / old endpoint)
-results_raw/claude_baseline.csv
-results_raw/claude_safety.csv
-results_raw/claude_think.csv
-results_raw/claude_doublecheck.csv
-results_raw/claude_safety_judge.csv
+# Old scripts — superseded model folders
+scripts/llama-tests/
+scripts/deepseek-reruns/
+scripts/50-question-test/
+
+# Old standalone scripts (false-NOTA removal, misc experiments)
+scripts/Medqa-finding-false-NOTAs.py
+scripts/Afrimedqa-finding-false-NOTAs.py
+scripts/true_nota_judge.py
+scripts/clean_false_notas.py
+scripts/nota-transformation.py
+scripts/prompting-strategy-scatter-plot.py
+scripts/analyze_expanded_afrimedqa.py
+
+# Old GPT scripts (non-gpt54, or gpt54 think/doublecheck variants)
+scripts/gpt-tests/gpt_*.py
+scripts/gpt-tests/gpt54_think_*.py
+scripts/gpt-tests/gpt54_doublecheck_*.py
+scripts/gpt-tests/gpt-*.py
+scripts/gpt-tests/grok3_*.py
+scripts/grok3-tests/grok3_think_*.py
+scripts/grok3-tests/grok3_doublecheck_*.py
+scripts/gpt-tests/import os.py
+
+# Old Claude scripts (pre-claude46, or claude46 think/doublecheck)
+scripts/claude-tests/claude_*.py
+scripts/claude-tests/claude4_*.py
+scripts/claude-tests/claude-*.py
+scripts/claude-tests/claude46_think_*.py
+scripts/claude-tests/claude46_doublecheck_*.py
+
+# Old Gemini/DeepSeek scripts (think/doublecheck, false-NOTA, expanded variants)
+scripts/gemini-scripts/gemini_think.py
+scripts/gemini-scripts/gemini_doublecheck.py
+scripts/gemini-scripts/gemini_baseline_robust.py
+scripts/gemini-scripts/gemini-*.py
+scripts/gemini-scripts/gemini_expanded_*.py
+scripts/deepseek-tests/deepseek_think.py
+scripts/deepseek-tests/deepseek_doublecheck.py
+scripts/deepseek-tests/deepseek-*.py
+scripts/deepseek-tests/deepseek_expanded_*.py
+scripts/deepseek-tests/deepseek_afrimedqa_positive_nota_only.py
+
+# Old HealthBench scripts (old models, clarification, superseded analysis)
+scripts/healthbench/runners/hb_baseline_claude.py
+scripts/healthbench/runners/hb_safety_claude.py
+scripts/healthbench/runners/hb_baseline_gpt.py
+scripts/healthbench/runners/hb_safety_gpt.py
+scripts/healthbench/runners/hb_baseline_llama.py
+scripts/healthbench/runners/hb_safety_llama.py
+scripts/healthbench/runners/hb_baseline_deepseek.py
+scripts/healthbench/runners/hb_safety_deepseek.py
+scripts/healthbench/runners/hb_baseline_gemini.py
+scripts/healthbench/runners/hb_safety_gemini.py
+scripts/healthbench/runners/hb_clarification_*.py
+scripts/healthbench/runners/hb_refined_clarification_*.py
+scripts/healthbench/download_healthbench.py
+scripts/healthbench/explore_healthbench.py
+scripts/healthbench/fix_runners_multiturn.py
+scripts/healthbench/hb_analyze.py
+scripts/healthbench/hb_figures.py
+scripts/healthbench/hb_judge.py
+scripts/healthbench/hb_judge_agreement.py
+scripts/healthbench/hb_judge_audit.py
+scripts/healthbench/hb_judge_claude.py
+scripts/healthbench/hb_judge_retry.py
+scripts/healthbench/hb_pairwise.py
+scripts/healthbench/hb_results_aggregate.py
+scripts/healthbench/hb_results_table.py
+scripts/healthbench/hb_significance.py
+scripts/healthbench/hb_summary_table.py
+scripts/healthbench/healthbench_to_csv.py
+scripts/healthbench/subset_healthbench.py
+
+# Old analyze-results scripts (superseded by All_Model_Results.py / Afrimedqa_all_model_results.py)
+scripts/analyze-results/50questions-analysis.py
+scripts/analyze-results/MedQA_Figures_final.py
+scripts/analyze-results/afrimedqa-nota-positive-all-model-results.py
+scripts/analyze-results/afrimedqa-true-positive-results-rounded.py
+scripts/analyze-results/all_model_results-NOTA-POSITIVES.py
+scripts/analyze-results/combined-dataset.py
+scripts/analyze-results/figures-for-afrimedqa.py
+scripts/analyze-results/figures_updated.py
+scripts/analyze-results/make_all_figures_500q.py
+scripts/analyze-results/make_ranked_tables_all_datasets.py
+scripts/analyze-results/mean-sd-allruns.py
+scripts/analyze-results/plot_prompt_effect_accuracy_non_nota.py
+scripts/analyze-results/prompting-figures2.py
+scripts/analyze-results/ranking-models-by-abstention-rate.py
+scripts/analyze-results/results_allruns.py
+scripts/analyze-results/scatterplot.py
+scripts/analyze-results/statanalysis.py
+scripts/analyze-results/variance_test_all_runs.py
+scripts/analyze-results/variancebymodel.py
+
+# Old MedQA raw results (old models / think / doublecheck variants)
+results_raw/claude_*.csv
 results_raw/gpt_baseline.csv
 results_raw/gpt_safety.csv
 results_raw/gpt_think.csv
 results_raw/gpt_doublecheck.csv
-results_raw/llama_baseline.csv
-results_raw/llama_safety.csv
-results_raw/llama_think.csv
-results_raw/llama_doublecheck.csv
+results_raw/llama_*.csv
+results_raw/*_think_*.csv
+results_raw/*_doublecheck_*.csv
 
-# Old AfriMedQA runs (old models / old endpoint)
-results_raw_afrimedqa/claude_baseline_afrimedqa.csv
-results_raw_afrimedqa/claude_safety_afrimedqa.csv
-results_raw_afrimedqa/claude_think_afrimedqa.csv
-results_raw_afrimedqa/claude_doublecheck_afrimedqa.csv
-results_raw_afrimedqa/gpt_baseline_afrimedqa.csv
-results_raw_afrimedqa/gpt_safety_afrimedqa.csv
-results_raw_afrimedqa/gpt_think_afrimedqa.csv
-results_raw_afrimedqa/gpt_doublecheck_afrimedqa.csv
-results_raw_afrimedqa/llama_baseline_afrimedqa.csv
-results_raw_afrimedqa/llama_safety_afrimedqa.csv
-results_raw_afrimedqa/llama_think_afrimedqa.csv
-results_raw_afrimedqa/llama_doublecheck_afrimedqa.csv
+# Old AfriMedQA raw results
+results_raw_afrimedqa/claude_*.csv
+results_raw_afrimedqa/gpt_*.csv
+results_raw_afrimedqa/llama_*.csv
+results_raw_afrimedqa/*_think_*.csv
+results_raw_afrimedqa/*_doublecheck_*.csv
 
-# Old HealthBench runs (old 394q, old models, dropped clarification condition)
-results_raw_healthbench/claude_baseline_hb.csv
-results_raw_healthbench/claude_safety_hb.csv
-results_raw_healthbench/claude_clarification_hb.csv
-results_raw_healthbench/claude_refined_clarification_hb.csv
+# Old HealthBench raw results (394q, old models, clarification runs)
+results_raw_healthbench/claude_*.csv
 results_raw_healthbench/gpt_baseline_hb.csv
 results_raw_healthbench/gpt_safety_hb.csv
 results_raw_healthbench/gpt_clarification_hb.csv
 results_raw_healthbench/gpt_refined_clarification_hb.csv
-results_raw_healthbench/llama_baseline_hb.csv
-results_raw_healthbench/llama_safety_hb.csv
-results_raw_healthbench/llama_clarification_hb.csv
-results_raw_healthbench/llama_refined_clarification_hb.csv
+results_raw_healthbench/llama_*.csv
+results_raw_healthbench/*_clarification_*.csv
+results_raw_healthbench/*_refined_clarification_*.csv
 results_raw_healthbench/deepseek_baseline_hb.csv
 results_raw_healthbench/deepseek_safety_hb.csv
-results_raw_healthbench/deepseek_clarification_hb.csv
-results_raw_healthbench/deepseek_refined_clarification_hb.csv
 results_raw_healthbench/gemini_baseline_hb.csv
 results_raw_healthbench/gemini_safety_hb.csv
-results_raw_healthbench/gemini_clarification_hb.csv
-results_raw_healthbench/gemini_refined_clarification_hb.csv
+
+# False-NOTA cleaned result dirs
+results_raw_nota_positives/
+results_raw_afrimedqa_nota_positives/
+
+# 50-question test results
+results_raw_50q_test/
+metrics/per-question-50q-test/
+metrics/summary_50intact.csv
+
+# Sanity check / clinical judge test
+clinical-judge-test/
+
+# Ranked tables (generated figures, not core data)
+tables/
 
 # Old labeled HealthBench dirs (superseded by *_new/)
 results_labeled_healthbench/
 results_labeled_healthbench_claude/
 results_labeled_healthbench_v2/
 
-# Old metrics files (superseded by hb_* and *_new.csv files)
+# Old metrics files (superseded by hb_* and *_new.csv)
 metrics/medqa_results.csv
 metrics/afrimedqa_results.csv
 metrics/afrimedqa_results_nota-positives.csv
@@ -108,8 +198,9 @@ metrics/combined_baseline_safety.csv
 metrics/combined_safety_only.csv
 metrics/accuracy_overall_mean_sd_table.csv
 metrics/variance_summary_by_model_prompt.csv
-metrics/summary_50intact.csv
-metrics/per-question-50q-test/
+metrics/MedQA500_TRUE_NOTA_audit.csv
+metrics/afrimedqa_questions_TRUE_NOTA_audit.csv
+metrics/afrimedqa_questions_key_TRUE_NOTA_audit_FALSE-NOTA-REMOVED.csv
 metrics/healthbench_rowlevel.csv
 metrics/healthbench_rowlevel_claudejudge.csv
 metrics/healthbench_results_aggregate.csv

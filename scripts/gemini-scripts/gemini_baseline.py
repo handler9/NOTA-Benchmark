@@ -42,6 +42,9 @@ session = requests.Session()
 # ------------------------------------------------------
 # We will try these in order until one returns HTTP 200 consistently.
 # (Stanford APIM sometimes exposes Gemini via different front doors.)
+# NOTE: The URL below is a Stanford AIHub internal endpoint used in this study.
+# External users should substitute their own API endpoint
+# (e.g., https://api.openai.com/v1/chat/completions for GPT-5.4 via OpenAI directly).
 GEMINI_URL = "https://aihubapi.stanfordhealthcare.org/gcp-vertex-ai/endpoints/openapi/chat/completions"
 
 # ------------------------------------------------------

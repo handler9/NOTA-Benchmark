@@ -1,36 +1,64 @@
-# Prompting LLMs to Pause: Guardrails for Enhancing Safety
+# Prompting LLMs to Pause: Guardrails for Enhancing Safety in Medical AI
 
-Evaluation framework for measuring LLM abstention behavior on unanswerable medical questions. Uses a mixed dataset of answerable (INTACT) and unanswerable (TRUE-NOTA) items from MedQA and AfriMed-QA to test whether prompting guardrails can improve safe abstention without reducing accuracy.
+Evaluation framework for studying **premature closure** in large language models — the tendency to commit to a response without sufficient information. Tests whether a safety prompting guardrail can reduce premature closure across two complementary experimental settings: structured MCQs and open-ended clinical conversations.
 
 ---
 
-## Benchmark Overview
+## Study Design
 
-- **INTACT questions** — one correct answer is present
+### Experiment 1: MCQ Abstention (MedQA + AfriMedQA)
+
+A mixed dataset of answerable (**INTACT**) and unanswerable (**TRUE-NOTA**) multiple-choice questions tests whether models abstain when the correct answer has been removed.
+
+- **INTACT questions** — one correct answer is present; model should choose it
 - **TRUE-NOTA questions** — the correct answer has been removed; the safest action is to abstain
 
-All questions are shuffled together, and INTACT questions have one distractor removed so all items contain exactly four answer choices.
+All items have exactly four answer choices (one distractor removed from INTACT items). INTACT and TRUE-NOTA items are shuffled together so models cannot detect the condition.
 
-### Key Metrics
-
+**Key metrics:**
+- **NOTA Abstention (%)** — abstention rate on TRUE-NOTA questions (primary outcome)
 - **Intact Accuracy (%)** — correct answers on INTACT questions
-- **NOTA Abstention (%)** — abstention rate on TRUE-NOTA questions
-- **Intact Abstention (%)** — abstention rate on INTACT questions
+- **Intact Abstention (%)** — false abstention rate on INTACT questions (should stay low)
+
+**Datasets:**
+- MedQA (500 questions: 250 INTACT + 250 TRUE-NOTA)
+- AfriMedQA (490 questions: 245 INTACT + 245 TRUE-NOTA)
+
+---
+
+### Experiment 2: Premature Closure in Open-Ended Conversations (HealthBench)
+
+Multi-turn clinical conversations from HealthBench test whether models commit prematurely to answers when more caution or clarification is warranted.
+
+- **HealthBench** — 861 physician-authored clinical questions across four subcategories:
+  - `underspecified_low_risk` (180 questions) — model should seek clarification
+  - `underspecified_urgent` (195 questions) — model should escalate or ask before advising
+  - `sufficient_context` (241 questions) — model should answer directly (control group)
+  - `hedging_reducible_uncertainty` (245 questions) — model should hedge or seek clarification
+- **Adversarial red-team** — 191 adversarial queries designed to elicit overconfident responses
+
+**Key metrics:**
+- **Premature Closure rate (%)** — proportion of responses judged as committing prematurely (GPT-5.4 judge, verified against Claude Opus 4.7 judge; κ=0.685)
+- **Rubric score** — physician-authored rubric score per response (−10 to +10 pts, can be negative)
+
+---
 
 ### Prompting Conditions
 
-1. **Baseline** — no abstention rules
-2. **Safety** — explicit rules to abstain when unsure or unsafe
-3. **Think-Then-Decide** — internal reasoning before answering
-4. **Answer-Then-Double-Check** — model answers first, then performs a safety review
+1. **Baseline** — standard prompt, no abstention rules
+2. **Safety** — explicit rules to pause, seek clarification, or abstain when unsure
+
+---
 
 ### Models Evaluated
 
-- GPT-5
-- Gemini 2.5 Pro
-- Claude Sonnet 4
-- DeepSeek R1/V3
-- Llama 4 Maverick
+| Model | API |
+|---|---|
+| GPT-5.4 | Stanford AIHub / Azure OpenAI |
+| Claude Opus 4.7 | Anthropic API |
+| Grok 3 | xAI API |
+| Gemini 2.5 Pro | Google Generative AI |
+| DeepSeek R1 | DeepSeek API |
 
 ---
 
@@ -48,152 +76,137 @@ conda activate nota
 Create a `.env` file in the project root:
 
 ```
-OPENAI_API_KEY=your_key
+OPENAI_API_KEY=your_key          # or AIHUB_API_KEY for Stanford AIHub
 ANTHROPIC_API_KEY=your_key
 DEEPSEEK_API_KEY=your_key
 GEMINI_API_KEY=your_key
+XAI_API_KEY=your_key
 ```
 
 ---
 
 ## Running the Experiments
 
-All scripts should be run from the **repo root**.
+All scripts must be run from the **repo root**.
 
-### 1. Main MedQA Experiment (500 Questions)
-
-500 questions from MedQA (250 INTACT + 250 TRUE-NOTA), shuffled together.
+### 1. MedQA MCQ Experiment (500 Questions)
 
 | File | Path |
 |---|---|
 | Questions | `data/questions.csv` |
 | Answer key | `data/question_key.csv` |
-| Model scripts | `scripts/<model-name>/` |
 | Raw results | `results_raw/` |
 | Analysis script | `scripts/analyze-results/All_Model_Results.py` |
-| Metrics output | `metrics/medqa_results.csv` |
-
-**To run:**
+| Metrics output | `metrics/medqa_results_new.csv` |
 
 ```bash
-# Run all four prompt variants for each model (example: GPT-5)
-python scripts/gpt-tests/gpt_baseline.py
-python scripts/gpt-tests/gpt_safety.py
-python scripts/gpt-tests/gpt_think.py
-python scripts/gpt-tests/gpt_doublecheck.py
+# Run baseline and safety for each model
+python scripts/gpt-tests/gpt54_baseline_medqa.py
+python scripts/gpt-tests/gpt54_safety_medqa.py
 
-# Repeat for other models:
-# scripts/claude-tests/  →  claude4_baseline.py, claude4_safety.py, claude4_think.py, claude4_doublecheck.py
-# scripts/gemini-scripts/ →  gemini_baseline.py, gemini_safety.py, gemini_think.py, gemini_doublecheck.py
-# scripts/deepseek-tests/ →  deepseek_baseline.py, deepseek_safety.py, deepseek_think.py, deepseek_doublecheck.py
-# scripts/llama-tests/    →  llama_baseline.py, llama_safety.py, llama_think.py, llama_doublecheck.py
+python scripts/claude-tests/claude46_baseline_medqa.py
+python scripts/claude-tests/claude46_safety_medqa.py
 
-# Analyze results
+python scripts/grok3-tests/grok3_baseline_medqa.py
+python scripts/grok3-tests/grok3_safety_medqa.py
+
+python scripts/gemini-scripts/gemini_baseline.py
+python scripts/gemini-scripts/gemini_safety.py
+
+python scripts/deepseek-tests/deepseek_baseline.py
+python scripts/deepseek-tests/deepseek_safety.py
+
+# Analyze
 python scripts/analyze-results/All_Model_Results.py
 ```
 
 ---
 
-### 2. AfriMed-QA Experiment (490 Questions)
-
-490 MCQs from the AfriMedQA dataset, run using the same process as the main experiment.
+### 2. AfriMedQA MCQ Experiment (490 Questions)
 
 | File | Path |
 |---|---|
 | Questions | `data/afrimedqa_questions.csv` |
 | Answer key | `data/afrimedqa_questions_key.csv` |
-| Model scripts | `scripts/<model-name>/` *(scripts labeled `afrimedqa`)* |
 | Raw results | `results_raw_afrimedqa/` |
 | Analysis script | `scripts/analyze-results/Afrimedqa_all_model_results.py` |
-| Metrics output | `metrics/afrimedqa_results.csv` |
-
-**To run:**
+| Metrics output | `metrics/afrimedqa_results_new.csv` |
 
 ```bash
-python scripts/gpt-tests/gpt_afrimedqa.py
-python scripts/claude-tests/claude4_Afrimedqa.py
-python scripts/gemini-scripts/gemini_afrimedqa.py
-python scripts/deepseek-tests/deepseek_afrimedqa.py
-python scripts/llama-tests/llama_afrimedqa.py
+python scripts/gpt-tests/gpt54_baseline_afrimedqa.py
+python scripts/gpt-tests/gpt54_safety_afrimedqa.py
 
-# Analyze results
+python scripts/claude-tests/claude46_baseline_afrimedqa.py
+python scripts/claude-tests/claude46_safety_afrimedqa.py
+
+python scripts/grok3-tests/grok3_baseline_afrimedqa.py
+python scripts/grok3-tests/grok3_safety_afrimedqa.py
+
+python scripts/gemini-scripts/gemini_afrimedqa.py   # runs baseline + safety
+
+python scripts/deepseek-tests/deepseek_afrimedqa.py  # runs baseline + safety
+
+# Analyze
 python scripts/analyze-results/Afrimedqa_all_model_results.py
 ```
 
 ---
 
-### 3. Ranked Performance Tables
+### 3. HealthBench Experiment (861 Questions + 191 Adversarial)
 
-Generates ranked tables for each dataset using an abstention-prioritized ranking rule: 1) NOTA abstention (higher is better), 2) Intact accuracy (higher is better), 3) Intact abstention (lower is better). For each model, the best-performing prompt strategy is selected before ranking.
+#### 3a. Run the models
 
-Output tables (CSV and PNG) are written to `tables/`.
+| File | Path |
+|---|---|
+| HB questions | `data/healthbench/healthbench_subset_combined.jsonl` |
+| Red-team questions | `data/healthbench/healthbench_redteam.jsonl` |
+| HB raw results | `results_raw_healthbench/` (`*_hb_hb.csv` files) |
+| Red-team raw results | `results_raw_healthbench_redteam/` |
 
 ```bash
-python scripts/analyze-results/make_ranked_tables_all_datasets.py
+# HealthBench (861q) — baseline and safety for each model
+python scripts/healthbench/runners/hb_baseline_gpt54_hb.py
+python scripts/healthbench/runners/hb_safety_gpt54_hb.py
 
-# CSV output only (no PNG):
-python scripts/analyze-results/make_ranked_tables_all_datasets.py --no_png
+python scripts/healthbench/runners/hb_baseline_claudeopus_hb.py
+python scripts/healthbench/runners/hb_safety_claudeopus_hb.py
+
+python scripts/healthbench/runners/hb_baseline_grok3_hb.py
+python scripts/healthbench/runners/hb_safety_grok3_hb.py
+
+python scripts/healthbench/runners/hb_baseline_gemini_hb.py
+python scripts/healthbench/runners/hb_safety_gemini_hb.py
+
+python scripts/healthbench/runners/hb_baseline_deepseek_hb.py
+python scripts/healthbench/runners/hb_safety_deepseek_hb.py
+
+# Adversarial red-team (191q)
+python scripts/healthbench/runners/hb_baseline_gpt54_redteam.py
+python scripts/healthbench/runners/hb_safety_gpt54_redteam.py
+# ... (same pattern for other models: claudeopus, grok3, gemini, deepseek)
 ```
 
----
-
-### 4. False-NOTA Removal and Re-runs
-
-A GPT-5 judge identifies questions incorrectly classified as TRUE-NOTA. These are manually reviewed, removed, and experiments re-run on cleaned datasets.
-
-Judge scripts: `scripts/Medqa-finding-false-NOTAs.py`, `scripts/Afrimedqa-finding-false-NOTAs.py`
-Cleaned data: `data/questions_positive_nota_only.csv`, `data/afrimedqa_questions_FALSE-NOTA-REMOVED.csv`
-Results: `results_raw_nota_positives/`, `results_raw_afrimedqa_nota_positives/`
+#### 3b. Judge the responses (GPT-5.4 judge)
 
 ```bash
-# Identify false NOTAs
-python scripts/Medqa-finding-false-NOTAs.py
-python scripts/Afrimedqa-finding-false-NOTAs.py
-
-# Re-run models on cleaned datasets (scripts labeled positive-nota or false-nota-removed)
-# e.g. scripts/gpt-tests/gpt-positive-nota-only.py
-
-# Analyze
-python scripts/analyze-results/all_model_results-NOTA-POSITIVES.py
-python scripts/analyze-results/afrimedqa-true-positive-results-rounded.py
+python scripts/healthbench/hb_judge_gpt_new.py
+# Output → results_labeled_healthbench_new/ and results_labeled_healthbench_redteam_new/
 ```
 
----
-
-### 5. Variability Experiment (5 Runs × 500 Questions)
-
-The same 500 MedQA questions run 5 times per model–prompt condition to assess sampling variability.
-
-> **Note:** The `llm_runs/` folder is not included in this repository (~131MB). Contact the author for access.
+#### 3c. Judge the responses (Claude Opus 4.7 judge — for agreement analysis)
 
 ```bash
-python scripts/analyze-results/results_allruns.py
-python scripts/analyze-results/variancebymodel.py
-python scripts/analyze-results/mean-sd-allruns.py
+python scripts/healthbench/hb_judge_claude_new.py
+# Output → results_labeled_healthbench_claude_new/ and results_labeled_healthbench_redteam_claude_new/
 ```
 
----
-
-### 6. 50-Question Sanity Check
-
-50 INTACT questions from MedQA used as a sanity check before the main experiment. Scripts are in `scripts/50-question-test/`.
+#### 3d. Compute agreement, significance, and figures
 
 ```bash
-# Run all models (example: GPT-5)
-python scripts/50-question-test/gpt_baseline_50q.py
-
-# Analyze
-python scripts/analyze-results/50questions-analysis.py
-```
-
----
-
-### 7. Clinical Judge Test
-
-Tests GPT-5's ability to classify whether a question is truly TRUE-NOTA, validated against 100 clinician-annotated questions. All files are in `clinical-judge-test/`.
-
-```bash
-python clinical-judge-test/clinical-judge-test.py
+python scripts/healthbench/hb_judge_agreement_new.py   # κ and r between judges
+python scripts/healthbench/hb_significance_new.py       # McNemar + Wilcoxon tests
+python scripts/healthbench/hb_analyze_new.py            # aggregate metrics → metrics/hb_*.csv
+python scripts/healthbench/hb_figures_new.py            # figures → metrics/figures/
 ```
 
 ---
@@ -203,36 +216,55 @@ python clinical-judge-test/clinical-judge-test.py
 ```
 NOTA-Benchmark/
 ├── data/
+│   ├── questions.csv                        # MedQA 500-question dataset
+│   ├── question_key.csv                     # MedQA answer key
+│   ├── afrimedqa_questions.csv              # AfriMedQA dataset
+│   ├── afrimedqa_questions_key.csv          # AfriMedQA answer key
+│   └── healthbench/
+│       ├── healthbench_subset_combined.jsonl  # HealthBench 861q
+│       └── healthbench_redteam.jsonl          # Adversarial red-team 191q
 ├── scripts/
-│   ├── claude-tests/
-│   ├── gpt-tests/
-│   ├── gemini-scripts/
-│   ├── deepseek-tests/
-│   ├── deepseek-reruns/
-│   ├── llama-tests/
-│   ├── 50-question-test/
-│   ├── analyze-results/
-│   ├── Medqa-finding-false-NOTAs.py
-│   ├── Afrimedqa-finding-false-NOTAs.py
-│   └── true_nota_judge.py
-├── results_raw/
-├── results_raw_50q_test/
-├── results_raw_afrimedqa/
-├── results_raw_afrimedqa_nota_positives/
-├── results_raw_nota_positives/
-├── clinical-judge-test/
+│   ├── gpt-tests/          # GPT-5.4 (gpt54_baseline_*.py, gpt54_safety_*.py)
+│   ├── claude-tests/       # Claude Opus 4.7 (claude46_baseline_*.py, claude46_safety_*.py)
+│   ├── grok3-tests/        # Grok 3 (grok3_baseline_*.py, grok3_safety_*.py)
+│   ├── gemini-scripts/     # Gemini 2.5 Pro (gemini_baseline.py, gemini_safety.py, gemini_afrimedqa.py)
+│   ├── deepseek-tests/     # DeepSeek R1 (deepseek_baseline.py, deepseek_safety.py, deepseek_afrimedqa.py)
+│   ├── healthbench/
+│   │   ├── runners/        # Model run scripts (*_hb.py and *_redteam.py)
+│   │   ├── hb_judge_gpt_new.py
+│   │   ├── hb_judge_claude_new.py
+│   │   ├── hb_judge_agreement_new.py
+│   │   ├── hb_significance_new.py
+│   │   ├── hb_analyze_new.py
+│   │   └── hb_figures_new.py
+│   └── analyze-results/
+│       ├── All_Model_Results.py             # MedQA metrics
+│       └── Afrimedqa_all_model_results.py   # AfriMedQA metrics
+├── results_raw/                             # MedQA raw model outputs
+├── results_raw_afrimedqa/                   # AfriMedQA raw model outputs
+├── results_raw_healthbench/                 # HealthBench raw outputs (*_hb_hb.csv)
+├── results_raw_healthbench_redteam/         # Adversarial raw outputs
+├── results_labeled_healthbench_new/         # GPT-judged HB labels
+├── results_labeled_healthbench_claude_new/  # Claude-judged HB labels
+├── results_labeled_healthbench_redteam_new/         # GPT-judged red-team labels
+├── results_labeled_healthbench_redteam_claude_new/  # Claude-judged red-team labels
 ├── metrics/
-├── tables/
+│   ├── medqa_results_new.csv
+│   ├── afrimedqa_results_new.csv
+│   ├── hb_aggregate.csv
+│   ├── hb_redteam_aggregate.csv
+│   ├── hb_significance.csv
+│   ├── hb_judge_agreement.csv
+│   ├── human_verification_sample.csv        # 120-row human-verified judgment sample
+│   └── figures/                             # All output figures
 ├── environment.yml
 ├── LICENSE
 └── README.md
 ```
 
-> **Note:** `llm_runs/` is excluded from this repository. Contact the author for access to the full variability run data.
-
 ---
 
 ## Author
 
-Rebecca Handler
+Rebecca Handler  
 [handler9@stanford.edu](mailto:handler9@stanford.edu)

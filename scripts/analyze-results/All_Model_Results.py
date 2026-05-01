@@ -175,9 +175,9 @@ MODEL_CONFIG = {
         "pretty": "Claude Opus 4.7",
     },
     "grok3": {
-        "choice_col": "gpt5_choice",
-        "abstain_col": "gpt5_abstain_code",
-        "conf_col": "gpt5_confidence",
+        "choice_col": "grok3_choice",
+        "abstain_col": "grok3_abstain_code",
+        "conf_col": "grok3_confidence",
         "pretty": "Grok 3",
     },
     "deepseek": {

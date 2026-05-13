@@ -240,14 +240,14 @@ NOTA-Benchmark/
 │   └── analyze-results/
 │       ├── All_Model_Results.py             # MedQA metrics
 │       └── Afrimedqa_all_model_results.py   # AfriMedQA metrics
-├── results_raw/                             # MedQA raw model outputs
-├── results_raw_afrimedqa/                   # AfriMedQA raw model outputs
-├── results_raw_healthbench/                 # HealthBench raw outputs (*_hb_hb.csv)
-├── results_raw_healthbench_redteam/         # Adversarial raw outputs
-├── results_labeled_healthbench_new/         # GPT-judged HB labels
-├── results_labeled_healthbench_claude_new/  # Claude-judged HB labels
-├── results_labeled_healthbench_redteam_new/         # GPT-judged red-team labels
-├── results_labeled_healthbench_redteam_claude_new/  # Claude-judged red-team labels
+├── results_raw/                             # MedQA raw outputs (generated — not in repo)
+├── results_raw_afrimedqa/                   # AfriMedQA raw outputs (generated — not in repo)
+├── results_raw_healthbench/                 # HealthBench raw outputs (generated — not in repo)
+├── results_raw_healthbench_redteam/         # Adversarial raw outputs (generated — not in repo)
+├── results_labeled_healthbench_new/         # GPT-judged HB labels (generated — not in repo)
+├── results_labeled_healthbench_claude_new/  # Claude-judged HB labels (generated — not in repo)
+├── results_labeled_healthbench_redteam_new/         # GPT-judged red-team labels (generated — not in repo)
+├── results_labeled_healthbench_redteam_claude_new/  # Claude-judged red-team labels (generated — not in repo)
 ├── metrics/
 │   ├── medqa_results_new.csv
 │   ├── afrimedqa_results_new.csv

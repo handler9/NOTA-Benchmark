@@ -221,9 +221,10 @@ metrics/healthbench_judge_audit.csv
 metrics/healthbench_judge_audit_claude.csv
 metrics/healthbench_pairwise_claude.csv
 
-# Clinician validation samples (contain clinical text + model responses; not for public repo)
+# Human/clinician validation samples (contain clinical text + model responses; not for public repo)
 metrics/clinician_validation_*.csv
 metrics/clinician_validation_*.xlsx
+metrics/human_verification_sample.csv
 
 # Word/doc drafts in figures dir
 metrics/figures/*.docx

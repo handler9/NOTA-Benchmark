@@ -255,7 +255,6 @@ NOTA-Benchmark/
 │   ├── hb_redteam_aggregate.csv
 │   ├── hb_significance.csv
 │   ├── hb_judge_agreement.csv
-│   ├── human_verification_sample.csv        # 120-row human-verified judgment sample
 │   └── figures/                             # All output figures
 ├── environment.yml
 ├── LICENSE

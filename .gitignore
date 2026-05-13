@@ -145,7 +145,9 @@ results_raw/gpt_think.csv
 results_raw/gpt_doublecheck.csv
 results_raw/llama_*.csv
 results_raw/*_think_*.csv
+results_raw/*_think.csv
 results_raw/*_doublecheck_*.csv
+results_raw/*_doublecheck.csv
 
 # Old AfriMedQA raw results
 results_raw_afrimedqa/claude_*.csv
@@ -218,6 +220,13 @@ metrics/healthbench_judge_agreement.csv
 metrics/healthbench_judge_audit.csv
 metrics/healthbench_judge_audit_claude.csv
 metrics/healthbench_pairwise_claude.csv
+
+# Clinician validation samples (contain clinical text + model responses; not for public repo)
+metrics/clinician_validation_*.csv
+metrics/clinician_validation_*.xlsx
+
+# Word/doc drafts in figures dir
+metrics/figures/*.docx
 
 # Misc loose files not part of core study
 afrimedqa-labels.csv

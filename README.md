@@ -1,4 +1,4 @@
-# Prompting LLMs to Pause: Guardrails for Enhancing Safety in Medical AI
+#  Quantifying and Mitigating Premature Closure in Frontier LLMs
 
 Evaluation framework for studying **premature closure** in large language models — the tendency to commit to a response without sufficient information. Tests whether a safety prompting guardrail can reduce premature closure across two complementary experimental settings: structured MCQs and open-ended clinical conversations.
 

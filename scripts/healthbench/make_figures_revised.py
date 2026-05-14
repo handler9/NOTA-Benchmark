@@ -73,8 +73,8 @@ def load_metrics():
     hb_subset = pd.read_csv("metrics/hb_aggregate.csv")
     hb_overall = pd.read_csv("metrics/hb_aggregate_overall.csv")
     redteam = pd.read_csv("metrics/hb_redteam_aggregate.csv")
-    medqa = pd.read_csv("metrics/medqa_results_new.csv")
-    afrimedqa = pd.read_csv("metrics/afrimedqa_results_new.csv")
+    medqa = pd.read_csv("metrics/medqa_results.csv")
+    afrimedqa = pd.read_csv("metrics/afrimedqa_results.csv")
     return hb_subset, hb_overall, redteam, medqa, afrimedqa
 
 

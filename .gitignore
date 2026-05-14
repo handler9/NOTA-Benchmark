@@ -57,33 +57,33 @@ scripts/prompting-strategy-scatter-plot.py
 scripts/analyze_expanded_afrimedqa.py
 
 # Old GPT scripts (non-gpt54, or gpt54 think/doublecheck variants)
-scripts/gpt-tests/gpt_*.py
-scripts/gpt-tests/gpt54_think_*.py
-scripts/gpt-tests/gpt54_doublecheck_*.py
-scripts/gpt-tests/gpt-*.py
-scripts/gpt-tests/grok3_*.py
-scripts/grok3-tests/grok3_think_*.py
-scripts/grok3-tests/grok3_doublecheck_*.py
-scripts/gpt-tests/import os.py
+scripts/gpt/gpt_*.py
+scripts/gpt/gpt54_think_*.py
+scripts/gpt/gpt54_doublecheck_*.py
+scripts/gpt/gpt-*.py
+scripts/gpt/grok3_*.py
+scripts/grok3/grok3_think_*.py
+scripts/grok3/grok3_doublecheck_*.py
+scripts/gpt/import os.py
 
 # Old Claude scripts (pre-claude46, or claude46 think/doublecheck)
-scripts/claude-tests/claude_*.py
-scripts/claude-tests/claude4_*.py
-scripts/claude-tests/claude-*.py
-scripts/claude-tests/claude46_think_*.py
-scripts/claude-tests/claude46_doublecheck_*.py
+scripts/claude/claude_*.py
+scripts/claude/claude4_*.py
+scripts/claude/claude-*.py
+scripts/claude/claude46_think_*.py
+scripts/claude/claude46_doublecheck_*.py
 
 # Old Gemini/DeepSeek scripts (think/doublecheck, false-NOTA, expanded variants)
-scripts/gemini-scripts/gemini_think.py
-scripts/gemini-scripts/gemini_doublecheck.py
-scripts/gemini-scripts/gemini_baseline_robust.py
-scripts/gemini-scripts/gemini-*.py
-scripts/gemini-scripts/gemini_expanded_*.py
-scripts/deepseek-tests/deepseek_think.py
-scripts/deepseek-tests/deepseek_doublecheck.py
-scripts/deepseek-tests/deepseek-*.py
-scripts/deepseek-tests/deepseek_expanded_*.py
-scripts/deepseek-tests/deepseek_afrimedqa_positive_nota_only.py
+scripts/gemini/gemini_think.py
+scripts/gemini/gemini_doublecheck.py
+scripts/gemini/gemini_baseline_robust.py
+scripts/gemini/gemini-*.py
+scripts/gemini/gemini_expanded_*.py
+scripts/deepseek/deepseek_think.py
+scripts/deepseek/deepseek_doublecheck.py
+scripts/deepseek/deepseek-*.py
+scripts/deepseek/deepseek_expanded_*.py
+scripts/deepseek/deepseek_afrimedqa_positive_nota_only.py
 
 # Old HealthBench scripts (old models, clarification, superseded analysis)
 scripts/healthbench/runners/hb_baseline_claude.py
@@ -101,41 +101,36 @@ scripts/healthbench/runners/hb_refined_clarification_*.py
 scripts/healthbench/download_healthbench.py
 scripts/healthbench/explore_healthbench.py
 scripts/healthbench/fix_runners_multiturn.py
-scripts/healthbench/hb_analyze.py
-scripts/healthbench/hb_figures.py
 scripts/healthbench/hb_judge.py
-scripts/healthbench/hb_judge_agreement.py
 scripts/healthbench/hb_judge_audit.py
-scripts/healthbench/hb_judge_claude.py
 scripts/healthbench/hb_judge_retry.py
 scripts/healthbench/hb_pairwise.py
 scripts/healthbench/hb_results_aggregate.py
 scripts/healthbench/hb_results_table.py
-scripts/healthbench/hb_significance.py
 scripts/healthbench/hb_summary_table.py
 scripts/healthbench/healthbench_to_csv.py
 scripts/healthbench/subset_healthbench.py
 
 # Old analyze-results scripts (superseded by All_Model_Results.py / Afrimedqa_all_model_results.py)
-scripts/analyze-results/50questions-analysis.py
-scripts/analyze-results/MedQA_Figures_final.py
-scripts/analyze-results/afrimedqa-nota-positive-all-model-results.py
-scripts/analyze-results/afrimedqa-true-positive-results-rounded.py
-scripts/analyze-results/all_model_results-NOTA-POSITIVES.py
-scripts/analyze-results/combined-dataset.py
-scripts/analyze-results/figures-for-afrimedqa.py
-scripts/analyze-results/figures_updated.py
-scripts/analyze-results/make_all_figures_500q.py
-scripts/analyze-results/make_ranked_tables_all_datasets.py
-scripts/analyze-results/mean-sd-allruns.py
-scripts/analyze-results/plot_prompt_effect_accuracy_non_nota.py
-scripts/analyze-results/prompting-figures2.py
-scripts/analyze-results/ranking-models-by-abstention-rate.py
-scripts/analyze-results/results_allruns.py
-scripts/analyze-results/scatterplot.py
-scripts/analyze-results/statanalysis.py
-scripts/analyze-results/variance_test_all_runs.py
-scripts/analyze-results/variancebymodel.py
+scripts/analyze/50questions-analysis.py
+scripts/analyze/MedQA_Figures_final.py
+scripts/analyze/afrimedqa-nota-positive-all-model-results.py
+scripts/analyze/afrimedqa-true-positive-results-rounded.py
+scripts/analyze/all_model_results-NOTA-POSITIVES.py
+scripts/analyze/combined-dataset.py
+scripts/analyze/figures-for-afrimedqa.py
+scripts/analyze/figures_updated.py
+scripts/analyze/make_all_figures_500q.py
+scripts/analyze/make_ranked_tables_all_datasets.py
+scripts/analyze/mean-sd-allruns.py
+scripts/analyze/plot_prompt_effect_accuracy_non_nota.py
+scripts/analyze/prompting-figures2.py
+scripts/analyze/ranking-models-by-abstention-rate.py
+scripts/analyze/results_allruns.py
+scripts/analyze/scatterplot.py
+scripts/analyze/statanalysis.py
+scripts/analyze/variance_test_all_runs.py
+scripts/analyze/variancebymodel.py
 
 # Old MedQA raw results (old models / think / doublecheck variants)
 results_raw/claude_*.csv
@@ -190,9 +185,7 @@ results_labeled_healthbench/
 results_labeled_healthbench_claude/
 results_labeled_healthbench_v2/
 
-# Old metrics files (superseded by hb_* and *_new.csv)
-metrics/medqa_results.csv
-metrics/afrimedqa_results.csv
+# Old metrics files (superseded)
 metrics/afrimedqa_results_nota-positives.csv
 metrics/medqa_nota_positive_results.csv
 metrics/all_runs_metrics.csv
